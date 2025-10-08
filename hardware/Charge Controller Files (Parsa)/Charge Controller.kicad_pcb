@@ -1,7 +1,7 @@
 (kicad_pcb
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(general
 		(thickness 1.6)
 		(legacy_teardrops no)
@@ -9,34 +9,34 @@
 	(paper "A4")
 	(layers
 		(0 "F.Cu" signal)
-		(31 "B.Cu" signal)
-		(32 "B.Adhes" user "B.Adhesive")
-		(33 "F.Adhes" user "F.Adhesive")
-		(34 "B.Paste" user)
-		(35 "F.Paste" user)
-		(36 "B.SilkS" user "B.Silkscreen")
-		(37 "F.SilkS" user "F.Silkscreen")
-		(38 "B.Mask" user)
-		(39 "F.Mask" user)
-		(40 "Dwgs.User" user "User.Drawings")
-		(41 "Cmts.User" user "User.Comments")
-		(42 "Eco1.User" user "User.Eco1")
-		(43 "Eco2.User" user "User.Eco2")
-		(44 "Edge.Cuts" user)
-		(45 "Margin" user)
-		(46 "B.CrtYd" user "B.Courtyard")
-		(47 "F.CrtYd" user "F.Courtyard")
-		(48 "B.Fab" user)
-		(49 "F.Fab" user)
-		(50 "User.1" user)
-		(51 "User.2" user)
-		(52 "User.3" user)
-		(53 "User.4" user)
-		(54 "User.5" user)
-		(55 "User.6" user)
-		(56 "User.7" user)
-		(57 "User.8" user)
-		(58 "User.9" user)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+		(47 "User.5" user)
+		(49 "User.6" user)
+		(51 "User.7" user)
+		(53 "User.8" user)
+		(55 "User.9" user)
 	)
 	(setup
 		(stackup
@@ -80,9 +80,10 @@
 		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
+		(tenting front back)
 		(pcbplotparams
-			(layerselection 0x00010fc_ffffffff)
-			(plot_on_all_layers_selection 0x0000000_00000000)
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes yes)
@@ -92,7 +93,6 @@
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
 			(plotframeref no)
-			(viasonmask no)
 			(mode 1)
 			(useauxorigin no)
 			(hpglpennumber 1)
@@ -100,16 +100,20 @@
 			(hpglpendiameter 15.000000)
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
 			(dxfpolygonmode yes)
 			(dxfimperialunits yes)
 			(dxfusepcbnewfont yes)
 			(psnegative no)
 			(psa4output no)
-			(plotreference yes)
-			(plotvalue yes)
-			(plotfptext yes)
+			(plot_black_and_white yes)
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
@@ -183,19 +187,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "96c56e26-6dc8-483d-89d0-de51fa5ff7db")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -345,7 +336,7 @@
 		(pad "1" smd roundrect
 			(at -0.5675 0)
 			(size 0.735 0.62)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 1 "PGND")
 			(pintype "passive")
@@ -354,12 +345,13 @@
 		(pad "2" smd roundrect
 			(at 0.5675 0)
 			(size 0.735 0.62)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 9 "Net-(U1-ACP)")
 			(pintype "passive")
 			(uuid "100b4d4a-66d7-4866-90c6-92f571051962")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -397,19 +389,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e0d3ba0f-ad47-427b-b5ee-b081955b569b")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -559,7 +538,7 @@
 		(pad "1" smd roundrect
 			(at -0.5675 0)
 			(size 0.735 0.62)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 8 "Net-(U1-ACN)")
 			(pintype "passive")
@@ -568,12 +547,13 @@
 		(pad "2" smd roundrect
 			(at 0.5675 0)
 			(size 0.735 0.62)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 9 "Net-(U1-ACP)")
 			(pintype "passive")
 			(uuid "7615292c-1ecc-4c70-98c0-5507cadbd848")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -611,19 +591,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2498700f-caa5-47ee-be01-b6b97e2baae2")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -773,7 +740,7 @@
 		(pad "1" smd roundrect
 			(at -0.5675 0)
 			(size 0.735 0.62)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 8 "Net-(U1-ACN)")
 			(pintype "passive")
@@ -782,12 +749,13 @@
 		(pad "2" smd roundrect
 			(at 0.5675 0)
 			(size 0.735 0.62)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 1 "PGND")
 			(pintype "passive")
 			(uuid "4426b69a-b6bc-4414-9a44-d1fcb09d42a0")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -825,19 +793,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7dabb4db-2868-4690-aa53-67cbb46885c1")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1007,7 +962,7 @@
 		(pad "1" smd roundrect
 			(at -0.875 0 180)
 			(size 1.05 0.95)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 13 "Net-(D2-K)")
 			(pinfunction "K")
@@ -1017,13 +972,14 @@
 		(pad "2" smd roundrect
 			(at 0.875 0 180)
 			(size 1.05 0.95)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 7 "Net-(D1-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "e20089cb-3baf-477d-bd19-ec68da401ae8")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -1060,19 +1016,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dd8785d4-5a8d-450c-a436-dac105593a62")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1259,7 +1202,7 @@
 			(uuid "44045f86-453c-40c4-99b7-1bbd49747720")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.27 360)
+			(at 0 1.27 0)
 			(layer "F.Fab")
 			(uuid "1545dbc6-2283-4c82-8af6-af8737cd3b51")
 			(effects
@@ -1291,6 +1234,7 @@
 			(pintype "passive")
 			(uuid "ef2f1e52-d01f-4df2-beb6-daef65e9c34d")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x02_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -1328,19 +1272,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "65397262-b5c1-4845-b250-5f6429c1426f")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1548,6 +1479,7 @@
 			(pintype "passive")
 			(uuid "2f5b2619-4d27-4e1e-91b1-118216c03e8d")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x02_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -1585,19 +1517,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "801e34de-a36f-43d9-9b23-1293e652d3c6")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1767,7 +1686,7 @@
 		(pad "1" smd roundrect
 			(at -0.875 0 180)
 			(size 1.05 0.95)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 14 "Net-(D3-K)")
 			(pinfunction "K")
@@ -1777,13 +1696,14 @@
 		(pad "2" smd roundrect
 			(at 0.875 0 180)
 			(size 1.05 0.95)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 7 "Net-(D1-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "3d7a4480-90f7-4d9d-9c31-054e90af883e")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -1821,19 +1741,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "807b65ad-1246-4c18-a159-f1b4831cdd51")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1983,7 +1890,7 @@
 		(pad "1" smd roundrect
 			(at -1.5625 0)
 			(size 1.325 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.188679)
 			(net 2 "Net-(Bat_Input1-Pin_1)")
 			(pintype "passive")
@@ -1992,12 +1899,13 @@
 		(pad "2" smd roundrect
 			(at 1.5625 0)
 			(size 1.325 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.188679)
 			(net 1 "PGND")
 			(pintype "passive")
 			(uuid "af33d85e-fc64-41ea-b697-1653a8615885")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -2035,19 +1943,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "78720b13-28ca-44f3-a82d-72d1f4f6dbc4")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2197,7 +2092,7 @@
 		(pad "1" smd roundrect
 			(at -1.5625 0)
 			(size 1.325 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.188679)
 			(net 3 "Net-(C-IN1-Pad1)")
 			(pintype "passive")
@@ -2206,12 +2101,13 @@
 		(pad "2" smd roundrect
 			(at 1.5625 0)
 			(size 1.325 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.188679)
 			(net 1 "PGND")
 			(pintype "passive")
 			(uuid "34261ad7-c783-4aac-bc01-3917d17d9a4a")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -2250,18 +2146,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.254)
-				)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:AON6482"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "32ac0e39-756b-4d24-bcdd-474d3dc73ad8")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -2494,7 +2378,7 @@
 		(pad "1" smd rect
 			(at -1.905 2.755 90)
 			(size 0.5 0.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 17 "Net-(Q1-D_1)")
 			(pinfunction "S_1")
 			(pintype "passive")
@@ -2503,7 +2387,7 @@
 		(pad "2" smd rect
 			(at -0.635 2.755 90)
 			(size 0.5 0.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 17 "Net-(Q1-D_1)")
 			(pinfunction "S_2")
 			(pintype "passive")
@@ -2512,7 +2396,7 @@
 		(pad "3" smd rect
 			(at 0.635 2.755 90)
 			(size 0.5 0.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 17 "Net-(Q1-D_1)")
 			(pinfunction "S_3")
 			(pintype "passive")
@@ -2521,7 +2405,7 @@
 		(pad "4" smd rect
 			(at 1.905 2.755 90)
 			(size 0.5 0.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 19 "Net-(Q2-G)")
 			(pinfunction "G")
 			(pintype "passive")
@@ -2530,7 +2414,7 @@
 		(pad "5" smd rect
 			(at 1.905 -2.795 90)
 			(size 0.5 0.55)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 6 "Net-(Q2-D_1)")
 			(pinfunction "D_1")
 			(pintype "passive")
@@ -2539,7 +2423,7 @@
 		(pad "6" smd rect
 			(at 0.635 -2.795 90)
 			(size 0.5 0.55)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 6 "Net-(Q2-D_1)")
 			(pinfunction "D_2")
 			(pintype "passive")
@@ -2548,7 +2432,7 @@
 		(pad "7" smd rect
 			(at -0.635 -2.795 90)
 			(size 0.5 0.55)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 6 "Net-(Q2-D_1)")
 			(pinfunction "D_3")
 			(pintype "passive")
@@ -2557,7 +2441,7 @@
 		(pad "8" smd rect
 			(at -1.905 -2.795 90)
 			(size 0.5 0.55)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 6 "Net-(Q2-D_1)")
 			(pinfunction "D_4")
 			(pintype "passive")
@@ -2566,12 +2450,13 @@
 		(pad "9" smd rect
 			(at 0 -0.46 180)
 			(size 4.12 4.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 6 "Net-(Q2-D_1)")
 			(pinfunction "D_5")
 			(pintype "passive")
 			(uuid "4be81a89-f7ca-481f-b252-c36f56de64a7")
 		)
+		(embedded_fonts no)
 		(model "C:\\Users\\parsa\\OneDrive\\Desktop\\Libraries\\SamacSys_Parts.3dshapes\\AONS66614.stp"
 			(offset
 				(xyz 0 0 0)
@@ -2609,19 +2494,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5a76254a-31ae-4244-95f2-1d4e6d1e718a")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2791,7 +2663,7 @@
 		(pad "1" smd roundrect
 			(at -0.875 0 180)
 			(size 1.05 0.95)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 12 "Net-(D1-K)")
 			(pinfunction "K")
@@ -2801,13 +2673,14 @@
 		(pad "2" smd roundrect
 			(at 0.875 0 180)
 			(size 1.05 0.95)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 7 "Net-(D1-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "0eb0be1c-a9fe-4bce-a956-5f8606095ebe")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -2845,19 +2718,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "94e086f9-19fd-427f-9dcc-fb9acce75c4b")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -3007,7 +2867,7 @@
 		(pad "1" smd roundrect
 			(at -1 0)
 			(size 1.2 1.4)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
 			(net 26 "Net-(U1-FB)")
 			(pintype "passive")
@@ -3016,12 +2876,13 @@
 		(pad "2" smd roundrect
 			(at 1 0)
 			(size 1.2 1.4)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
 			(net 25 "Net-(U1-FBG)")
 			(pintype "passive")
 			(uuid "48e85808-b609-4348-8a79-c436ea878695")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -3059,19 +2920,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c71ca3df-1d6f-4580-bf7a-575f839f1fae")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -3221,7 +3069,7 @@
 		(pad "1" smd roundrect
 			(at -1.55 0)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
 			(net 13 "Net-(D2-K)")
 			(pintype "passive")
@@ -3230,12 +3078,13 @@
 		(pad "2" smd roundrect
 			(at 1.55 0)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
 			(net 33 "Net-(U1-STAT2)")
 			(pintype "passive")
 			(uuid "b6f35625-d0cc-4834-9ef7-1d8ec3fbeca7")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -3277,21 +3126,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a7b77b58-2f11-4658-9b6c-8ffd2955c6b3")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3304,7 +3140,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3435,7 +3271,7 @@
 		(pad "1" smd roundrect
 			(at -1.55 0 270)
 			(size 1.3 2.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
 			(net 22 "Net-(U1-ACUV)")
 			(pintype "passive")
@@ -3444,12 +3280,13 @@
 		(pad "2" smd roundrect
 			(at 1.55 0 270)
 			(size 1.3 2.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
 			(net 4 "Net-(Solar_Panel_Input1-Pin_1)")
 			(pintype "passive")
 			(uuid "44722ec4-f0c9-43dd-8f4e-d06305168ad8")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1210_3225Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -3491,21 +3328,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a7d82629-a770-4e1d-9a1a-040375e9a0e2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3518,7 +3342,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3649,7 +3473,7 @@
 		(pad "1" smd roundrect
 			(at -1.55 0 270)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
 			(net 2 "Net-(Bat_Input1-Pin_1)")
 			(pintype "passive")
@@ -3658,12 +3482,13 @@
 		(pad "2" smd roundrect
 			(at 1.55 0 270)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
 			(net 6 "Net-(Q2-D_1)")
 			(pintype "passive")
 			(uuid "7b828f92-17d2-4759-b6fe-955b999613ba")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -3705,21 +3530,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "705886bd-026b-49be-b0af-19831a757021")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3732,7 +3544,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3863,7 +3675,7 @@
 		(pad "1" smd roundrect
 			(at -0.5675 0 270)
 			(size 0.735 0.62)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 11 "Net-(U1-SRN)")
 			(pintype "passive")
@@ -3872,12 +3684,13 @@
 		(pad "2" smd roundrect
 			(at 0.5675 0 270)
 			(size 0.735 0.62)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 1 "PGND")
 			(pintype "passive")
 			(uuid "09974b61-75b5-457b-880f-b3318146db59")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -3915,19 +3728,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "26f2bebb-34b0-4e1e-b3d2-e4c063ea3585")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -4077,7 +3877,7 @@
 		(pad "1" smd roundrect
 			(at -0.9125 0)
 			(size 0.975 0.95)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 1 "PGND")
 			(pintype "passive")
@@ -4086,12 +3886,13 @@
 		(pad "2" smd roundrect
 			(at 0.9125 0)
 			(size 0.975 0.95)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 28 "Net-(U1-ICHG)")
 			(pintype "passive")
 			(uuid "4bb44ac1-fb96-49c4-ab79-35d32186d561")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -4129,19 +3930,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7d63f633-6bfe-44c2-8b87-a3f037e931d2")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -4291,7 +4079,7 @@
 		(pad "1" smd roundrect
 			(at -1.5625 0)
 			(size 1.325 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.188679)
 			(net 4 "Net-(Solar_Panel_Input1-Pin_1)")
 			(pintype "passive")
@@ -4300,12 +4088,13 @@
 		(pad "2" smd roundrect
 			(at 1.5625 0)
 			(size 1.325 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.188679)
 			(net 1 "PGND")
 			(pintype "passive")
 			(uuid "9629086d-bb03-479b-98e8-b899d813021a")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -4343,19 +4132,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c145a07e-714d-4ed0-b243-b6b9d7acc9ae")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -4505,7 +4281,7 @@
 		(pad "1" smd roundrect
 			(at -1.55 0)
 			(size 1.3 2.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
 			(net 29 "Net-(R-LOW1-Pad1)")
 			(pintype "passive")
@@ -4514,12 +4290,13 @@
 		(pad "2" smd roundrect
 			(at 1.55 0)
 			(size 1.3 2.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
 			(net 1 "PGND")
 			(pintype "passive")
 			(uuid "d280ce66-e68c-4dbe-9c20-27f53950c19f")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1210_3225Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -4558,18 +4335,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.254)
-				)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:AON6482"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "176ed21c-3975-423a-822d-acd0dfe2fac2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -4802,7 +4567,7 @@
 		(pad "1" smd rect
 			(at -1.905 2.755 90)
 			(size 0.5 0.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "PGND")
 			(pinfunction "S_1")
 			(pintype "passive")
@@ -4811,7 +4576,7 @@
 		(pad "2" smd rect
 			(at -0.635 2.755 90)
 			(size 0.5 0.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "PGND")
 			(pinfunction "S_2")
 			(pintype "passive")
@@ -4820,7 +4585,7 @@
 		(pad "3" smd rect
 			(at 0.635 2.755 90)
 			(size 0.5 0.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "PGND")
 			(pinfunction "S_3")
 			(pintype "passive")
@@ -4829,7 +4594,7 @@
 		(pad "4" smd rect
 			(at 1.905 2.755 90)
 			(size 0.5 0.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 20 "Net-(Q3-G)")
 			(pinfunction "G")
 			(pintype "passive")
@@ -4838,7 +4603,7 @@
 		(pad "5" smd rect
 			(at 1.905 -2.795 90)
 			(size 0.5 0.55)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 16 "Net-(Q3-D_1)")
 			(pinfunction "D_1")
 			(pintype "passive")
@@ -4847,7 +4612,7 @@
 		(pad "6" smd rect
 			(at 0.635 -2.795 90)
 			(size 0.5 0.55)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 16 "Net-(Q3-D_1)")
 			(pinfunction "D_2")
 			(pintype "passive")
@@ -4856,7 +4621,7 @@
 		(pad "7" smd rect
 			(at -0.635 -2.795 90)
 			(size 0.5 0.55)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 16 "Net-(Q3-D_1)")
 			(pinfunction "D_3")
 			(pintype "passive")
@@ -4865,7 +4630,7 @@
 		(pad "8" smd rect
 			(at -1.905 -2.795 90)
 			(size 0.5 0.55)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 16 "Net-(Q3-D_1)")
 			(pinfunction "D_4")
 			(pintype "passive")
@@ -4874,12 +4639,13 @@
 		(pad "9" smd rect
 			(at 0 -0.46 180)
 			(size 4.12 4.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 16 "Net-(Q3-D_1)")
 			(pinfunction "D_5")
 			(pintype "passive")
 			(uuid "8ae88078-cf15-4661-b006-427af06e27e7")
 		)
+		(embedded_fonts no)
 		(model "C:\\Users\\parsa\\OneDrive\\Desktop\\Libraries\\SamacSys_Parts.3dshapes\\AONS66614.stp"
 			(offset
 				(xyz 0 0 0)
@@ -4921,21 +4687,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "033c0190-60a1-44b3-8ae9-62da53127c17")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4948,7 +4701,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5079,7 +4832,7 @@
 		(pad "1" smd roundrect
 			(at -1.5625 0 270)
 			(size 1.325 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.188679)
 			(net 1 "PGND")
 			(pintype "passive")
@@ -5088,12 +4841,13 @@
 		(pad "2" smd roundrect
 			(at 1.5625 0 270)
 			(size 1.325 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.188679)
 			(net 6 "Net-(Q2-D_1)")
 			(pintype "passive")
 			(uuid "cac597e2-4deb-41bc-aafe-fbc7046353e4")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -5135,21 +4889,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "719fab45-70e1-4665-8f76-283a5685562e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5162,7 +4903,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5293,7 +5034,7 @@
 		(pad "1" smd roundrect
 			(at -0.5675 0 270)
 			(size 0.735 0.62)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 1 "PGND")
 			(pintype "passive")
@@ -5302,12 +5043,13 @@
 		(pad "2" smd roundrect
 			(at 0.5675 0 270)
 			(size 0.735 0.62)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 10 "Net-(U1-SRP)")
 			(pintype "passive")
 			(uuid "f64291b5-96a2-441a-8459-761b6770e95e")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -5346,18 +5088,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.254)
-				)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:AON6482"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cd37aa1e-715b-43eb-b1b3-8bc4c7d9dfbb")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -5590,7 +5320,7 @@
 		(pad "1" smd rect
 			(at -1.905 2.755 180)
 			(size 0.5 0.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "PGND")
 			(pinfunction "S_1")
 			(pintype "passive")
@@ -5599,7 +5329,7 @@
 		(pad "2" smd rect
 			(at -0.635 2.755 180)
 			(size 0.5 0.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "PGND")
 			(pinfunction "S_2")
 			(pintype "passive")
@@ -5608,7 +5338,7 @@
 		(pad "3" smd rect
 			(at 0.635 2.755 180)
 			(size 0.5 0.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "PGND")
 			(pinfunction "S_3")
 			(pintype "passive")
@@ -5617,7 +5347,7 @@
 		(pad "4" smd rect
 			(at 1.905 2.755 180)
 			(size 0.5 0.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 18 "Net-(Q1-G)")
 			(pinfunction "G")
 			(pintype "passive")
@@ -5626,7 +5356,7 @@
 		(pad "5" smd rect
 			(at 1.905 -2.795 180)
 			(size 0.5 0.55)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 17 "Net-(Q1-D_1)")
 			(pinfunction "D_1")
 			(pintype "passive")
@@ -5635,7 +5365,7 @@
 		(pad "6" smd rect
 			(at 0.635 -2.795 180)
 			(size 0.5 0.55)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 17 "Net-(Q1-D_1)")
 			(pinfunction "D_2")
 			(pintype "passive")
@@ -5644,7 +5374,7 @@
 		(pad "7" smd rect
 			(at -0.635 -2.795 180)
 			(size 0.5 0.55)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 17 "Net-(Q1-D_1)")
 			(pinfunction "D_3")
 			(pintype "passive")
@@ -5653,7 +5383,7 @@
 		(pad "8" smd rect
 			(at -1.905 -2.795 180)
 			(size 0.5 0.55)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 17 "Net-(Q1-D_1)")
 			(pinfunction "D_4")
 			(pintype "passive")
@@ -5662,12 +5392,13 @@
 		(pad "9" smd rect
 			(at 0 -0.46 270)
 			(size 4.12 4.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 17 "Net-(Q1-D_1)")
 			(pinfunction "D_5")
 			(pintype "passive")
 			(uuid "c584946a-8e5f-47d1-9fa3-b8934261b67f")
 		)
+		(embedded_fonts no)
 		(model "C:\\Users\\parsa\\OneDrive\\Desktop\\Libraries\\SamacSys_Parts.3dshapes\\AONS66614.stp"
 			(offset
 				(xyz 0 0 0)
@@ -5705,19 +5436,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "68cb6e20-a6f8-40f5-9ee7-b818a4fd098b")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -5867,7 +5585,7 @@
 		(pad "1" smd roundrect
 			(at -0.5675 0)
 			(size 0.735 0.62)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 17 "Net-(Q1-D_1)")
 			(pintype "passive")
@@ -5876,12 +5594,13 @@
 		(pad "2" smd roundrect
 			(at 0.5675 0)
 			(size 0.735 0.62)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 7 "Net-(D1-A)")
 			(pintype "passive")
 			(uuid "3a514f1a-0434-40c4-b75b-515c6cf4041b")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -5923,21 +5642,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "544d3bde-c683-475d-adcc-f681f426a71a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5950,7 +5656,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6081,7 +5787,7 @@
 		(pad "1" smd roundrect
 			(at -0.5675 0 270)
 			(size 0.735 0.62)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 11 "Net-(U1-SRN)")
 			(pintype "passive")
@@ -6090,12 +5796,13 @@
 		(pad "2" smd roundrect
 			(at 0.5675 0 270)
 			(size 0.735 0.62)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 10 "Net-(U1-SRP)")
 			(pintype "passive")
 			(uuid "21ac564d-3752-4216-a5b6-146c4b80f69d")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -6133,19 +5840,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bd0c5e7f-56fd-4207-9bfe-35b7d4e11dc2")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -7548,7 +7242,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.SilkS")
 			(uuid "d6e9fb0e-a038-4505-bcab-b60f27afce37")
 		)
@@ -7559,7 +7253,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "9d7007d1-ef4f-4b9b-9cbc-d0eaa4d49545")
 		)
@@ -7590,7 +7284,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "344fb653-4dd1-4f01-bd3a-c9a704453234")
 		)
@@ -7625,6 +7319,7 @@
 			(pintype "passive")
 			(uuid "d85a5414-5010-4726-a967-453216023af4")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -7666,21 +7361,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "61270628-ae67-4fe2-818d-b78e22a4efcb")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7693,7 +7375,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7813,7 +7495,7 @@
 		(pad "1" smd roundrect
 			(at -0.9125 0 270)
 			(size 0.975 0.95)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 31 "Net-(U1-TS)")
 			(pintype "passive")
@@ -7822,12 +7504,13 @@
 		(pad "2" smd roundrect
 			(at 0.9125 0 270)
 			(size 0.975 0.95)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 1 "PGND")
 			(pintype "passive")
 			(uuid "637f32f3-b4b3-4f31-9df7-bb2bfb752d2b")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -7867,18 +7550,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "BQ25756:VQFN36_RRV_TEX"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "06d9be95-d21c-45e2-b943-2f4266092c6b")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -8000,7 +7671,7 @@
 				(width 0)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.SilkS")
 			(uuid "ae65be6f-f39e-4716-9667-9b1acdcdfc2f")
 		)
@@ -8012,7 +7683,7 @@
 				(width 0)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.SilkS")
 			(uuid "5fababdc-5994-49c1-99b1-6f588fb07125")
 		)
@@ -8024,7 +7695,7 @@
 				(width 0)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.SilkS")
 			(uuid "e06e128b-5a07-4d07-8082-f959563030b7")
 		)
@@ -9755,7 +9426,7 @@
 		(pad "1" smd rect
 			(at -2.4487 -2.250567 90)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 15 "Net-(J1-Pin_1)")
 			(pinfunction "SCL")
 			(pintype "input")
@@ -9764,7 +9435,7 @@
 		(pad "2" smd rect
 			(at -2.4487 -1.750441 90)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 38 "Net-(J1-Pin_2)")
 			(pinfunction "SDA")
 			(pintype "bidirectional")
@@ -9773,7 +9444,7 @@
 		(pad "3" smd rect
 			(at -2.4487 -1.250315 90)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 39 "Net-(J1-Pin_3)")
 			(pinfunction "INT")
 			(pintype "output")
@@ -9782,7 +9453,7 @@
 		(pad "4" smd rect
 			(at -2.4487 -0.750189 90)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 32 "Net-(U1-STAT1)")
 			(pinfunction "STAT1")
 			(pintype "output")
@@ -9791,7 +9462,7 @@
 		(pad "5" smd rect
 			(at -2.4487 -0.250063 90)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 33 "Net-(U1-STAT2)")
 			(pinfunction "STAT2")
 			(pintype "output")
@@ -9800,7 +9471,7 @@
 		(pad "6" smd rect
 			(at -2.4487 0.250063 90)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 34 "Net-(U1-PG)")
 			(pinfunction "PG")
 			(pintype "output")
@@ -9809,7 +9480,7 @@
 		(pad "7" smd rect
 			(at -2.4487 0.750189 90)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 24 "Net-(U1-CE)")
 			(pinfunction "CE")
 			(pintype "bidirectional")
@@ -9818,7 +9489,7 @@
 		(pad "8" smd rect
 			(at -2.4487 1.250315 90)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 31 "Net-(U1-TS)")
 			(pinfunction "TS")
 			(pintype "input")
@@ -9827,7 +9498,7 @@
 		(pad "9" smd rect
 			(at -2.4487 1.750441 90)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 28 "Net-(U1-ICHG)")
 			(pinfunction "ICHG")
 			(pintype "input")
@@ -9836,7 +9507,7 @@
 		(pad "10" smd rect
 			(at -2.4487 2.250567 90)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 30 "Net-(U1-ILIM_HIZ)")
 			(pinfunction "ILIM_HIZ")
 			(pintype "input")
@@ -9845,7 +9516,7 @@
 		(pad "11" smd rect
 			(at -1.750441 2.944)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 25 "Net-(U1-FBG)")
 			(pinfunction "FBG")
 			(pintype "input")
@@ -9854,7 +9525,7 @@
 		(pad "12" smd rect
 			(at -1.250315 2.944)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 26 "Net-(U1-FB)")
 			(pinfunction "FB")
 			(pintype "input")
@@ -9863,7 +9534,7 @@
 		(pad "13" smd rect
 			(at -0.750189 2.944)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 11 "Net-(U1-SRN)")
 			(pinfunction "SRN")
 			(pintype "input")
@@ -9872,7 +9543,7 @@
 		(pad "14" smd rect
 			(at -0.250063 2.944)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 10 "Net-(U1-SRP)")
 			(pinfunction "SRP")
 			(pintype "input")
@@ -9881,7 +9552,7 @@
 		(pad "15" smd rect
 			(at 0.250063 2.944)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 36 "unconnected-(U1-NC-Pad15)")
 			(pinfunction "NC")
 			(pintype "no_connect")
@@ -9890,7 +9561,7 @@
 		(pad "16" smd rect
 			(at 0.750189 2.944)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 35 "unconnected-(U1-NC-Pad16)")
 			(pinfunction "NC")
 			(pintype "no_connect")
@@ -9899,7 +9570,7 @@
 		(pad "17" smd rect
 			(at 1.250315 2.944)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "PGND")
 			(pinfunction "PGND")
 			(pintype "power_out")
@@ -9908,7 +9579,7 @@
 		(pad "18" smd rect
 			(at 1.750441 2.944)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 17 "Net-(Q1-D_1)")
 			(pinfunction "SW2")
 			(pintype "power_in")
@@ -9917,7 +9588,7 @@
 		(pad "19" smd rect
 			(at 2.4487 2.250567 90)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 19 "Net-(Q2-G)")
 			(pinfunction "HIDRV2")
 			(pintype "output")
@@ -9926,7 +9597,7 @@
 		(pad "20" smd rect
 			(at 2.4487 1.750441 90)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 7 "Net-(D1-A)")
 			(pinfunction "BTST2")
 			(pintype "power_in")
@@ -9935,7 +9606,7 @@
 		(pad "21" smd rect
 			(at 2.4487 1.250315 90)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 18 "Net-(Q1-G)")
 			(pinfunction "LODRV2")
 			(pintype "output")
@@ -9944,7 +9615,7 @@
 		(pad "22" smd rect
 			(at 2.4487 0.750189 90)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "PGND")
 			(pinfunction "PGND")
 			(pintype "power_in")
@@ -9953,7 +9624,7 @@
 		(pad "23" smd rect
 			(at 2.4487 0.250063 90)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 7 "Net-(D1-A)")
 			(pinfunction "DRV_SUP")
 			(pintype "power_in")
@@ -9962,7 +9633,7 @@
 		(pad "24" smd rect
 			(at 2.4487 -0.250063 90)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 7 "Net-(D1-A)")
 			(pinfunction "REGN")
 			(pintype "power_in")
@@ -9971,7 +9642,7 @@
 		(pad "25" smd rect
 			(at 2.4487 -0.750189 90)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 20 "Net-(Q3-G)")
 			(pinfunction "LODRV1")
 			(pintype "output")
@@ -9980,7 +9651,7 @@
 		(pad "26" smd rect
 			(at 2.4487 -1.250315 90)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 7 "Net-(D1-A)")
 			(pinfunction "BTST1")
 			(pintype "power_in")
@@ -9989,7 +9660,7 @@
 		(pad "27" smd rect
 			(at 2.4487 -1.750441 90)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 21 "Net-(Q4-G)")
 			(pinfunction "HIDRV1")
 			(pintype "output")
@@ -9998,7 +9669,7 @@
 		(pad "28" smd rect
 			(at 2.4487 -2.250567 90)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 16 "Net-(Q3-D_1)")
 			(pinfunction "SW1")
 			(pintype "power_in")
@@ -10007,7 +9678,7 @@
 		(pad "29" smd rect
 			(at 1.750441 -2.944)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 8 "Net-(U1-ACN)")
 			(pinfunction "ACN")
 			(pintype "input")
@@ -10016,7 +9687,7 @@
 		(pad "30" smd rect
 			(at 1.250315 -2.944)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 9 "Net-(U1-ACP)")
 			(pinfunction "ACP")
 			(pintype "input")
@@ -10025,7 +9696,7 @@
 		(pad "31" smd rect
 			(at 0.750189 -2.944)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 37 "unconnected-(U1-NC-Pad31)")
 			(pinfunction "NC")
 			(pintype "no_connect")
@@ -10034,7 +9705,7 @@
 		(pad "32" smd rect
 			(at 0.250063 -2.944)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 29 "Net-(R-LOW1-Pad1)")
 			(pinfunction "VAC")
 			(pintype "power_in")
@@ -10043,7 +9714,7 @@
 		(pad "33" smd rect
 			(at -0.250063 -2.944)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 4 "Net-(Solar_Panel_Input1-Pin_1)")
 			(pinfunction "VAC")
 			(pintype "input")
@@ -10052,7 +9723,7 @@
 		(pad "34" smd rect
 			(at -0.750189 -2.944)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 22 "Net-(U1-ACUV)")
 			(pinfunction "ACUV")
 			(pintype "input")
@@ -10061,7 +9732,7 @@
 		(pad "35" smd rect
 			(at -1.250315 -2.944)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 23 "Net-(U1-ACOV)")
 			(pinfunction "ACOV")
 			(pintype "input")
@@ -10070,7 +9741,7 @@
 		(pad "36" smd rect
 			(at -1.750441 -2.944)
 			(size 0.2548 0.807999)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 27 "Net-(U1-FSW_SYNC)")
 			(pinfunction "FSW_SYNC")
 			(pintype "power_in")
@@ -10079,12 +9750,13 @@
 		(pad "37" smd rect
 			(at 0 0)
 			(size 3.7084 4.699)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "PGND")
 			(pinfunction "EPAD")
 			(pintype "power_out")
 			(uuid "23dd8538-b6c9-468b-a60f-3c5e28265c75")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
@@ -10111,19 +9783,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f64a7a30-c0f3-4a5f-87a5-d7eebff2c8a1")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -10342,6 +10001,7 @@
 			(pintype "passive")
 			(uuid "1f105cdf-19d1-4ea9-804c-fc5d7c6cc23f")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -10379,19 +10039,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f5c5818b-043d-45c3-925e-beef9fdfa810")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -10541,7 +10188,7 @@
 		(pad "1" smd roundrect
 			(at -1.5625 0)
 			(size 1.325 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.188679)
 			(net 4 "Net-(Solar_Panel_Input1-Pin_1)")
 			(pintype "passive")
@@ -10550,12 +10197,13 @@
 		(pad "2" smd roundrect
 			(at 1.5625 0)
 			(size 1.325 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.188679)
 			(net 1 "PGND")
 			(pintype "passive")
 			(uuid "9290f1f3-0aa6-49c6-bb03-25355696a46f")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -10597,21 +10245,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "aaf1d4a0-5707-455c-a9f4-f21713691f03")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10624,7 +10259,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10755,7 +10390,7 @@
 		(pad "1" smd roundrect
 			(at -1.0375 0 270)
 			(size 1.175 1.45)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.212766)
 			(net 7 "Net-(D1-A)")
 			(pintype "passive")
@@ -10764,12 +10399,13 @@
 		(pad "2" smd roundrect
 			(at 1.0375 0 270)
 			(size 1.175 1.45)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.212766)
 			(net 1 "PGND")
 			(pintype "passive")
 			(uuid "51669778-2049-4c82-8543-f360e639be48")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -10807,19 +10443,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b0ca530d-97d4-4286-8561-03d9511baeaa")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -10969,7 +10592,7 @@
 		(pad "1" smd roundrect
 			(at -1.55 0)
 			(size 1.3 2.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
 			(net 1 "PGND")
 			(pintype "passive")
@@ -10978,12 +10601,13 @@
 		(pad "2" smd roundrect
 			(at 1.55 0)
 			(size 1.3 2.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
 			(net 24 "Net-(U1-CE)")
 			(pintype "passive")
 			(uuid "a052c9f7-3cff-4e3e-ab3b-71ad39abdee8")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1210_3225Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -11021,19 +10645,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6e6da9ba-b61e-48dd-81bf-c4826c3650dd")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -11183,7 +10794,7 @@
 		(pad "1" smd roundrect
 			(at -1.55 0)
 			(size 1.3 2.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
 			(net 4 "Net-(Solar_Panel_Input1-Pin_1)")
 			(pintype "passive")
@@ -11192,12 +10803,13 @@
 		(pad "2" smd roundrect
 			(at 1.55 0)
 			(size 1.3 2.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
 			(net 3 "Net-(C-IN1-Pad1)")
 			(pintype "passive")
 			(uuid "5bd39219-f51b-4bce-bef4-1dd3140754d0")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1210_3225Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -11239,21 +10851,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7a469d93-59b9-4ca9-ac1f-e67daa2f5be4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11266,7 +10865,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11397,7 +10996,7 @@
 		(pad "1" smd roundrect
 			(at -1.55 0 270)
 			(size 1.3 2.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
 			(net 23 "Net-(U1-ACOV)")
 			(pintype "passive")
@@ -11406,12 +11005,13 @@
 		(pad "2" smd roundrect
 			(at 1.55 0 270)
 			(size 1.3 2.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
 			(net 22 "Net-(U1-ACUV)")
 			(pintype "passive")
 			(uuid "042b0ca6-ea4a-4860-803c-90bb5472b5d7")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1210_3225Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -11453,18 +11053,6 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:AON6482"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e7edbe0d-a7eb-4749-a438-3ae714cf25d8")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/ALOM/ALOM-S-A0020443660/ALOM-S-A0020443776-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0"
 			(at 0 0 90)
 			(layer "F.Fab")
@@ -11490,7 +11078,7 @@
 			)
 		)
 		(property "Height" "1.05"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11503,7 +11091,7 @@
 			)
 		)
 		(property "Arrow Part Number" "AONS66614"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11516,7 +11104,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11529,7 +11117,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11542,7 +11130,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "AONS66614"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11694,7 +11282,7 @@
 		(pad "1" smd rect
 			(at -1.905 2.755 270)
 			(size 0.5 0.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 16 "Net-(Q3-D_1)")
 			(pinfunction "S_1")
 			(pintype "passive")
@@ -11703,7 +11291,7 @@
 		(pad "2" smd rect
 			(at -0.635 2.755 270)
 			(size 0.5 0.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 16 "Net-(Q3-D_1)")
 			(pinfunction "S_2")
 			(pintype "passive")
@@ -11712,7 +11300,7 @@
 		(pad "3" smd rect
 			(at 0.635 2.755 270)
 			(size 0.5 0.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 16 "Net-(Q3-D_1)")
 			(pinfunction "S_3")
 			(pintype "passive")
@@ -11721,7 +11309,7 @@
 		(pad "4" smd rect
 			(at 1.905 2.755 270)
 			(size 0.5 0.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 21 "Net-(Q4-G)")
 			(pinfunction "G")
 			(pintype "passive")
@@ -11730,7 +11318,7 @@
 		(pad "5" smd rect
 			(at 1.905 -2.795 270)
 			(size 0.5 0.55)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 5 "Net-(Q4-D_1)")
 			(pinfunction "D_1")
 			(pintype "passive")
@@ -11739,7 +11327,7 @@
 		(pad "6" smd rect
 			(at 0.635 -2.795 270)
 			(size 0.5 0.55)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 5 "Net-(Q4-D_1)")
 			(pinfunction "D_2")
 			(pintype "passive")
@@ -11748,7 +11336,7 @@
 		(pad "7" smd rect
 			(at -0.635 -2.795 270)
 			(size 0.5 0.55)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 5 "Net-(Q4-D_1)")
 			(pinfunction "D_3")
 			(pintype "passive")
@@ -11757,7 +11345,7 @@
 		(pad "8" smd rect
 			(at -1.905 -2.795 270)
 			(size 0.5 0.55)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 5 "Net-(Q4-D_1)")
 			(pinfunction "D_4")
 			(pintype "passive")
@@ -11766,12 +11354,13 @@
 		(pad "9" smd rect
 			(at 0 -0.46)
 			(size 4.12 4.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 5 "Net-(Q4-D_1)")
 			(pinfunction "D_5")
 			(pintype "passive")
 			(uuid "07272e15-8557-4fd6-823b-4c23fc8775ff")
 		)
+		(embedded_fonts no)
 		(model "C:\\Users\\parsa\\OneDrive\\Desktop\\Libraries\\SamacSys_Parts.3dshapes\\AONS66614.stp"
 			(offset
 				(xyz 0 0 0)
@@ -11813,21 +11402,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0a27e2ba-a463-47d2-9779-b87b2356baaa")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11840,7 +11416,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11971,7 +11547,7 @@
 		(pad "1" smd roundrect
 			(at -1.55 0 270)
 			(size 1.3 2.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
 			(net 8 "Net-(U1-ACN)")
 			(pintype "passive")
@@ -11980,12 +11556,13 @@
 		(pad "2" smd roundrect
 			(at 1.55 0 270)
 			(size 1.3 2.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
 			(net 5 "Net-(Q4-D_1)")
 			(pintype "passive")
 			(uuid "e75a34aa-1e08-4039-b80a-f076d193c1f8")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1210_3225Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -12027,21 +11604,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f236512b-0eba-4088-9f6c-ae216b2763e4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12054,7 +11618,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12185,7 +11749,7 @@
 		(pad "1" smd roundrect
 			(at -1.55 0 270)
 			(size 1.3 2.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
 			(net 1 "PGND")
 			(pintype "passive")
@@ -12194,12 +11758,13 @@
 		(pad "2" smd roundrect
 			(at 1.55 0 270)
 			(size 1.3 2.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
 			(net 23 "Net-(U1-ACOV)")
 			(pintype "passive")
 			(uuid "eb222af8-2bab-468b-82c7-37e7e72e6e54")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1210_3225Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -12237,19 +11802,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c2762a9d-7585-495e-80cc-aacf220f99ee")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -12399,7 +11951,7 @@
 		(pad "1" smd roundrect
 			(at -2.4 0)
 			(size 1.4 2.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.178571)
 			(net 2 "Net-(Bat_Input1-Pin_1)")
 			(pintype "passive")
@@ -12408,12 +11960,13 @@
 		(pad "2" smd roundrect
 			(at 2.4 0)
 			(size 1.4 2.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.178571)
 			(net 11 "Net-(U1-SRN)")
 			(pintype "passive")
 			(uuid "fe696192-565d-4609-a84a-e1ff8b1fc346")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_2010_5025Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -12451,19 +12004,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bfd182d3-10af-45cb-b72f-7b720fbc18d6")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -12613,7 +12153,7 @@
 		(pad "1" smd roundrect
 			(at -1.55 0)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
 			(net 12 "Net-(D1-K)")
 			(pintype "passive")
@@ -12622,12 +12162,13 @@
 		(pad "2" smd roundrect
 			(at 1.55 0)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
 			(net 32 "Net-(U1-STAT1)")
 			(pintype "passive")
 			(uuid "10182489-caf6-4be9-8026-888b128e307f")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -12665,19 +12206,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d5068f7f-9cbf-49fb-a65e-54e28cb006d9")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -12827,7 +12355,7 @@
 		(pad "1" smd roundrect
 			(at -1.55 0)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
 			(net 14 "Net-(D3-K)")
 			(pintype "passive")
@@ -12836,12 +12364,13 @@
 		(pad "2" smd roundrect
 			(at 1.55 0)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
 			(net 34 "Net-(U1-PG)")
 			(pintype "passive")
 			(uuid "8c86016e-b610-4fd5-ac49-9f1c36e0fa44")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -12879,19 +12408,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "36c749ca-5d71-4609-8276-2936406ec7e5")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -13041,7 +12557,7 @@
 		(pad "1" smd roundrect
 			(at -1.0375 0 180)
 			(size 1.175 1.45)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.212766)
 			(net 1 "PGND")
 			(pintype "passive")
@@ -13050,12 +12566,13 @@
 		(pad "2" smd roundrect
 			(at 1.0375 0 180)
 			(size 1.175 1.45)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.212766)
 			(net 4 "Net-(Solar_Panel_Input1-Pin_1)")
 			(pintype "passive")
 			(uuid "7adfa4df-9ff4-4dfa-b8f9-2d9a03b81b5e")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -13094,18 +12611,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.254)
-				)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:INDPM172172X700N"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "859fade3-e185-48b5-ace3-c974bfbb0ded")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -13329,7 +12834,7 @@
 		(pad "1" smd rect
 			(at -7.6 0 180)
 			(size 3.05 12.15)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 16 "Net-(Q3-D_1)")
 			(pinfunction "1")
 			(pintype "passive")
@@ -13338,12 +12843,13 @@
 		(pad "2" smd rect
 			(at 7.6 0 180)
 			(size 3.05 12.15)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 17 "Net-(Q1-D_1)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "381b4851-f975-47e6-b978-87edcf7ee68d")
 		)
+		(embedded_fonts no)
 		(model "C:\\Users\\parsa\\OneDrive\\Desktop\\Libraries\\SamacSys_Parts.3dshapes\\IHLP6767GZER100M01.stp"
 			(offset
 				(xyz -6.380000019 0.1199999955 -2.400000059)
@@ -13381,19 +12887,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "de2043f6-bef8-46c3-ad78-7e57711dc1c7")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -13543,7 +13036,7 @@
 		(pad "1" smd roundrect
 			(at -1.55 0)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
 			(net 5 "Net-(Q4-D_1)")
 			(pintype "passive")
@@ -13552,12 +13045,13 @@
 		(pad "2" smd roundrect
 			(at 1.55 0)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
 			(net 4 "Net-(Solar_Panel_Input1-Pin_1)")
 			(pintype "passive")
 			(uuid "b17cdc0b-02a8-4273-aa0f-b78e54bf0422")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -13596,18 +13090,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.254)
-				)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:103AT2"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "af4d624d-15ad-47ec-9324-1d65f9b55e15")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -13868,6 +13350,7 @@
 			(pintype "passive")
 			(uuid "4fae1a25-479a-42cf-9e44-ce047f2c902b")
 		)
+		(embedded_fonts no)
 		(model "C:\\Users\\parsa\\OneDrive\\Desktop\\Libraries\\SamacSys_Parts.3dshapes\\103AT-2.stp"
 			(offset
 				(xyz 0 0 0)
@@ -13905,19 +13388,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bd3102eb-b0c1-4140-a6f1-0ec611db2848")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -14067,7 +13537,7 @@
 		(pad "1" smd roundrect
 			(at -1.5625 0 180)
 			(size 1.325 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.188679)
 			(net 1 "PGND")
 			(pintype "passive")
@@ -14076,12 +13546,13 @@
 		(pad "2" smd roundrect
 			(at 1.5625 0 180)
 			(size 1.325 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.188679)
 			(net 5 "Net-(Q4-D_1)")
 			(pintype "passive")
 			(uuid "fdfbbf96-5be3-4f1c-80d0-5927595b05e6")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -14119,19 +13590,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3b1c87b0-dbb3-4c99-a3f3-a61a222f8154")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -14281,7 +13739,7 @@
 		(pad "1" smd roundrect
 			(at -1 0 180)
 			(size 1.2 1.4)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
 			(net 26 "Net-(U1-FB)")
 			(pintype "passive")
@@ -14290,12 +13748,13 @@
 		(pad "2" smd roundrect
 			(at 1 0 180)
 			(size 1.2 1.4)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
 			(net 2 "Net-(Bat_Input1-Pin_1)")
 			(pintype "passive")
 			(uuid "49e2e3c0-ce51-4e7a-baea-0aecc97c1751")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -14333,19 +13792,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "173dc1c1-b4e3-48cf-9046-c0cb025b380a")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -14484,7 +13930,7 @@
 		(pad "1" smd roundrect
 			(at -2.4 0)
 			(size 1.4 2.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.178571)
 			(net 7 "Net-(D1-A)")
 			(pintype "passive")
@@ -14493,12 +13939,13 @@
 		(pad "2" smd roundrect
 			(at 2.4 0)
 			(size 1.4 2.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.178571)
 			(net 7 "Net-(D1-A)")
 			(pintype "passive")
 			(uuid "4b12e060-5d9d-4070-adfa-b22952e9005c")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_2010_5025Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -14536,19 +13983,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c2531992-5cd9-40e1-a1c7-215110e7a606")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -14698,7 +14132,7 @@
 		(pad "1" smd roundrect
 			(at -2.4 0)
 			(size 1.4 2.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.178571)
 			(net 6 "Net-(Q2-D_1)")
 			(pintype "passive")
@@ -14707,12 +14141,13 @@
 		(pad "2" smd roundrect
 			(at 2.4 0)
 			(size 1.4 2.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.178571)
 			(net 10 "Net-(U1-SRP)")
 			(pintype "passive")
 			(uuid "67de1a10-d01c-4639-bd25-ae41a1b657de")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_2010_5025Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -14732,7 +14167,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R-FSW1"
-			(at 0 2 -90)
+			(at 0 2 270)
 			(layer "F.SilkS")
 			(uuid "cd5497d0-8b78-46af-b22b-9e011db6bb47")
 			(effects
@@ -14750,19 +14185,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "29c431c3-d36b-4a83-b435-ccc5a4d964d9")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -14912,7 +14334,7 @@
 		(pad "1" smd roundrect
 			(at -1 0 90)
 			(size 1.2 1.4)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
 			(net 27 "Net-(U1-FSW_SYNC)")
 			(pintype "passive")
@@ -14921,12 +14343,13 @@
 		(pad "2" smd roundrect
 			(at 1 0 90)
 			(size 1.2 1.4)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
 			(net 1 "PGND")
 			(pintype "passive")
 			(uuid "3f68e0e6-a509-439d-a305-8adecfb1b780")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -14964,19 +14387,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e68fa866-d85a-41bc-9b1b-a037198a4c9c")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -15126,7 +14536,7 @@
 		(pad "1" smd roundrect
 			(at -0.5675 0 180)
 			(size 0.735 0.62)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 7 "Net-(D1-A)")
 			(pintype "passive")
@@ -15135,12 +14545,13 @@
 		(pad "2" smd roundrect
 			(at 0.5675 0 180)
 			(size 0.735 0.62)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 16 "Net-(Q3-D_1)")
 			(pintype "passive")
 			(uuid "b201bd3e-0ae1-411f-9dd9-f77330f69f15")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -15182,21 +14593,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "052399d3-05b6-47f6-b26d-ee1afb77caf8")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15209,7 +14607,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15340,7 +14738,7 @@
 		(pad "1" smd roundrect
 			(at -1.55 0 270)
 			(size 1.3 2.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
 			(net 9 "Net-(U1-ACP)")
 			(pintype "passive")
@@ -15349,12 +14747,13 @@
 		(pad "2" smd roundrect
 			(at 1.55 0 270)
 			(size 1.3 2.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
 			(net 4 "Net-(Solar_Panel_Input1-Pin_1)")
 			(pintype "passive")
 			(uuid "13a88d73-14a1-4c89-a11e-12430ae32705")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1210_3225Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -15392,19 +14791,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "36e288be-e2b7-4f49-9fb8-0ec48a121fa0")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -15554,7 +14940,7 @@
 		(pad "1" smd roundrect
 			(at -1.55 0)
 			(size 1.3 2.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
 			(net 1 "PGND")
 			(pintype "passive")
@@ -15563,12 +14949,13 @@
 		(pad "2" smd roundrect
 			(at 1.55 0)
 			(size 1.3 2.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
 			(net 30 "Net-(U1-ILIM_HIZ)")
 			(pintype "passive")
 			(uuid "6255a239-b7cf-4242-838b-852abf6e06c8")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1210_3225Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -15610,21 +14997,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7ff3c80c-bc82-4d91-8902-959048aff445")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15637,7 +15011,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15848,6 +15222,7 @@
 			(pintype "passive")
 			(uuid "e32af9e3-02f1-4601-8653-d7bfcab32434")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x03_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -15889,21 +15264,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3359666f-3ca3-4c91-ad71-7d098091fe26")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15916,7 +15278,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -16047,7 +15409,7 @@
 		(pad "1" smd roundrect
 			(at -0.5975 0 270)
 			(size 0.715 0.64)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 7 "Net-(D1-A)")
 			(pintype "passive")
@@ -16056,12 +15418,13 @@
 		(pad "2" smd roundrect
 			(at 0.5975 0 270)
 			(size 0.715 0.64)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 31 "Net-(U1-TS)")
 			(pintype "passive")
 			(uuid "b936457d-8bcd-40f1-b6a7-d9a7533a5e36")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -16103,21 +15466,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1860fde6-169a-4a41-80d7-a0bd997a711d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -16130,7 +15480,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -16261,7 +15611,7 @@
 		(pad "1" smd roundrect
 			(at -1.0375 0 270)
 			(size 1.175 1.45)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.212766)
 			(net 7 "Net-(D1-A)")
 			(pintype "passive")
@@ -16270,12 +15620,13 @@
 		(pad "2" smd roundrect
 			(at 1.0375 0 270)
 			(size 1.175 1.45)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.212766)
 			(net 1 "PGND")
 			(pintype "passive")
 			(uuid "1c5b3584-d851-452a-b5e0-e1acfef07c31")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -16291,12 +15642,12 @@
 	(gr_rect
 		(start 102.5 54.5)
 		(end 202 154)
-		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "d28cad45-333f-4367-8992-728a03ab0e33")
 	)
@@ -20781,4 +20132,5 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 )
