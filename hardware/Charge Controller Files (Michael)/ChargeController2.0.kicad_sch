@@ -3187,12 +3187,13 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "VISHAY - SI2318DS-T1-E3 - N CHANNEL MOSFET, 40V, 3.9A, TO-236, FULL REEL"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -3217,16 +3218,6 @@
 				)
 			)
 			(property "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2318DS-T1-E3?qs=jcx%252B0HVgj2Z%252BHqZ7%252BcFIkw%3D%3D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "DESCRIPTION" "VISHAY - SI2318DS-T1-E3 - N CHANNEL MOSFET, 40V, 3.9A, TO-236, FULL REEL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3942,6 +3933,12 @@
 		(uuid "bb67ae46-ebe6-4335-ab57-c816408e846b")
 	)
 	(junction
+		(at 247.65 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c019997c-770f-4df3-b5b1-7801b51c2709")
+	)
+	(junction
 		(at 247.65 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4018,6 +4015,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eeff89a8-1701-44c9-ba60-277ef8475377")
+	)
+	(junction
+		(at 204.47 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f10d70f7-83a8-441f-b0f2-2fabb0aebccd")
 	)
 	(junction
 		(at 185.42 86.36)
@@ -4189,7 +4192,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 179.07) (xy 33.02 181.61)
+			(xy 38.1 179.07) (xy 38.1 181.61)
 		)
 		(stroke
 			(width 0)
@@ -4406,6 +4409,16 @@
 			(type default)
 		)
 		(uuid "1dba16b8-ddb7-47a0-a1cf-01e874a5996f")
+	)
+	(wire
+		(pts
+			(xy 33.02 184.15) (xy 31.75 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e7a96b1-2926-482e-a6b0-4a4439003d30")
 	)
 	(wire
 		(pts
@@ -4829,7 +4842,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 21.59) (xy 257.81 21.59)
+			(xy 248.92 21.59) (xy 251.46 21.59)
 		)
 		(stroke
 			(width 0)
@@ -5019,6 +5032,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 170.18) (xy 33.02 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "477e0200-63e8-45e1-a637-d992810ef43a")
+	)
+	(wire
+		(pts
 			(xy 166.37 58.42) (xy 166.37 39.37)
 		)
 		(stroke
@@ -5069,16 +5092,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 184.15) (xy 33.02 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bf19fb0-ccf4-47bb-a521-591b7827bdab")
-	)
-	(wire
-		(pts
 			(xy 121.92 154.94) (xy 128.27 154.94)
 		)
 		(stroke
@@ -5119,7 +5132,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 60.96) (xy 184.15 60.96)
+			(xy 205.74 60.96) (xy 204.47 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5179,7 +5192,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 181.61) (xy 31.75 181.61)
+			(xy 38.1 181.61) (xy 31.75 181.61)
 		)
 		(stroke
 			(width 0)
@@ -5266,6 +5279,16 @@
 			(type default)
 		)
 		(uuid "55f21597-dffb-4354-902c-c8bda50658af")
+	)
+	(wire
+		(pts
+			(xy 256.54 30.48) (xy 250.19 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56d94de1-ea5b-460d-90ea-84e303c5f552")
 	)
 	(wire
 		(pts
@@ -5379,7 +5402,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 171.45) (xy 33.02 170.18)
+			(xy 38.1 171.45) (xy 38.1 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5569,16 +5592,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 81.28) (xy 92.71 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "688e2887-58bf-4812-b7e6-37b32910ef4f")
-	)
-	(wire
-		(pts
 			(xy 246.38 67.31) (xy 264.16 67.31)
 		)
 		(stroke
@@ -5649,7 +5662,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 36.83) (xy 279.4 36.83)
+			(xy 281.94 36.83) (xy 280.67 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6009,16 +6022,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 184.15) (xy 33.02 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d236e50-9493-4772-9acb-f249df20924b")
-	)
-	(wire
-		(pts
 			(xy 114.3 16.51) (xy 114.3 41.91)
 		)
 		(stroke
@@ -6069,7 +6072,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 36.83) (xy 245.11 36.83)
+			(xy 247.65 36.83) (xy 245.11 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6539,6 +6542,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 81.28) (xy 92.71 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b487410f-f648-46e4-a861-f91f55bba280")
+	)
+	(wire
+		(pts
 			(xy 151.13 80.01) (xy 151.13 88.9)
 		)
 		(stroke
@@ -6546,6 +6559,16 @@
 			(type default)
 		)
 		(uuid "b56714af-64f3-4cc7-a56d-e69fd61aee1b")
+	)
+	(wire
+		(pts
+			(xy 204.47 60.96) (xy 184.15 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6277314-a900-47b0-b5a1-0485f5a1a8b3")
 	)
 	(wire
 		(pts
@@ -6819,7 +6842,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 39.37) (xy 279.4 46.99)
+			(xy 280.67 39.37) (xy 280.67 46.99)
 		)
 		(stroke
 			(width 0)
@@ -6836,6 +6859,16 @@
 			(type default)
 		)
 		(uuid "cac541e5-afb8-4936-825d-cddce0c97f70")
+	)
+	(wire
+		(pts
+			(xy 250.19 36.83) (xy 247.65 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbee2018-2c16-4e77-bc8e-028ffd0735e6")
 	)
 	(wire
 		(pts
@@ -6989,6 +7022,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 184.15) (xy 33.02 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da127111-6362-41c6-a637-a3a8f49a15e5")
+	)
+	(wire
+		(pts
 			(xy 104.14 104.14) (xy 107.95 104.14)
 		)
 		(stroke
@@ -7056,6 +7099,16 @@
 			(type default)
 		)
 		(uuid "e0d3171b-7f54-4bf1-8f1f-ea0160c32ab1")
+	)
+	(wire
+		(pts
+			(xy 250.19 30.48) (xy 250.19 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0db46a4-6543-4845-ac26-ba6eebe92838")
 	)
 	(wire
 		(pts
@@ -7309,7 +7362,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 36.83) (xy 246.38 39.37)
+			(xy 247.65 36.83) (xy 247.65 39.37)
 		)
 		(stroke
 			(width 0)
@@ -7768,7 +7821,7 @@
 		(uuid "6ef625e4-accd-4f3f-a71b-97da9dd261bb")
 	)
 	(label "EN"
-		(at 279.4 46.99 180)
+		(at 280.67 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7978,12 +8031,12 @@
 		(uuid "b73e91ff-83e2-4cf2-be65-b41a049fd2db")
 	)
 	(label "SW1"
-		(at 90.17 81.28 180)
+		(at 93.98 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "c0757fc6-caff-4e9e-967b-b7ca7701800c")
 	)
@@ -8285,7 +8338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "103AT-2:103AT-2"
+		(property "Footprint" "bmsfootprints:103AT-2"
 			(at 276.86 113.03 0)
 			(effects
 				(font
@@ -8916,7 +8969,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "75k"
+		(property "Value" "53.25"
 			(at 90.17 177.7999 0)
 			(effects
 				(font
@@ -8962,6 +9015,70 @@
 			(project ""
 				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 261.62 30.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1bcd221c-c800-4cc3-9a68-6428b9dd2cdc")
+		(property "Reference" "J9"
+			(at 263.398 30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SYS_TEST_01x01_Pin"
+			(at 272.288 28.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 261.62 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1007c72a-056d-4494-9d4d-3a22611a180c")
+		)
+		(instances
+			(project "ChargeController2.0"
+				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -9415,7 +9532,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AON6482"
+		(property "Footprint" "bmsfootprints:AON6482"
 			(at 195.25 20.32 0)
 			(effects
 				(font
@@ -9955,7 +10072,7 @@
 	)
 	(symbol
 		(lib_id "SI2318DS-T1-E3:SI2318DS-T1-E3")
-		(at 279.4 39.37 180)
+		(at 280.67 39.37 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9963,7 +10080,7 @@
 		(dnp no)
 		(uuid "2ffc816b-1a13-4370-a767-b54a1da4d70e")
 		(property "Reference" "Q10"
-			(at 264.414 45.466 0)
+			(at 265.684 45.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9972,7 +10089,7 @@
 			)
 		)
 		(property "Value" "SI2318DS-T1-E3"
-			(at 271.526 43.434 0)
+			(at 272.796 43.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9980,8 +10097,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SI2318DS-T1-E3:SOT95P237X102-3N"
-			(at 279.4 39.37 0)
+		(property "Footprint" "bmsfootprints:SOT95P237X102-3N"
+			(at 280.67 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9991,7 +10108,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279.4 39.37 0)
+			(at 280.67 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10000,7 +10117,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 279.4 39.37 0)
+			(at 280.67 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10009,7 +10126,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" "Vishay"
-			(at 279.4 39.37 0)
+			(at 280.67 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10019,7 +10136,7 @@
 			)
 		)
 		(property "MF" "Vishay Siliconix"
-			(at 279.4 39.37 0)
+			(at 280.67 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10029,7 +10146,7 @@
 			)
 		)
 		(property "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2318DS-T1-E3?qs=jcx%252B0HVgj2Z%252BHqZ7%252BcFIkw%3D%3D"
-			(at 279.4 39.37 0)
+			(at 280.67 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10039,7 +10156,7 @@
 			)
 		)
 		(property "DESCRIPTION" "VISHAY - SI2318DS-T1-E3 - N CHANNEL MOSFET, 40V, 3.9A, TO-236, FULL REEL"
-			(at 279.4 39.37 0)
+			(at 280.67 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10049,7 +10166,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" "781-SI2318DS-E3"
-			(at 279.4 39.37 0)
+			(at 280.67 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10059,7 +10176,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 279.4 39.37 0)
+			(at 280.67 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10069,7 +10186,7 @@
 			)
 		)
 		(property "Package" "SOT-23-3 Vishay Siliconix"
-			(at 279.4 39.37 0)
+			(at 280.67 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10079,7 +10196,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SI2318DS-T1-E3/Vishay/view-part/?ref=eda"
-			(at 279.4 39.37 0)
+			(at 280.67 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10089,7 +10206,7 @@
 			)
 		)
 		(property "HEIGHT" "1.02mm"
-			(at 279.4 39.37 0)
+			(at 280.67 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10099,7 +10216,7 @@
 			)
 		)
 		(property "MP" "SI2318DS-T1-E3"
-			(at 279.4 39.37 0)
+			(at 280.67 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10109,7 +10226,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SI2318DS-T1-E3/Vishay/view-part/?ref=snap"
-			(at 279.4 39.37 0)
+			(at 280.67 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10119,7 +10236,7 @@
 			)
 		)
 		(property "ARROW_PRICE-STOCK" "https://www.arrow.com/en/products/si2318ds-t1-e3/vishay"
-			(at 279.4 39.37 0)
+			(at 280.67 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10129,7 +10246,7 @@
 			)
 		)
 		(property "ARROW_PART_NUMBER" "SI2318DS-T1-E3"
-			(at 279.4 39.37 0)
+			(at 280.67 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10139,7 +10256,7 @@
 			)
 		)
 		(property "Description_1" "N-CHANNEL 40-V (D-S) MOSFET | Siliconix / Vishay SI2318DS-T1-E3/BKN"
-			(at 279.4 39.37 0)
+			(at 280.67 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10149,7 +10266,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 279.4 39.37 0)
+			(at 280.67 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10159,7 +10276,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "SI2318DS-T1-E3"
-			(at 279.4 39.37 0)
+			(at 280.67 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10408,7 +10525,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "25k"
 			(at 198.374 145.288 0)
 			(effects
 				(font
@@ -10555,7 +10672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SI2318DS-T1-E3:SOT95P237X102-3N"
+		(property "Footprint" "bmsfootprints:SOT95P237X102-3N"
 			(at 199.39 111.76 0)
 			(effects
 				(font
@@ -11008,7 +11125,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SI2318DS-T1-E3:SOT95P237X102-3N"
+		(property "Footprint" "bmsfootprints:SOT95P237X102-3N"
 			(at 200.66 39.37 0)
 			(effects
 				(font
@@ -11385,7 +11502,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SI2318DS-T1-E3:SOT95P237X102-3N"
+		(property "Footprint" "bmsfootprints:SOT95P237X102-3N"
 			(at 33.02 134.62 0)
 			(effects
 				(font
@@ -11599,7 +11716,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "528b1fbb-2fed-432a-b45b-4ed7f3495df5")
+		(uuid "528b1fbb-2fed-432a-b45b-4ed7f3495df6")
 		(property "Reference" "Q3"
 			(at 224.028 68.072 0)
 			(effects
@@ -11618,7 +11735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SI2318DS-T1-E3:SOT95P237X102-3N"
+		(property "Footprint" "bmsfootprints:SOT95P237X102-3N"
 			(at 238.76 60.96 0)
 			(effects
 				(font
@@ -11807,13 +11924,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "2aa1dc2b-3789-4a3f-98ef-9cd042044930")
+			(uuid "2aa1dc2b-3789-4a3f-98ef-9cd042044931")
 		)
 		(pin "1"
-			(uuid "1e1de03e-3b9d-482e-8c40-2f8a0f75b11f")
+			(uuid "1e1de03e-3b9d-482e-8c40-2f8a0f75b120")
 		)
 		(pin "2"
-			(uuid "bd1ab2f6-8646-4c09-be36-01e51fb630ae")
+			(uuid "bd1ab2f6-8646-4c09-be36-01e51fb630af")
 		)
 		(instances
 			(project "ChargeController2.0"
@@ -11826,7 +11943,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 189.23 0)
+		(at 33.02 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11835,7 +11952,7 @@
 		(fields_autoplaced yes)
 		(uuid "5aa88436-63e6-49ed-8fbe-8bcd74fc3ba6")
 		(property "Reference" "#PWR012"
-			(at 33.02 195.58 0)
+			(at 33.02 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11844,7 +11961,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 194.31 0)
+			(at 33.02 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11852,7 +11969,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 189.23 0)
+			(at 33.02 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11861,7 +11978,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 189.23 0)
+			(at 33.02 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11870,7 +11987,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 189.23 0)
+			(at 33.02 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12040,7 +12157,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "16.67k"
 			(at 207.518 145.034 0)
 			(effects
 				(font
@@ -12187,7 +12304,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SI2318DS-T1-E3:SOT95P237X102-3N"
+		(property "Footprint" "bmsfootprints:SOT95P237X102-3N"
 			(at 205.74 36.83 0)
 			(effects
 				(font
@@ -12497,7 +12614,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200k"
+		(property "Value" "11.83k"
 			(at 90.17 166.3699 0)
 			(effects
 				(font
@@ -12574,7 +12691,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AON6482"
+		(property "Footprint" "bmsfootprints:AON6482"
 			(at 195.25 58.42 0)
 			(effects
 				(font
@@ -13043,6 +13160,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 204.47 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7577a9b9-d250-495e-81fb-2995b6dcc4c0")
+		(property "Reference" "J3"
+			(at 204.47 54.102 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BATT_TEST_01x01_Pin"
+			(at 210.566 51.816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 204.47 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6314c6ae-fb99-42a5-a940-d46c86c94398")
+		)
+		(instances
+			(project "ChargeController2.0"
+				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 185.42 77.47 0)
 		(unit 1)
@@ -13274,7 +13455,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SI2318DS-T1-E3:SOT95P237X102-3N"
+		(property "Footprint" "bmsfootprints:SOT95P237X102-3N"
 			(at 33.02 96.52 0)
 			(effects
 				(font
@@ -13776,7 +13957,7 @@
 				)
 			)
 		)
-		(property "Footprint" "100SP1T1B1M1QEH:SW_100SP1T1B1M1QEH"
+		(property "Footprint" "bmsfootprints:SW_100SP1T1B1M1QEH"
 			(at 241.3 19.05 0)
 			(effects
 				(font
@@ -14079,7 +14260,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 21.59 0)
+		(at 251.46 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14088,7 +14269,7 @@
 		(fields_autoplaced yes)
 		(uuid "98f55caa-1498-467b-a842-7451e33d995c")
 		(property "Reference" "#PWR015"
-			(at 257.81 27.94 0)
+			(at 251.46 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14097,7 +14278,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 26.67 0)
+			(at 251.46 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14105,7 +14286,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 21.59 0)
+			(at 251.46 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14114,7 +14295,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 21.59 0)
+			(at 251.46 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14123,7 +14304,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 21.59 0)
+			(at 251.46 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14238,7 +14419,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AON6482"
+		(property "Footprint" "bmsfootprints:AON6482"
 			(at 224.46 20.32 0)
 			(effects
 				(font
@@ -15191,7 +15372,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AON6482"
+		(property "Footprint" "bmsfootprints:AON6482"
 			(at 224.46 59.69 0)
 			(effects
 				(font
@@ -15325,7 +15506,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 33.02 175.26 270)
+		(at 38.1 175.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15333,7 +15514,7 @@
 		(dnp no)
 		(uuid "b47abb43-bb28-4f13-b35f-50812bbb1e87")
 		(property "Reference" "D6"
-			(at 37.592 175.26 0)
+			(at 42.672 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15341,7 +15522,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 35.56 175.26 0)
+			(at 40.64 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15349,7 +15530,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 175.26 0)
+			(at 38.1 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15358,7 +15539,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 175.26 0)
+			(at 38.1 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15367,7 +15548,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 33.02 175.26 0)
+			(at 38.1 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15376,7 +15557,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 33.02 175.26 0)
+			(at 38.1 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15385,7 +15566,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 33.02 175.26 0)
+			(at 38.1 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16046,8 +16227,8 @@
 				)
 			)
 		)
-		(property "Value" "GND_01x01_Pin"
-			(at 213.106 115.316 0)
+		(property "Value" "GND_TEST_01x01_Pin"
+			(at 217.17 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16998,7 +17179,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SI2318DS-T1-E3:SOT95P237X102-3N"
+		(property "Footprint" "bmsfootprints:SOT95P237X102-3N"
 			(at 279.4 60.96 0)
 			(effects
 				(font
@@ -17436,7 +17617,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IHLP6767GZER100M01:IND_IHLP6767GZER100M01"
+		(property "Footprint" "bmsfootprints:IND_IHLP6767GZER100M01"
 			(at 120.65 50.8 0)
 			(effects
 				(font
@@ -17618,7 +17799,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "250k"
+		(property "Value" "249k"
 			(at 226.06 78.7399 0)
 			(effects
 				(font
@@ -17889,7 +18070,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25k"
+		(property "Value" "16.67k"
 			(at 226.06 109.2199 0)
 			(effects
 				(font
@@ -18020,7 +18201,7 @@
 		(dnp no)
 		(uuid "f55daf39-3530-4250-8bdd-8d7acca4142b")
 		(property "Reference" "R24"
-			(at 246.888 119.126 0)
+			(at 248.92 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18029,7 +18210,7 @@
 			)
 		)
 		(property "Value" "30.1k"
-			(at 244.856 122.936 0)
+			(at 247.396 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
