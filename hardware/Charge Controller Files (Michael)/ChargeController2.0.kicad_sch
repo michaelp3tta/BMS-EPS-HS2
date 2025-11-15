@@ -8960,7 +8960,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13fc6995-c001-467d-b39b-c9e8f63725fa")
-		(property "Reference" "R1"
+		(property "Reference" "R_AC3"
 			(at 90.17 175.2599 0)
 			(effects
 				(font
@@ -9014,7 +9014,7 @@
 		(instances
 			(project ""
 				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
-					(reference "R1")
+					(reference "R_AC3")
 					(unit 1)
 				)
 			)
@@ -9160,7 +9160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d156dc5-20f0-4326-9a12-28ddd7d732f5")
-		(property "Reference" "R3"
+		(property "Reference" "R_AC1"
 			(at 90.17 152.3999 0)
 			(effects
 				(font
@@ -9214,7 +9214,7 @@
 		(instances
 			(project "ChargeController2.0"
 				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
-					(reference "R3")
+					(reference "R_AC1")
 					(unit 1)
 				)
 			)
@@ -9673,7 +9673,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2775dd08-0bc6-499a-a2b1-a4f7c0872f23")
-		(property "Reference" "R27"
+		(property "Reference" "R_AC_SNS"
 			(at 63.5 19.558 90)
 			(effects
 				(font
@@ -9725,7 +9725,7 @@
 		(instances
 			(project "ChargeController2.0"
 				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
-					(reference "R27")
+					(reference "R_AC_SNS")
 					(unit 1)
 				)
 			)
@@ -10516,8 +10516,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "415d59e5-28a6-46a7-b20f-8b02713a6941")
-		(property "Reference" "R31"
-			(at 198.374 142.748 0)
+		(property "Reference" "R_ILIM_HIZ"
+			(at 194.31 139.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10570,7 +10570,7 @@
 		(instances
 			(project "ChargeController2.0"
 				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
-					(reference "R31")
+					(reference "R_ILIM_HIZ")
 					(unit 1)
 				)
 			)
@@ -12148,8 +12148,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c74fd7e-b9e8-43eb-a496-a8e88e78bb6a")
-		(property "Reference" "R28"
-			(at 207.772 142.748 0)
+		(property "Reference" "R_ICHG"
+			(at 207.01 142.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12202,7 +12202,7 @@
 		(instances
 			(project ""
 				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
-					(reference "R28")
+					(reference "R_ICHG")
 					(unit 1)
 				)
 			)
@@ -12605,7 +12605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64babb16-d69d-4d22-baa0-6e980ba83f06")
-		(property "Reference" "R2"
+		(property "Reference" "R_AC2"
 			(at 90.17 163.8299 0)
 			(effects
 				(font
@@ -12659,7 +12659,7 @@
 		(instances
 			(project "ChargeController2.0"
 				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
-					(reference "R2")
+					(reference "R_AC2")
 					(unit 1)
 				)
 			)
@@ -16228,7 +16228,7 @@
 			)
 		)
 		(property "Value" "GND_TEST_01x01_Pin"
-			(at 217.17 115.57 0)
+			(at 216.408 116.078 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16283,7 +16283,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c81a0c00-fa8a-4b27-9582-30734ebb0db5")
-		(property "Reference" "R23"
+		(property "Reference" "R_FSW_SYNC"
 			(at 118.364 166.37 0)
 			(effects
 				(font
@@ -16337,7 +16337,7 @@
 		(instances
 			(project "ChargeController2.0"
 				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
-					(reference "R23")
+					(reference "R_FSW_SYNC")
 					(unit 1)
 				)
 			)
@@ -16961,7 +16961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9e7af12-68f9-4197-8dea-c54f4f907e75")
-		(property "Reference" "R13"
+		(property "Reference" "RR_BATT_SNS"
 			(at 176.53 64.77 90)
 			(effects
 				(font
@@ -17013,7 +17013,7 @@
 		(instances
 			(project "ChargeController2.0"
 				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
-					(reference "R13")
+					(reference "RR_BATT_SNS")
 					(unit 1)
 				)
 			)
@@ -17790,7 +17790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7ff8038-0f1e-40ce-a9c2-f05ac0a20b0c")
-		(property "Reference" "R10"
+		(property "Reference" "R_FB"
 			(at 226.06 76.1999 0)
 			(effects
 				(font
@@ -17844,7 +17844,7 @@
 		(instances
 			(project ""
 				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
-					(reference "R10")
+					(reference "R_FB")
 					(unit 1)
 				)
 			)
@@ -18061,7 +18061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0790bea-e48e-48d6-b727-3b5c81b5d245")
-		(property "Reference" "R15"
+		(property "Reference" "R_FBG"
 			(at 226.06 106.6799 0)
 			(effects
 				(font
@@ -18115,7 +18115,7 @@
 		(instances
 			(project ""
 				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
-					(reference "R15")
+					(reference "R_FBG")
 					(unit 1)
 				)
 			)
