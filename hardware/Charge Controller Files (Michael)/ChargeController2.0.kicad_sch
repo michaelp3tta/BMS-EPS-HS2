@@ -3819,6 +3819,12 @@
 		(uuid "8ddb46fb-2b8e-4a94-b303-7a5f2b458707")
 	)
 	(junction
+		(at 38.1 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90ebd1db-04b3-462c-a9cf-a2d828766a47")
+	)
+	(junction
 		(at 83.82 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5519,6 +5525,16 @@
 			(type default)
 		)
 		(uuid "602cae2d-4379-460f-8ec8-c69da31b5a21")
+	)
+	(wire
+		(pts
+			(xy 38.1 181.61) (xy 40.64 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61b10529-0bb7-4f61-900b-6486fd093da7")
 	)
 	(wire
 		(pts
@@ -15865,6 +15881,70 @@
 			(project "ChargeController2.0"
 				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 45.72 181.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbf2fd7e-21bc-43e7-a0b9-39502539cdc2")
+		(property "Reference" "J10"
+			(at 48.006 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SOL_TEST_01x01_Pin"
+			(at 55.372 184.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 45.72 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5ef5b87-697d-4ced-ab1f-c1d9e964d10c")
+		)
+		(instances
+			(project "ChargeController2.0"
+				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
+					(reference "J10")
 					(unit 1)
 				)
 			)
