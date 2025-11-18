@@ -8504,7 +8504,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 245.11 31.75 0)
 			(effects
 				(font
@@ -8786,7 +8786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 75.8952 168.91 0)
 			(effects
 				(font
@@ -8855,7 +8855,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 166.6748 87.63 0)
 			(effects
 				(font
@@ -8924,7 +8924,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 158.4452 78.74 0)
 			(effects
 				(font
@@ -9061,7 +9061,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 261.62 30.48 0)
 			(effects
 				(font
@@ -9261,7 +9261,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "bmsfootprints:DO-214AC"
 			(at 181.61 27.94 0)
 			(effects
 				(font
@@ -9705,7 +9705,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 63.5 22.352 90)
 			(effects
 				(font
@@ -9772,7 +9772,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 66.04 38.4048 0)
 			(effects
 				(font
@@ -9841,7 +9841,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 184.15 52.07 0)
 			(effects
 				(font
@@ -10550,7 +10550,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 198.628 143.51 90)
 			(effects
 				(font
@@ -10619,7 +10619,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 35.2552 33.02 0)
 			(effects
 				(font
@@ -10989,7 +10989,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "bmsfootprints:DO-214AC"
 			(at 127 104.14 0)
 			(effects
 				(font
@@ -12251,7 +12251,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 84.7852 35.56 0)
 			(effects
 				(font
@@ -12551,7 +12551,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "bmsfootprints:DO-214AC"
 			(at 170.18 19.05 0)
 			(effects
 				(font
@@ -12934,7 +12934,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 227.33 146.05 0)
 			(effects
 				(font
@@ -12998,7 +12998,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 236.22 132.08 0)
 			(effects
 				(font
@@ -13067,7 +13067,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 98.7552 156.21 0)
 			(effects
 				(font
@@ -13200,7 +13200,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 204.47 55.88 0)
 			(effects
 				(font
@@ -13333,7 +13333,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 271.78 121.92 0)
 			(effects
 				(font
@@ -13402,7 +13402,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 248.6152 83.82 0)
 			(effects
 				(font
@@ -14166,7 +14166,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 86.0552 133.35 0)
 			(effects
 				(font
@@ -14658,7 +14658,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "bmsfootprints:DO-214AC"
 			(at 170.18 27.94 0)
 			(effects
 				(font
@@ -14743,7 +14743,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 257.81 151.13 0)
 			(effects
 				(font
@@ -14810,7 +14810,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 219.71 146.05 0)
 			(effects
 				(font
@@ -14876,7 +14876,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 61.9252 154.94 0)
 			(effects
 				(font
@@ -14945,7 +14945,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 184.4548 87.63 0)
 			(effects
 				(font
@@ -15320,7 +15320,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 256.54 92.71 0)
 			(effects
 				(font
@@ -15545,7 +15545,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "bmsfootprints:DO-214AC"
 			(at 38.1 175.26 0)
 			(effects
 				(font
@@ -15633,7 +15633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 105.1052 99.06 0)
 			(effects
 				(font
@@ -15766,7 +15766,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 236.22 152.4 0)
 			(effects
 				(font
@@ -15977,7 +15977,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 70.1548 40.64 0)
 			(effects
 				(font
@@ -16046,7 +16046,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 52.3748 40.64 0)
 			(effects
 				(font
@@ -16115,7 +16115,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 26.67 181.61 0)
 			(effects
 				(font
@@ -16315,7 +16315,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 210.82 118.11 0)
 			(effects
 				(font
@@ -16450,7 +16450,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 45.4152 33.02 0)
 			(effects
 				(font
@@ -16519,7 +16519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 110.1852 156.21 0)
 			(effects
 				(font
@@ -16586,7 +16586,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 260.0452 83.82 0)
 			(effects
 				(font
@@ -16719,7 +16719,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 259.08 113.03 0)
 			(effects
 				(font
@@ -16786,7 +16786,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 270.51 160.02 0)
 			(effects
 				(font
@@ -16922,7 +16922,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 105.1052 134.62 0)
 			(effects
 				(font
@@ -16989,7 +16989,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 180.34 85.3948 0)
 			(effects
 				(font
@@ -17057,7 +17057,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 176.53 69.342 90)
 			(effects
 				(font
@@ -17493,7 +17493,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 135.5852 99.06 0)
 			(effects
 				(font
@@ -17888,7 +17888,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 221.742 77.47 90)
 			(effects
 				(font
@@ -18365,7 +18365,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "bmsfootprints:DO-214AC"
 			(at 111.76 104.14 0)
 			(effects
 				(font
