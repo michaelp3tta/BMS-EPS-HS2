@@ -3186,10 +3186,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SI2318DS-T1-E3_8"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "SI2318DS-T1-E3:SI2318DS-T1-E3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3199,7 +3196,7 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 				)
 			)
 			(property "Value" "SI2318DS-T1-E3"
@@ -3208,25 +3205,26 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "SI2318DS-T1-E3:SOT95P237X102-3N"
-				(at 0 0 0)
+			(property "Footprint" "SOT95P237X102-3N"
+				(at 29.21 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/SI2318DS-T1-E3.pdf"
+				(at 29.21 -194.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
@@ -3236,164 +3234,63 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "MANUFACTURER_NAME" "Vishay"
-				(at 0 0 0)
+			(property "Height" "1.02"
+				(at 29.21 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "MF" "Vishay Siliconix"
-				(at 0 0 0)
+			(property "Mouser Part Number" "781-SI2318DS-E3"
+				(at 29.21 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2318DS-T1-E3?qs=jcx%252B0HVgj2Z%252BHqZ7%252BcFIkw%3D%3D"
-				(at 0 0 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2318DS-T1-E3?qs=jcx%252B0HVgj2Z%252BHqZ7%252BcFIkw%3D%3D"
+				(at 29.21 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "MOUSER_PART_NUMBER" "781-SI2318DS-E3"
-				(at 0 0 0)
+			(property "Manufacturer_Name" "Vishay"
+				(at 29.21 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Price" "None"
-				(at 0 0 0)
+			(property "Manufacturer_Part_Number" "SI2318DS-T1-E3"
+				(at 29.21 -794.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Package" "SOT-23-3 Vishay Siliconix"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/SI2318DS-T1-E3/Vishay/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "HEIGHT" "1.02mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "SI2318DS-T1-E3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SI2318DS-T1-E3/Vishay/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "ARROW_PRICE-STOCK" "https://www.arrow.com/en/products/si2318ds-t1-e3/vishay"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "ARROW_PART_NUMBER" "SI2318DS-T1-E3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "N-CHANNEL 40-V (D-S) MOSFET | Siliconix / Vishay SI2318DS-T1-E3/BKN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER_PART_NUMBER" "SI2318DS-T1-E3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "SI2318DS-T1-E3_8_0_0"
+			(symbol "SI2318DS-T1-E3_1_1"
 				(rectangle
-					(start 5.08 -5.08)
-					(end 27.94 2.54)
+					(start 5.08 2.54)
+					(end 27.94 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3408,14 +3305,14 @@
 					(name "GATE"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -3426,14 +3323,14 @@
 					(name "SOURCE"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -3444,14 +3341,14 @@
 					(name "DRAIN"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -8586,6 +8483,129 @@
 		)
 	)
 	(symbol
+		(lib_id "SI2318DS-T1-E3:SI2318DS-T1-E3")
+		(at 68.58 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05960703-eae0-46f6-81ae-6433d6fb45cc")
+		(property "Reference" "Q12"
+			(at 85.09 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SI2318DS-T1-E3"
+			(at 85.09 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bmsfootprints:SOT95P237X102-3N"
+			(at 97.79 284.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/SI2318DS-T1-E3.pdf"
+			(at 97.79 384.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "VISHAY - SI2318DS-T1-E3 - N CHANNEL MOSFET, 40V, 3.9A, TO-236, FULL REEL"
+			(at 68.58 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.02"
+			(at 97.79 584.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "781-SI2318DS-E3"
+			(at 97.79 684.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2318DS-T1-E3?qs=jcx%252B0HVgj2Z%252BHqZ7%252BcFIkw%3D%3D"
+			(at 97.79 784.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 97.79 884.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SI2318DS-T1-E3"
+			(at 97.79 984.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "feb9b5b0-9d51-4ad4-9132-e004536d6854")
+		)
+		(pin "1"
+			(uuid "307c13ae-cc17-4605-9ef0-b59b18840090")
+		)
+		(pin "2"
+			(uuid "f793a930-a7b0-422c-87b0-4c0b18720b67")
+		)
+		(instances
+			(project "ChargeController2.0"
+				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
+					(reference "Q12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 245.11 31.75 270)
 		(unit 1)
@@ -9145,17 +9165,17 @@
 		)
 	)
 	(symbol
-		(lib_name "SI2318DS-T1-E3_8")
 		(lib_id "SI2318DS-T1-E3:SI2318DS-T1-E3")
-		(at 279.4 60.96 180)
+		(at 238.76 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "159c95a1-c8d4-4ab1-999f-23133ccc255a")
-		(property "Reference" "Q11"
-			(at 262.128 66.802 0)
+		(fields_autoplaced yes)
+		(uuid "157c065c-e526-4092-acbb-498c58aca7e0")
+		(property "Reference" "Q3"
+			(at 222.25 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9163,7 +9183,7 @@
 			)
 		)
 		(property "Value" "SI2318DS-T1-E3"
-			(at 262.382 64.77 0)
+			(at 222.25 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9171,17 +9191,27 @@
 			)
 		)
 		(property "Footprint" "bmsfootprints:SI2318DS-T1-E3"
-			(at 279.4 60.96 0)
+			(at 209.55 -33.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 279.4 60.96 0)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/SI2318DS-T1-E3.pdf"
+			(at 209.55 -133.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "VISHAY - SI2318DS-T1-E3 - N CHANNEL MOSFET, 40V, 3.9A, TO-236, FULL REEL"
+			(at 238.76 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9189,420 +9219,69 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 279.4 60.96 0)
+		(property "Height" "1.02"
+			(at 209.55 -333.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_NAME" "Vishay"
-			(at 279.4 60.96 0)
+		(property "Mouser Part Number" "781-SI2318DS-E3"
+			(at 209.55 -433.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "MF" "Vishay Siliconix"
-			(at 279.4 60.96 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2318DS-T1-E3?qs=jcx%252B0HVgj2Z%252BHqZ7%252BcFIkw%3D%3D"
+			(at 209.55 -533.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2318DS-T1-E3?qs=jcx%252B0HVgj2Z%252BHqZ7%252BcFIkw%3D%3D"
-			(at 279.4 60.96 0)
+		(property "Manufacturer_Name" "Vishay"
+			(at 209.55 -633.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "DESCRIPTION" "VISHAY - SI2318DS-T1-E3 - N CHANNEL MOSFET, 40V, 3.9A, TO-236, FULL REEL"
-			(at 279.4 60.96 0)
+		(property "Manufacturer_Part_Number" "SI2318DS-T1-E3"
+			(at 209.55 -733.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left top)
 				(hide yes)
 			)
-		)
-		(property "MOUSER_PART_NUMBER" "781-SI2318DS-E3"
-			(at 279.4 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 279.4 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOT-23-3 Vishay Siliconix"
-			(at 279.4 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SI2318DS-T1-E3/Vishay/view-part/?ref=eda"
-			(at 279.4 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "1.02mm"
-			(at 279.4 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SI2318DS-T1-E3"
-			(at 279.4 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SI2318DS-T1-E3/Vishay/view-part/?ref=snap"
-			(at 279.4 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW_PRICE-STOCK" "https://www.arrow.com/en/products/si2318ds-t1-e3/vishay"
-			(at 279.4 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW_PART_NUMBER" "SI2318DS-T1-E3"
-			(at 279.4 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-CHANNEL 40-V (D-S) MOSFET | Siliconix / Vishay SI2318DS-T1-E3/BKN"
-			(at 279.4 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 279.4 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "SI2318DS-T1-E3"
-			(at 279.4 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "59ddb172-7d5b-475e-a95a-78c8f90daa88")
 		)
 		(pin "3"
-			(uuid "736b5da5-484b-4c3d-98ef-183cd146026a")
+			(uuid "c3beae04-e8c1-49a6-ae44-d0ed2bac3c9e")
 		)
 		(pin "1"
-			(uuid "390c236f-16ca-4047-8cbe-175ef4dfc1d1")
+			(uuid "cdb0c161-72a1-421d-8172-36c1611b307a")
+		)
+		(pin "2"
+			(uuid "4816c223-45c5-4cb4-928b-e177244d1268")
 		)
 		(instances
 			(project "ChargeController2.0"
 				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
-					(reference "Q11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SI2318DS-T1-E3_8")
-		(lib_id "SI2318DS-T1-E3:SI2318DS-T1-E3")
-		(at 205.74 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "17245081-6148-47fd-b097-4da04ad36e4e")
-		(property "Reference" "Q9"
-			(at 223.012 30.988 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SI2318DS-T1-E3"
-			(at 222.758 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bmsfootprints:SI2318DS-T1-E3"
-			(at 205.74 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 205.74 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Vishay"
-			(at 205.74 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay Siliconix"
-			(at 205.74 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2318DS-T1-E3?qs=jcx%252B0HVgj2Z%252BHqZ7%252BcFIkw%3D%3D"
-			(at 205.74 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "VISHAY - SI2318DS-T1-E3 - N CHANNEL MOSFET, 40V, 3.9A, TO-236, FULL REEL"
-			(at 205.74 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PART_NUMBER" "781-SI2318DS-E3"
-			(at 205.74 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 205.74 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOT-23-3 Vishay Siliconix"
-			(at 205.74 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SI2318DS-T1-E3/Vishay/view-part/?ref=eda"
-			(at 205.74 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "1.02mm"
-			(at 205.74 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SI2318DS-T1-E3"
-			(at 205.74 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SI2318DS-T1-E3/Vishay/view-part/?ref=snap"
-			(at 205.74 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW_PRICE-STOCK" "https://www.arrow.com/en/products/si2318ds-t1-e3/vishay"
-			(at 205.74 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW_PART_NUMBER" "SI2318DS-T1-E3"
-			(at 205.74 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-CHANNEL 40-V (D-S) MOSFET | Siliconix / Vishay SI2318DS-T1-E3/BKN"
-			(at 205.74 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 205.74 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "SI2318DS-T1-E3"
-			(at 205.74 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a73456cf-bea0-48c0-87d6-d00143a38d1f")
-		)
-		(pin "3"
-			(uuid "a623aa22-b388-4a30-88f4-d5308130bfa1")
-		)
-		(pin "1"
-			(uuid "b7ef756e-9abe-49f5-b627-8a4fb0e491ed")
-		)
-		(instances
-			(project "ChargeController2.0"
-				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
-					(reference "Q9")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -11051,238 +10730,6 @@
 			(project "ChargeController2.0"
 				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SI2318DS-T1-E3_8")
-		(lib_id "SI2318DS-T1-E3:SI2318DS-T1-E3")
-		(at 238.76 60.96 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "465234bc-5ad0-4fd6-9fce-9d14985380e7")
-		(property "Reference" "Q3"
-			(at 221.488 66.802 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SI2318DS-T1-E3"
-			(at 221.742 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bmsfootprints:SI2318DS-T1-E3"
-			(at 238.76 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 238.76 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Vishay"
-			(at 238.76 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay Siliconix"
-			(at 238.76 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2318DS-T1-E3?qs=jcx%252B0HVgj2Z%252BHqZ7%252BcFIkw%3D%3D"
-			(at 238.76 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "VISHAY - SI2318DS-T1-E3 - N CHANNEL MOSFET, 40V, 3.9A, TO-236, FULL REEL"
-			(at 238.76 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PART_NUMBER" "781-SI2318DS-E3"
-			(at 238.76 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 238.76 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOT-23-3 Vishay Siliconix"
-			(at 238.76 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SI2318DS-T1-E3/Vishay/view-part/?ref=eda"
-			(at 238.76 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "1.02mm"
-			(at 238.76 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SI2318DS-T1-E3"
-			(at 238.76 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SI2318DS-T1-E3/Vishay/view-part/?ref=snap"
-			(at 238.76 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW_PRICE-STOCK" "https://www.arrow.com/en/products/si2318ds-t1-e3/vishay"
-			(at 238.76 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW_PART_NUMBER" "SI2318DS-T1-E3"
-			(at 238.76 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-CHANNEL 40-V (D-S) MOSFET | Siliconix / Vishay SI2318DS-T1-E3/BKN"
-			(at 238.76 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 238.76 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "SI2318DS-T1-E3"
-			(at 238.76 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8c9f46a9-5e16-47f3-ae17-cad9f2544d9b")
-		)
-		(pin "3"
-			(uuid "63267692-257b-4b3e-b797-f46835deb9dd")
-		)
-		(pin "1"
-			(uuid "78df7af5-c879-4245-90e5-6b31ef5c9ba4")
-		)
-		(instances
-			(project "ChargeController2.0"
-				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -13229,238 +12676,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SI2318DS-T1-E3_8")
-		(lib_id "SI2318DS-T1-E3:SI2318DS-T1-E3")
-		(at 68.58 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "90d3c813-aabf-4eb3-bb8a-653e4888a0a4")
-		(property "Reference" "Q12"
-			(at 85.852 183.388 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SI2318DS-T1-E3"
-			(at 85.598 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bmsfootprints:SI2318DS-T1-E3"
-			(at 68.58 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Vishay"
-			(at 68.58 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay Siliconix"
-			(at 68.58 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2318DS-T1-E3?qs=jcx%252B0HVgj2Z%252BHqZ7%252BcFIkw%3D%3D"
-			(at 68.58 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "VISHAY - SI2318DS-T1-E3 - N CHANNEL MOSFET, 40V, 3.9A, TO-236, FULL REEL"
-			(at 68.58 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PART_NUMBER" "781-SI2318DS-E3"
-			(at 68.58 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 68.58 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOT-23-3 Vishay Siliconix"
-			(at 68.58 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SI2318DS-T1-E3/Vishay/view-part/?ref=eda"
-			(at 68.58 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "1.02mm"
-			(at 68.58 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SI2318DS-T1-E3"
-			(at 68.58 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SI2318DS-T1-E3/Vishay/view-part/?ref=snap"
-			(at 68.58 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW_PRICE-STOCK" "https://www.arrow.com/en/products/si2318ds-t1-e3/vishay"
-			(at 68.58 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW_PART_NUMBER" "SI2318DS-T1-E3"
-			(at 68.58 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-CHANNEL 40-V (D-S) MOSFET | Siliconix / Vishay SI2318DS-T1-E3/BKN"
-			(at 68.58 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 68.58 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "SI2318DS-T1-E3"
-			(at 68.58 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2e16d7bd-960e-4299-b980-5042bad78ce3")
-		)
-		(pin "3"
-			(uuid "46d020a7-4a6e-4559-8226-8e293fbe89e0")
-		)
-		(pin "1"
-			(uuid "1f2097dd-628b-4542-b6c5-79b9a7bb9b4e")
-		)
-		(instances
-			(project "ChargeController2.0"
-				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
-					(reference "Q12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 276.86 139.7 180)
 		(unit 1)
@@ -14210,238 +13425,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SI2318DS-T1-E3_8")
-		(lib_id "SI2318DS-T1-E3:SI2318DS-T1-E3")
-		(at 200.66 39.37 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9f59b8c5-9942-4c40-9dfb-81690bcda2f7")
-		(property "Reference" "Q4"
-			(at 183.388 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SI2318DS-T1-E3"
-			(at 183.642 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bmsfootprints:SI2318DS-T1-E3"
-			(at 200.66 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 200.66 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Vishay"
-			(at 200.66 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay Siliconix"
-			(at 200.66 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2318DS-T1-E3?qs=jcx%252B0HVgj2Z%252BHqZ7%252BcFIkw%3D%3D"
-			(at 200.66 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "VISHAY - SI2318DS-T1-E3 - N CHANNEL MOSFET, 40V, 3.9A, TO-236, FULL REEL"
-			(at 200.66 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PART_NUMBER" "781-SI2318DS-E3"
-			(at 200.66 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 200.66 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOT-23-3 Vishay Siliconix"
-			(at 200.66 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SI2318DS-T1-E3/Vishay/view-part/?ref=eda"
-			(at 200.66 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "1.02mm"
-			(at 200.66 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SI2318DS-T1-E3"
-			(at 200.66 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SI2318DS-T1-E3/Vishay/view-part/?ref=snap"
-			(at 200.66 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW_PRICE-STOCK" "https://www.arrow.com/en/products/si2318ds-t1-e3/vishay"
-			(at 200.66 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW_PART_NUMBER" "SI2318DS-T1-E3"
-			(at 200.66 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-CHANNEL 40-V (D-S) MOSFET | Siliconix / Vishay SI2318DS-T1-E3/BKN"
-			(at 200.66 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 200.66 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "SI2318DS-T1-E3"
-			(at 200.66 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e2dca8e2-e251-4a8c-97a9-d36b4db63f92")
-		)
-		(pin "3"
-			(uuid "6d4aafe6-c6b2-432e-bf64-992f9d988463")
-		)
-		(pin "1"
-			(uuid "4d085d3c-8a03-4158-ae90-a0aa3174e7bf")
-		)
-		(instances
-			(project ""
-				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 219.71 146.05 180)
 		(unit 1)
@@ -14703,6 +13686,252 @@
 			(project ""
 				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SI2318DS-T1-E3:SI2318DS-T1-E3")
+		(at 205.74 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5ee39a1-cf62-4970-a07d-6e2a180b0bd8")
+		(property "Reference" "Q9"
+			(at 222.25 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SI2318DS-T1-E3"
+			(at 222.25 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bmsfootprints:SOT95P237X102-3N"
+			(at 234.95 131.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/SI2318DS-T1-E3.pdf"
+			(at 234.95 231.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "VISHAY - SI2318DS-T1-E3 - N CHANNEL MOSFET, 40V, 3.9A, TO-236, FULL REEL"
+			(at 205.74 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.02"
+			(at 234.95 431.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "781-SI2318DS-E3"
+			(at 234.95 531.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2318DS-T1-E3?qs=jcx%252B0HVgj2Z%252BHqZ7%252BcFIkw%3D%3D"
+			(at 234.95 631.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 234.95 731.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SI2318DS-T1-E3"
+			(at 234.95 831.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "42f013bf-d588-4b74-9e03-6ca2cebe4757")
+		)
+		(pin "1"
+			(uuid "bf34cbf3-d4ad-4a7e-9f4d-717f86ccfe74")
+		)
+		(pin "2"
+			(uuid "8a4f3aec-8423-4828-ab35-338980f0533f")
+		)
+		(instances
+			(project "ChargeController2.0"
+				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SI2318DS-T1-E3:SI2318DS-T1-E3")
+		(at 280.67 39.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acae3291-5722-4400-aed3-0d8494e4136f")
+		(property "Reference" "Q10"
+			(at 264.16 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SI2318DS-T1-E3"
+			(at 264.16 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bmsfootprints:SOT95P237X102-3N"
+			(at 251.46 -55.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/SI2318DS-T1-E3.pdf"
+			(at 251.46 -155.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "VISHAY - SI2318DS-T1-E3 - N CHANNEL MOSFET, 40V, 3.9A, TO-236, FULL REEL"
+			(at 280.67 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.02"
+			(at 251.46 -355.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "781-SI2318DS-E3"
+			(at 251.46 -455.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2318DS-T1-E3?qs=jcx%252B0HVgj2Z%252BHqZ7%252BcFIkw%3D%3D"
+			(at 251.46 -555.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 251.46 -655.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SI2318DS-T1-E3"
+			(at 251.46 -755.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "be37277e-16af-4ee5-9e5b-a3501417598f")
+		)
+		(pin "1"
+			(uuid "071c9753-14fe-4f7d-ab94-e0f98c1cb7f9")
+		)
+		(pin "2"
+			(uuid "a03f17a3-e6e0-4fab-87c1-9334507e06b8")
+		)
+		(instances
+			(project "ChargeController2.0"
+				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -15744,238 +14973,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SI2318DS-T1-E3_8")
-		(lib_id "SI2318DS-T1-E3:SI2318DS-T1-E3")
-		(at 33.02 96.52 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c815519b-8b93-4897-98d3-3741216a48ad")
-		(property "Reference" "Q2"
-			(at 38.862 113.792 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SI2318DS-T1-E3"
-			(at 36.83 113.538 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bmsfootprints:SI2318DS-T1-E3"
-			(at 33.02 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 33.02 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Vishay"
-			(at 33.02 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay Siliconix"
-			(at 33.02 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2318DS-T1-E3?qs=jcx%252B0HVgj2Z%252BHqZ7%252BcFIkw%3D%3D"
-			(at 33.02 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "VISHAY - SI2318DS-T1-E3 - N CHANNEL MOSFET, 40V, 3.9A, TO-236, FULL REEL"
-			(at 33.02 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PART_NUMBER" "781-SI2318DS-E3"
-			(at 33.02 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 33.02 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOT-23-3 Vishay Siliconix"
-			(at 33.02 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SI2318DS-T1-E3/Vishay/view-part/?ref=eda"
-			(at 33.02 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "1.02mm"
-			(at 33.02 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SI2318DS-T1-E3"
-			(at 33.02 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SI2318DS-T1-E3/Vishay/view-part/?ref=snap"
-			(at 33.02 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW_PRICE-STOCK" "https://www.arrow.com/en/products/si2318ds-t1-e3/vishay"
-			(at 33.02 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW_PART_NUMBER" "SI2318DS-T1-E3"
-			(at 33.02 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-CHANNEL 40-V (D-S) MOSFET | Siliconix / Vishay SI2318DS-T1-E3/BKN"
-			(at 33.02 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 33.02 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "SI2318DS-T1-E3"
-			(at 33.02 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e51ab3c9-0323-4c4f-b016-985e4fa23629")
-		)
-		(pin "3"
-			(uuid "99e6a454-68e9-4b00-8a25-b630e427178c")
-		)
-		(pin "1"
-			(uuid "8c7d960a-c28c-4a16-9cae-5e2ccff4c3cf")
-		)
-		(instances
-			(project "ChargeController2.0"
-				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 93.98 171.45 180)
 		(unit 1)
@@ -16517,238 +15514,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SI2318DS-T1-E3_8")
-		(lib_id "SI2318DS-T1-E3:SI2318DS-T1-E3")
-		(at 280.67 39.37 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d2ab8887-355a-4eb5-8ce1-16c93a6533a9")
-		(property "Reference" "Q10"
-			(at 263.398 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SI2318DS-T1-E3"
-			(at 263.652 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bmsfootprints:SI2318DS-T1-E3"
-			(at 280.67 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 280.67 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 280.67 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Vishay"
-			(at 280.67 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay Siliconix"
-			(at 280.67 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2318DS-T1-E3?qs=jcx%252B0HVgj2Z%252BHqZ7%252BcFIkw%3D%3D"
-			(at 280.67 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "VISHAY - SI2318DS-T1-E3 - N CHANNEL MOSFET, 40V, 3.9A, TO-236, FULL REEL"
-			(at 280.67 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PART_NUMBER" "781-SI2318DS-E3"
-			(at 280.67 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 280.67 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOT-23-3 Vishay Siliconix"
-			(at 280.67 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SI2318DS-T1-E3/Vishay/view-part/?ref=eda"
-			(at 280.67 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "1.02mm"
-			(at 280.67 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SI2318DS-T1-E3"
-			(at 280.67 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SI2318DS-T1-E3/Vishay/view-part/?ref=snap"
-			(at 280.67 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW_PRICE-STOCK" "https://www.arrow.com/en/products/si2318ds-t1-e3/vishay"
-			(at 280.67 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW_PART_NUMBER" "SI2318DS-T1-E3"
-			(at 280.67 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-CHANNEL 40-V (D-S) MOSFET | Siliconix / Vishay SI2318DS-T1-E3/BKN"
-			(at 280.67 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 280.67 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "SI2318DS-T1-E3"
-			(at 280.67 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "47bb4800-7859-42fd-8ed1-520772fa3b08")
-		)
-		(pin "3"
-			(uuid "5d60b08f-9336-4456-8978-df656230a59c")
-		)
-		(pin "1"
-			(uuid "7fe2e70a-6b57-4ca0-a489-847957af6459")
-		)
-		(instances
-			(project "ChargeController2.0"
-				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
-					(reference "Q10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 207.01 152.4 0)
 		(unit 1)
@@ -17178,238 +15943,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SI2318DS-T1-E3_8")
-		(lib_id "SI2318DS-T1-E3:SI2318DS-T1-E3")
-		(at 33.02 134.62 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d90d46ca-37dc-43cd-aa27-04474984e89c")
-		(property "Reference" "Q1"
-			(at 38.862 151.892 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SI2318DS-T1-E3"
-			(at 36.83 151.638 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bmsfootprints:SI2318DS-T1-E3"
-			(at 33.02 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 33.02 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Vishay"
-			(at 33.02 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay Siliconix"
-			(at 33.02 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2318DS-T1-E3?qs=jcx%252B0HVgj2Z%252BHqZ7%252BcFIkw%3D%3D"
-			(at 33.02 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "VISHAY - SI2318DS-T1-E3 - N CHANNEL MOSFET, 40V, 3.9A, TO-236, FULL REEL"
-			(at 33.02 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PART_NUMBER" "781-SI2318DS-E3"
-			(at 33.02 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 33.02 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOT-23-3 Vishay Siliconix"
-			(at 33.02 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SI2318DS-T1-E3/Vishay/view-part/?ref=eda"
-			(at 33.02 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "1.02mm"
-			(at 33.02 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SI2318DS-T1-E3"
-			(at 33.02 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SI2318DS-T1-E3/Vishay/view-part/?ref=snap"
-			(at 33.02 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW_PRICE-STOCK" "https://www.arrow.com/en/products/si2318ds-t1-e3/vishay"
-			(at 33.02 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW_PART_NUMBER" "SI2318DS-T1-E3"
-			(at 33.02 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-CHANNEL 40-V (D-S) MOSFET | Siliconix / Vishay SI2318DS-T1-E3/BKN"
-			(at 33.02 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 33.02 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "SI2318DS-T1-E3"
-			(at 33.02 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cadc0c17-671f-4073-bc73-2e56a088dab2")
-		)
-		(pin "3"
-			(uuid "ad2162bd-48ca-4b9a-9269-5f461e3afadf")
-		)
-		(pin "1"
-			(uuid "cf084a51-cfcc-4746-b6e5-f0fe00dd69b2")
-		)
-		(instances
-			(project "ChargeController2.0"
-				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 176.53 71.12 270)
 		(unit 1)
@@ -17680,6 +16213,129 @@
 		)
 	)
 	(symbol
+		(lib_id "SI2318DS-T1-E3:SI2318DS-T1-E3")
+		(at 279.4 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfb2659c-de54-4e0f-9ca1-93b0675ffb6c")
+		(property "Reference" "Q11"
+			(at 262.89 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SI2318DS-T1-E3"
+			(at 262.89 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bmsfootprints:SOT95P237X102-3N"
+			(at 250.19 -33.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/SI2318DS-T1-E3.pdf"
+			(at 250.19 -133.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "VISHAY - SI2318DS-T1-E3 - N CHANNEL MOSFET, 40V, 3.9A, TO-236, FULL REEL"
+			(at 279.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.02"
+			(at 250.19 -333.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "781-SI2318DS-E3"
+			(at 250.19 -433.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2318DS-T1-E3?qs=jcx%252B0HVgj2Z%252BHqZ7%252BcFIkw%3D%3D"
+			(at 250.19 -533.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 250.19 -633.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SI2318DS-T1-E3"
+			(at 250.19 -733.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5ab7ee56-79e3-4e44-be14-89ec05f1d3a3")
+		)
+		(pin "1"
+			(uuid "f3180a80-20b7-46d1-a086-71b7b80ae71f")
+		)
+		(pin "2"
+			(uuid "b26fad75-c7a0-447f-8760-2ca5d1bd7d67")
+		)
+		(instances
+			(project "ChargeController2.0"
+				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
+					(reference "Q11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 214.63 138.43 180)
 		(unit 1)
@@ -17744,6 +16400,131 @@
 			(project "ChargeController2.0"
 				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SI2318DS-T1-E3:SI2318DS-T1-E3")
+		(at 33.02 134.62 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3a1f128-cd2c-4183-940c-ea29433a4339")
+		(property "Reference" "Q1"
+			(at 36.83 149.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SI2318DS-T1-E3"
+			(at 36.83 152.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bmsfootprints:SI2318DS-T1-E3"
+			(at -61.9 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/SI2318DS-T1-E3.pdf"
+			(at -161.9 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "VISHAY - SI2318DS-T1-E3 - N CHANNEL MOSFET, 40V, 3.9A, TO-236, FULL REEL"
+			(at 33.02 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.02"
+			(at -361.9 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "781-SI2318DS-E3"
+			(at -461.9 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2318DS-T1-E3?qs=jcx%252B0HVgj2Z%252BHqZ7%252BcFIkw%3D%3D"
+			(at -561.9 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at -661.9 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SI2318DS-T1-E3"
+			(at -761.9 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f8749b38-0b4e-46fa-9d45-64eb1e9c67c0")
+		)
+		(pin "1"
+			(uuid "2e0a5d55-ac0e-4a79-ba19-70e26ff646ee")
+		)
+		(pin "2"
+			(uuid "e35c18a0-e3e3-4e26-be6e-413a672f387c")
+		)
+		(instances
+			(project "ChargeController2.0"
+				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -18564,6 +17345,254 @@
 			(project "ChargeController2.0"
 				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SI2318DS-T1-E3:SI2318DS-T1-E3")
+		(at 200.66 39.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdba6af7-761a-47cd-af4e-15b778d9fee4")
+		(property "Reference" "Q4"
+			(at 184.15 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SI2318DS-T1-E3"
+			(at 184.15 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bmsfootprints:SI2318DS-T1-E3"
+			(at 171.45 -55.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/SI2318DS-T1-E3.pdf"
+			(at 171.45 -155.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "VISHAY - SI2318DS-T1-E3 - N CHANNEL MOSFET, 40V, 3.9A, TO-236, FULL REEL"
+			(at 200.66 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.02"
+			(at 171.45 -355.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "781-SI2318DS-E3"
+			(at 171.45 -455.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2318DS-T1-E3?qs=jcx%252B0HVgj2Z%252BHqZ7%252BcFIkw%3D%3D"
+			(at 171.45 -555.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 171.45 -655.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SI2318DS-T1-E3"
+			(at 171.45 -755.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "562534e2-e47d-40e9-beb7-c27b2b3c0c6a")
+		)
+		(pin "1"
+			(uuid "483c1ba2-3b49-4443-a8da-55e0e0e9f706")
+		)
+		(pin "2"
+			(uuid "a8bb2056-f464-4c27-b89a-84b2101de822")
+		)
+		(instances
+			(project "ChargeController2.0"
+				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SI2318DS-T1-E3:SI2318DS-T1-E3")
+		(at 33.02 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fee67447-a9fc-49f5-9703-d7721dee6ab5")
+		(property "Reference" "Q2"
+			(at 36.83 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SI2318DS-T1-E3"
+			(at 36.83 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bmsfootprints:SI2318DS-T1-E3"
+			(at -61.9 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/SI2318DS-T1-E3.pdf"
+			(at -161.9 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "VISHAY - SI2318DS-T1-E3 - N CHANNEL MOSFET, 40V, 3.9A, TO-236, FULL REEL"
+			(at 33.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.02"
+			(at -361.9 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "781-SI2318DS-E3"
+			(at -461.9 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2318DS-T1-E3?qs=jcx%252B0HVgj2Z%252BHqZ7%252BcFIkw%3D%3D"
+			(at -561.9 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at -661.9 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SI2318DS-T1-E3"
+			(at -761.9 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9c5b0a5e-8153-4e1c-adc5-b4ecbd509fb3")
+		)
+		(pin "1"
+			(uuid "6781e219-f348-4e93-9c83-73758acf91d9")
+		)
+		(pin "2"
+			(uuid "2f107cda-873f-465a-8cff-2de75fab172f")
+		)
+		(instances
+			(project ""
+				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
