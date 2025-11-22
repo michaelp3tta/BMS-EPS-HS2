@@ -3701,7 +3701,7 @@
 		(uuid "0116e019-9024-4f13-9aed-27f771987c14")
 	)
 	(junction
-		(at 86.36 109.22)
+		(at 64.77 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0323b4b7-f1c0-4f23-b12d-4e1af60882d5")
@@ -3779,7 +3779,7 @@
 		(uuid "209bb5a0-e672-4f06-8cde-6facd4ef84e0")
 	)
 	(junction
-		(at 76.2 109.22)
+		(at 54.61 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "220d000d-3644-42d4-9e05-0448655477bb")
@@ -3803,7 +3803,7 @@
 		(uuid "33877f3b-522a-42a2-802f-3153a9b2b2b6")
 	)
 	(junction
-		(at 86.36 128.27)
+		(at 64.77 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33ce895d-7668-4fe8-b6bc-baa8da295a1d")
@@ -4121,7 +4121,7 @@
 		(uuid "cf02496c-0e43-46e4-b17f-840870bb4658")
 	)
 	(junction
-		(at 92.71 128.27)
+		(at 71.12 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf0a94c7-c2f1-4cd3-b482-5f3ab94d59ec")
@@ -4566,6 +4566,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 160.02) (xy 71.12 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21545d2d-4029-49af-91cd-34d6d31f1f70")
+	)
+	(wire
+		(pts
 			(xy 104.14 99.06) (xy 104.14 104.14)
 		)
 		(stroke
@@ -4606,7 +4616,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 125.73) (xy 99.06 128.27)
+			(xy 77.47 157.48) (xy 77.47 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4746,7 +4756,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 107.95) (xy 76.2 109.22)
+			(xy 54.61 139.7) (xy 54.61 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4826,7 +4836,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 119.38) (xy 99.06 123.19)
+			(xy 77.47 151.13) (xy 77.47 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5866,7 +5876,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 127) (xy 86.36 128.27)
+			(xy 64.77 158.75) (xy 64.77 160.02)
 		)
 		(stroke
 			(width 0)
@@ -6236,7 +6246,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 109.22) (xy 76.2 109.22)
+			(xy 53.34 140.97) (xy 54.61 140.97)
 		)
 		(stroke
 			(width 0)
@@ -6283,16 +6293,6 @@
 			(type default)
 		)
 		(uuid "9513f09a-0992-44ea-85c2-06ca0a6bb6d3")
-	)
-	(wire
-		(pts
-			(xy 86.36 128.27) (xy 92.71 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9574147b-e651-4b0b-8c63-4139321450a6")
 	)
 	(wire
 		(pts
@@ -6356,7 +6356,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 128.27) (xy 92.71 129.54)
+			(xy 71.12 160.02) (xy 71.12 161.29)
 		)
 		(stroke
 			(width 0)
@@ -6596,7 +6596,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 109.22) (xy 99.06 109.22)
+			(xy 64.77 140.97) (xy 77.47 140.97)
 		)
 		(stroke
 			(width 0)
@@ -6666,7 +6666,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 109.22) (xy 86.36 114.3)
+			(xy 64.77 140.97) (xy 64.77 146.05)
 		)
 		(stroke
 			(width 0)
@@ -6836,7 +6836,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 116.84) (xy 86.36 119.38)
+			(xy 64.77 148.59) (xy 64.77 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6906,7 +6906,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 128.27) (xy 86.36 128.27)
+			(xy 54.61 160.02) (xy 64.77 160.02)
 		)
 		(stroke
 			(width 0)
@@ -6966,7 +6966,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 109.22) (xy 76.2 119.38)
+			(xy 54.61 140.97) (xy 54.61 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7046,7 +7046,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 109.22) (xy 86.36 109.22)
+			(xy 54.61 140.97) (xy 64.77 140.97)
 		)
 		(stroke
 			(width 0)
@@ -7066,7 +7066,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 128.27) (xy 92.71 128.27)
+			(xy 77.47 160.02) (xy 71.12 160.02)
 		)
 		(stroke
 			(width 0)
@@ -7146,7 +7146,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 99.06) (xy 76.2 100.33)
+			(xy 54.61 130.81) (xy 54.61 132.08)
 		)
 		(stroke
 			(width 0)
@@ -7226,7 +7226,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 127) (xy 76.2 128.27)
+			(xy 54.61 158.75) (xy 54.61 160.02)
 		)
 		(stroke
 			(width 0)
@@ -7386,7 +7386,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 99.06) (xy 78.74 101.6)
+			(xy 57.15 130.81) (xy 57.15 133.35)
 		)
 		(stroke
 			(width 0)
@@ -7606,7 +7606,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 101.6) (xy 78.74 101.6)
+			(xy 59.69 133.35) (xy 57.15 133.35)
 		)
 		(stroke
 			(width 0)
@@ -8065,7 +8065,7 @@
 		(uuid "ae4ba248-01ce-47c6-87ad-0c0f60dfd54e")
 	)
 	(label "REGN"
-		(at 81.28 101.6 0)
+		(at 59.69 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8075,7 +8075,7 @@
 		(uuid "b51066f9-d0c9-4787-9445-733e314d2c3b")
 	)
 	(label "TS"
-		(at 74.93 109.22 180)
+		(at 53.34 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8457,7 +8457,7 @@
 	)
 	(symbol
 		(lib_id "103AT-2:103AT-2")
-		(at 99.06 114.3 270)
+		(at 77.47 146.05 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8465,7 +8465,7 @@
 		(dnp no)
 		(uuid "01b6dbb9-d7b2-4e1d-84e9-47d3275a1691")
 		(property "Reference" "RT1"
-			(at 92.964 112.522 90)
+			(at 71.374 144.272 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8474,7 +8474,7 @@
 			)
 		)
 		(property "Value" "103AT-2"
-			(at 88.646 114.808 90)
+			(at 67.056 146.558 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8483,7 +8483,7 @@
 			)
 		)
 		(property "Footprint" "bmsfootprints:103AT-2"
-			(at 99.06 114.3 0)
+			(at 77.47 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8493,7 +8493,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 114.3 0)
+			(at 77.47 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8502,7 +8502,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 114.3 0)
+			(at 77.47 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8511,7 +8511,7 @@
 			)
 		)
 		(property "MF" "Semitec"
-			(at 99.06 114.3 0)
+			(at 77.47 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8521,7 +8521,7 @@
 			)
 		)
 		(property "Description_1" "Thermistor NTC 10KOhm 1% 2-Pin"
-			(at 99.06 114.3 0)
+			(at 77.47 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8531,7 +8531,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 99.06 114.3 0)
+			(at 77.47 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8541,7 +8541,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 99.06 114.3 0)
+			(at 77.47 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8551,7 +8551,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/103AT-2/Semitec/view-part/?ref=snap"
-			(at 99.06 114.3 0)
+			(at 77.47 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8561,7 +8561,7 @@
 			)
 		)
 		(property "MP" "103AT-2"
-			(at 99.06 114.3 0)
+			(at 77.47 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8571,7 +8571,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 99.06 114.3 0)
+			(at 77.47 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8581,7 +8581,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/103AT-2/Semitec/view-part/?ref=eda"
-			(at 99.06 114.3 0)
+			(at 77.47 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12471,7 +12471,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 92.71 129.54 0)
+		(at 71.12 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12479,7 +12479,7 @@
 		(dnp no)
 		(uuid "744b4de5-51d8-4166-8c60-9401c6689b7e")
 		(property "Reference" "#PWR023"
-			(at 92.71 135.89 0)
+			(at 71.12 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12488,7 +12488,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.266 131.318 0)
+			(at 74.676 163.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12496,7 +12496,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 129.54 0)
+			(at 71.12 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12505,7 +12505,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 129.54 0)
+			(at 71.12 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12514,7 +12514,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 129.54 0)
+			(at 71.12 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12669,7 +12669,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 93.98 123.19 0)
+		(at 72.39 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12677,7 +12677,7 @@
 		(dnp no)
 		(uuid "7d863003-46c4-4466-95fa-2485deef8f89")
 		(property "Reference" "J8"
-			(at 92.71 121.92 0)
+			(at 71.12 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12685,7 +12685,7 @@
 			)
 		)
 		(property "Value" "Conn-1x2"
-			(at 92.964 119.888 0)
+			(at 71.374 151.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12693,7 +12693,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 93.98 123.19 0)
+			(at 72.39 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12702,7 +12702,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 123.19 0)
+			(at 72.39 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12711,7 +12711,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 93.98 123.19 0)
+			(at 72.39 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12805,7 +12805,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 86.36 123.19 180)
+		(at 64.77 154.94 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12813,7 +12813,7 @@
 		(dnp no)
 		(uuid "8163393f-93ff-406b-a64f-acb6367c2bc0")
 		(property "Reference" "R26"
-			(at 81.026 121.666 0)
+			(at 59.436 153.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12822,7 +12822,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 81.534 123.952 0)
+			(at 59.944 155.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12831,7 +12831,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 88.138 123.19 90)
+			(at 66.548 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12840,7 +12840,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 123.19 0)
+			(at 64.77 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12849,7 +12849,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 86.36 123.19 0)
+			(at 64.77 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13700,7 +13700,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 76.2 104.14 180)
+		(at 54.61 135.89 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13708,7 +13708,7 @@
 		(dnp no)
 		(uuid "9a592b05-08bd-4461-97c7-29c9bbaae6e7")
 		(property "Reference" "R25"
-			(at 77.978 103.632 0)
+			(at 56.388 135.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13717,7 +13717,7 @@
 			)
 		)
 		(property "Value" "5.23k"
-			(at 77.724 105.664 0)
+			(at 56.134 137.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13726,7 +13726,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 77.978 104.14 90)
+			(at 56.388 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13735,7 +13735,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 104.14 0)
+			(at 54.61 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13744,7 +13744,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 76.2 104.14 0)
+			(at 54.61 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14711,7 +14711,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 78.74 93.98 270)
+		(at 57.15 125.73 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14719,7 +14719,7 @@
 		(dnp no)
 		(uuid "b366fe4f-d7e0-4b40-9933-200de76f91c8")
 		(property "Reference" "J7"
-			(at 79.756 95.25 90)
+			(at 58.166 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14728,7 +14728,7 @@
 			)
 		)
 		(property "Value" "Conn-1x2"
-			(at 79.502 97.282 90)
+			(at 57.912 129.032 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14737,7 +14737,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 78.74 93.98 0)
+			(at 57.15 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14746,7 +14746,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 93.98 0)
+			(at 57.15 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14755,7 +14755,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 78.74 93.98 0)
+			(at 57.15 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16409,7 +16409,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 81.28 114.3 0)
+		(at 59.69 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16417,7 +16417,7 @@
 		(dnp no)
 		(uuid "cb577f74-e722-48f4-bf2d-d4f3d2bd9069")
 		(property "Reference" "J6"
-			(at 79.502 113.792 0)
+			(at 57.912 145.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16425,7 +16425,7 @@
 			)
 		)
 		(property "Value" "Conn-1x2"
-			(at 81.534 111.76 0)
+			(at 59.944 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16433,7 +16433,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 81.28 114.3 0)
+			(at 59.69 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16442,7 +16442,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 114.3 0)
+			(at 59.69 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16451,7 +16451,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 81.28 114.3 0)
+			(at 59.69 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18509,7 +18509,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 76.2 123.19 180)
+		(at 54.61 154.94 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18517,7 +18517,7 @@
 		(dnp no)
 		(uuid "f55daf39-3530-4250-8bdd-8d7acca4142b")
 		(property "Reference" "R24"
-			(at 71.12 121.92 0)
+			(at 49.53 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18526,7 +18526,7 @@
 			)
 		)
 		(property "Value" "30.1k"
-			(at 69.596 125.222 0)
+			(at 48.006 156.972 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18535,7 +18535,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 77.978 123.19 90)
+			(at 56.388 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18544,7 +18544,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 123.19 0)
+			(at 54.61 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18553,7 +18553,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 76.2 123.19 0)
+			(at 54.61 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
