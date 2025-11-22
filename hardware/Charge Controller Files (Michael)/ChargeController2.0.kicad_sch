@@ -615,7 +615,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "AONS66614_1"
+		(symbol "AONS66614:AONS66614"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -647,7 +647,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/ALOM/ALOM-S-A0020443660/ALOM-S-A0020443776-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0"
+			(property "Datasheet" "https://www.arrow.com/en/products/aons66614/alpha-and-omega-semiconductor?utm_currency=USD&region=nac"
 				(at 21.59 -194.92 0)
 				(effects
 					(font
@@ -676,7 +676,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
+			(property "Arrow Part Number" "AONS66614"
 				(at 21.59 -494.92 0)
 				(effects
 					(font
@@ -686,7 +686,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "AONS66614"
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/aons66614/alpha-and-omega-semiconductor?utm_currency=USD&region=nac"
 				(at 21.59 -594.92 0)
 				(effects
 					(font
@@ -696,7 +696,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" ""
+			(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
 				(at 21.59 -694.92 0)
 				(effects
 					(font
@@ -706,7 +706,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" ""
+			(property "Manufacturer_Part_Number" "AONS66614"
 				(at 21.59 -794.92 0)
 				(effects
 					(font
@@ -716,27 +716,7 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" ""
-				(at 21.59 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 21.59 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "AONS66614_1_1_1"
+			(symbol "AONS66614_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 20.32 -12.7)
@@ -3791,6 +3771,12 @@
 		(uuid "248dca1d-3c5e-4bb3-8899-c91c77488277")
 	)
 	(junction
+		(at 134.62 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e1444da-4066-4b68-a8e9-10d3bc90ccea")
+	)
+	(junction
 		(at 104.14 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3887,12 +3873,6 @@
 		(uuid "6c97b176-d00e-4563-b03d-993cf67ecc35")
 	)
 	(junction
-		(at 105.41 16.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "732ac4f8-42d5-49dd-82f9-f8bf2d9490fe")
-	)
-	(junction
 		(at 222.25 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3983,22 +3963,16 @@
 		(uuid "951ba984-5569-4543-ba30-cfb46bb4c902")
 	)
 	(junction
-		(at 100.33 16.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9571c692-36ab-4d5e-95cb-e55eafe3aba3")
-	)
-	(junction
 		(at 201.93 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "999b1d34-3e96-42c8-b3c5-28a0d21fc828")
 	)
 	(junction
-		(at 134.62 16.51)
+		(at 102.87 16.51)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9aa8205d-2e1e-4dfa-970f-7e5b88cc09c6")
+		(uuid "9e2d099a-f126-4f22-a631-207885173096")
 	)
 	(junction
 		(at 252.73 134.62)
@@ -4011,18 +3985,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a248dbfc-3aad-4a2a-b52a-8e56a35614dd")
-	)
-	(junction
-		(at 102.87 16.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a365bcb6-5091-4d5f-b626-ac61b791ec73")
-	)
-	(junction
-		(at 132.08 16.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a38531c8-8de5-4a1f-975f-fae4e5a066dd")
 	)
 	(junction
 		(at 229.87 19.05)
@@ -4041,6 +4003,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a96064fb-e7a3-4059-9fb4-554e55327d1b")
+	)
+	(junction
+		(at 132.08 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9ef10ff-c71f-4674-a4bf-214ca0640d0b")
 	)
 	(junction
 		(at 39.37 33.02)
@@ -4145,6 +4113,12 @@
 		(uuid "d236838e-7b25-47ef-8cbb-61a04996c0a7")
 	)
 	(junction
+		(at 100.33 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4d2dafb-453b-45d6-ab2c-4bb693e63926")
+	)
+	(junction
 		(at 185.42 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4199,6 +4173,12 @@
 		(uuid "f9e209fd-daa1-4afd-ac2e-1eee9247f0a8")
 	)
 	(junction
+		(at 105.41 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa5fcb19-a726-4dab-b018-9a837209710b")
+	)
+	(junction
 		(at 26.67 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4233,6 +4213,16 @@
 			(type default)
 		)
 		(uuid "01f4b18f-49c4-4004-ae18-1bc7d1a26f1a")
+	)
+	(wire
+		(pts
+			(xy 102.87 16.51) (xy 105.41 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0431341a-9848-44e4-a827-0687c1736cd7")
 	)
 	(wire
 		(pts
@@ -4716,16 +4706,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 16.51) (xy 134.62 16.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c512311-e58d-49c8-9d6d-cdd8cfaeba1f")
-	)
-	(wire
-		(pts
 			(xy 71.12 62.23) (xy 71.12 60.96)
 		)
 		(stroke
@@ -5056,6 +5036,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 16.51) (xy 144.78 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4182d627-b1d4-4ddd-812c-52b46d685b64")
+	)
+	(wire
+		(pts
 			(xy 175.26 191.77) (xy 172.72 191.77)
 		)
 		(stroke
@@ -5316,6 +5306,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 16.51) (xy 102.87 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f780f43-d21f-4ebd-b04c-89cf011e9912")
+	)
+	(wire
+		(pts
 			(xy 53.34 24.13) (xy 53.34 26.67)
 		)
 		(stroke
@@ -5373,16 +5373,6 @@
 			(type default)
 		)
 		(uuid "5289dc1a-8d8e-4326-bd17-837f0ac38535")
-	)
-	(wire
-		(pts
-			(xy 102.87 16.51) (xy 100.33 16.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52b86e62-5331-4e33-b877-5b2c6869cca7")
 	)
 	(wire
 		(pts
@@ -5583,16 +5573,6 @@
 			(type default)
 		)
 		(uuid "5da085a6-1105-476a-9963-fcf69a8bf2a8")
-	)
-	(wire
-		(pts
-			(xy 90.17 16.51) (xy 100.33 16.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e108e43-b438-44c5-bd25-847370f48bd9")
 	)
 	(wire
 		(pts
@@ -5926,7 +5906,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 16.51) (xy 102.87 16.51)
+			(xy 90.17 16.51) (xy 100.33 16.51)
 		)
 		(stroke
 			(width 0)
@@ -6263,6 +6243,16 @@
 			(type default)
 		)
 		(uuid "90fed5b0-2cc2-4960-9161-18e0687cb802")
+	)
+	(wire
+		(pts
+			(xy 132.08 16.51) (xy 134.62 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9186623f-7980-482d-9837-1df3f0c90618")
 	)
 	(wire
 		(pts
@@ -6826,6 +6816,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 16.51) (xy 114.3 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc32a66a-d878-4ae8-8c3a-546451bc10d1")
+	)
+	(wire
+		(pts
 			(xy 238.76 36.83) (xy 240.03 36.83)
 		)
 		(stroke
@@ -6993,16 +6993,6 @@
 			(type default)
 		)
 		(uuid "ca6577a7-e60b-4a0b-9bb2-4d01ce163392")
-	)
-	(wire
-		(pts
-			(xy 114.3 16.51) (xy 105.41 16.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cac541e5-afb8-4936-825d-cddce0c97f70")
 	)
 	(wire
 		(pts
@@ -7553,16 +7543,6 @@
 			(type default)
 		)
 		(uuid "f1dae506-2b13-4bdb-aa02-05f503efed47")
-	)
-	(wire
-		(pts
-			(xy 144.78 16.51) (xy 134.62 16.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4011a6f-5f10-4f5d-a28a-c9444cbf6a3d")
 	)
 	(wire
 		(pts
@@ -9693,6 +9673,146 @@
 		)
 	)
 	(symbol
+		(lib_id "AONS66614:AONS66614")
+		(at 129.54 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1be7d2b6-6ae7-43a1-ad9c-5474c0237534")
+		(property "Reference" "Q8"
+			(at 143.51 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "AONS66614"
+			(at 143.51 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "bmsfootprints:AON6482"
+			(at 224.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/aons66614/alpha-and-omega-semiconductor?utm_currency=USD&region=nac"
+			(at 324.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "60V N-Channel AlphaSGT TM"
+			(at 129.54 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.05"
+			(at 524.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "AONS66614"
+			(at 624.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/aons66614/alpha-and-omega-semiconductor?utm_currency=USD&region=nac"
+			(at 724.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
+			(at 824.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AONS66614"
+			(at 924.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "eadac112-bf93-49e4-93d0-04d83ac54063")
+		)
+		(pin "2"
+			(uuid "033c4a2a-dbe9-43de-b6b4-35949046a769")
+		)
+		(pin "4"
+			(uuid "2bb9e5a6-ad66-4a2c-953b-849e726716e8")
+		)
+		(pin "8"
+			(uuid "cf5cc45c-77b7-4859-835b-7eb7d8a27048")
+		)
+		(pin "1"
+			(uuid "ad38e8c5-59d2-4b6b-bc1f-6bbfebcbe679")
+		)
+		(pin "3"
+			(uuid "7dde42b7-83fd-49e4-92d7-6c7f2aee7479")
+		)
+		(pin "5"
+			(uuid "75878b40-5876-473f-85b5-85219639d1ac")
+		)
+		(pin "7"
+			(uuid "dc0f46ca-cb50-4163-8062-dfab5ee46120")
+		)
+		(instances
+			(project "ChargeController2.0"
+				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 167.64 95.25 0)
 		(unit 1)
@@ -10043,164 +10163,6 @@
 			(project "ChargeController2.0"
 				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "AONS66614_1")
-		(lib_id "AONS66614:AONS66614")
-		(at 100.33 41.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "246cc20c-5441-4849-8992-e3cdadda5fd1")
-		(property "Reference" "Q5"
-			(at 96.774 28.956 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AONS66614"
-			(at 94.488 28.956 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bmsfootprints:AON6482"
-			(at 195.25 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/ALOM/ALOM-S-A0020443660/ALOM-S-A0020443776-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0"
-			(at 295.25 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "60V N-Channel AlphaSGT TM"
-			(at 100.33 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.05"
-			(at 495.25 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
-			(at 595.25 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AONS66614"
-			(at 695.25 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 795.25 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 895.25 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 995.25 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 1095.25 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "801544bc-75fe-43bd-984e-274baefeec91")
-		)
-		(pin "3"
-			(uuid "81aa5749-ec3d-4ae5-bab3-ecf9a3d000ae")
-		)
-		(pin "4"
-			(uuid "fa9e436e-6a3e-4639-b191-67830324cb0e")
-		)
-		(pin "5"
-			(uuid "78bfbfac-0bc2-4e02-9e70-98b0ac8f2299")
-		)
-		(pin "6"
-			(uuid "450c922a-c72a-40e5-9d0c-5e2cbe8263e5")
-		)
-		(pin "7"
-			(uuid "3b46e222-2e5f-43b7-bda9-a384ea6c1a7e")
-		)
-		(pin "8"
-			(uuid "ee1e952e-62c8-4165-9ff9-694f9dd17aa9")
-		)
-		(pin "2"
-			(uuid "999b4d00-a222-4eb7-bf11-071203ff428c")
-		)
-		(instances
-			(project "ChargeController2.0"
-				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
-					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -10880,6 +10842,146 @@
 			(project "ChargeController2.0"
 				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
 					(reference "R_ILIM_HIZ1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AONS66614:AONS66614")
+		(at 100.33 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42761776-64b2-400c-9423-c87e0c54586a")
+		(property "Reference" "Q7"
+			(at 114.3 66.0399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "AONS66614"
+			(at 114.3 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "bmsfootprints:AON6482"
+			(at 195.25 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/aons66614/alpha-and-omega-semiconductor?utm_currency=USD&region=nac"
+			(at 295.25 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "60V N-Channel AlphaSGT TM"
+			(at 100.33 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.05"
+			(at 495.25 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "AONS66614"
+			(at 595.25 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/aons66614/alpha-and-omega-semiconductor?utm_currency=USD&region=nac"
+			(at 695.25 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
+			(at 795.25 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AONS66614"
+			(at 895.25 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "247b840b-2e8b-418d-947c-d25fa747020c")
+		)
+		(pin "2"
+			(uuid "1b4964ae-6e91-4921-9b2f-656a1b29650f")
+		)
+		(pin "4"
+			(uuid "9bd561c8-1b21-4c59-b83b-9b9643ea5820")
+		)
+		(pin "8"
+			(uuid "d51f15f4-ee25-4f6b-a479-1d682dbc8353")
+		)
+		(pin "1"
+			(uuid "871b7c78-94cb-471c-a796-933be356bf3f")
+		)
+		(pin "3"
+			(uuid "7db0b422-8719-4ec3-a106-b7ba0db323a9")
+		)
+		(pin "5"
+			(uuid "4893634f-ad29-4bfb-809c-2f2843259d94")
+		)
+		(pin "7"
+			(uuid "fbf63278-5e96-4a65-95e8-3ed214b53de8")
+		)
+		(instances
+			(project "ChargeController2.0"
+				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -12042,164 +12144,6 @@
 		)
 	)
 	(symbol
-		(lib_name "AONS66614_1")
-		(lib_id "AONS66614:AONS66614")
-		(at 100.33 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6692e734-ab76-45a4-94a8-61d6a35c363b")
-		(property "Reference" "Q7"
-			(at 96.774 67.056 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AONS66614"
-			(at 94.488 67.056 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bmsfootprints:AON6482"
-			(at 195.25 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/ALOM/ALOM-S-A0020443660/ALOM-S-A0020443776-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0"
-			(at 295.25 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "60V N-Channel AlphaSGT TM"
-			(at 100.33 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.05"
-			(at 495.25 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
-			(at 595.25 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AONS66614"
-			(at 695.25 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 795.25 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 895.25 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 995.25 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 1095.25 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6a0410a-92ae-4261-83a3-738c065e3d40")
-		)
-		(pin "3"
-			(uuid "e034d27b-1a2e-4f6b-b30d-4d9a8a773afc")
-		)
-		(pin "4"
-			(uuid "9d05a040-2514-4723-8b25-2e249e3ff81e")
-		)
-		(pin "5"
-			(uuid "4a97333f-9259-45fc-b4fb-1c28d4bd904b")
-		)
-		(pin "6"
-			(uuid "50a350d1-9e60-45a3-a58e-eb1aa8a4b6df")
-		)
-		(pin "7"
-			(uuid "a4c16038-854f-452b-95fb-4db2043b7e8d")
-		)
-		(pin "8"
-			(uuid "42ef8c58-57e1-476c-aa5e-86b6f233e3d1")
-		)
-		(pin "2"
-			(uuid "dae621f3-541e-46df-afe4-11758404d8b7")
-		)
-		(instances
-			(project "ChargeController2.0"
-				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 243.84 139.7 180)
 		(unit 1)
@@ -12735,6 +12679,146 @@
 		)
 	)
 	(symbol
+		(lib_id "AONS66614:AONS66614")
+		(at 100.33 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d8ae8c4-ae74-4edd-b3ac-3d70f2b8178d")
+		(property "Reference" "Q5"
+			(at 114.3 27.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "AONS66614"
+			(at 114.3 30.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "bmsfootprints:AON6482"
+			(at 195.25 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/aons66614/alpha-and-omega-semiconductor?utm_currency=USD&region=nac"
+			(at 295.25 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "60V N-Channel AlphaSGT TM"
+			(at 100.33 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.05"
+			(at 495.25 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "AONS66614"
+			(at 595.25 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/aons66614/alpha-and-omega-semiconductor?utm_currency=USD&region=nac"
+			(at 695.25 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
+			(at 795.25 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AONS66614"
+			(at 895.25 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "da18fc96-2022-4e10-acff-d86ca03fa13c")
+		)
+		(pin "2"
+			(uuid "35c68b00-36cd-4228-989f-2af3fc8d3b5f")
+		)
+		(pin "4"
+			(uuid "9f7cad76-ecda-4e2d-ad5f-9d97434ae81f")
+		)
+		(pin "8"
+			(uuid "a8c577ec-8e04-425e-a894-6acbe71817da")
+		)
+		(pin "1"
+			(uuid "22f1a452-0296-4d84-a03f-28b2c436e164")
+		)
+		(pin "3"
+			(uuid "99cf1f46-7f93-45aa-b101-9c64c317c92d")
+		)
+		(pin "5"
+			(uuid "5f16081e-1318-4d36-a193-54c87755c86d")
+		)
+		(pin "7"
+			(uuid "32973b2a-4e29-42ec-8e3c-39e3203c8be8")
+		)
+		(instances
+			(project ""
+				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 247.65 80.01 0)
 		(unit 1)
@@ -12798,6 +12882,146 @@
 			(project ""
 				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AONS66614:AONS66614")
+		(at 129.54 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80ca73c7-ed44-4610-b177-832fff573641")
+		(property "Reference" "Q6"
+			(at 143.51 27.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "AONS66614"
+			(at 143.51 30.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "bmsfootprints:AON6482"
+			(at 224.46 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/aons66614/alpha-and-omega-semiconductor?utm_currency=USD&region=nac"
+			(at 324.46 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "60V N-Channel AlphaSGT TM"
+			(at 129.54 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.05"
+			(at 524.46 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "AONS66614"
+			(at 624.46 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/aons66614/alpha-and-omega-semiconductor?utm_currency=USD&region=nac"
+			(at 724.46 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
+			(at 824.46 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AONS66614"
+			(at 924.46 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "2f345ea6-888e-4241-b1c1-653da983a28b")
+		)
+		(pin "2"
+			(uuid "79956737-5259-4457-af0e-31fa81aa8472")
+		)
+		(pin "4"
+			(uuid "c18617d0-bfb5-4a99-b882-e0a0945dd10b")
+		)
+		(pin "8"
+			(uuid "59c0ca72-1ee6-4e8b-b69f-75f6cd5101a9")
+		)
+		(pin "1"
+			(uuid "8dbb50cd-d915-42c8-a517-b7493e587440")
+		)
+		(pin "3"
+			(uuid "25cf60c6-b60b-4a40-a3ad-9aa572c88852")
+		)
+		(pin "5"
+			(uuid "def6dc9e-a5d1-4cd8-8800-725d5a57ec30")
+		)
+		(pin "7"
+			(uuid "644563e1-0b5d-4095-93d4-db2aa350ca33")
+		)
+		(instances
+			(project "ChargeController2.0"
+				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -13768,164 +13992,6 @@
 		)
 	)
 	(symbol
-		(lib_name "AONS66614_1")
-		(lib_id "AONS66614:AONS66614")
-		(at 129.54 41.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9b23e582-7f98-4ee8-a288-1e3971d8011e")
-		(property "Reference" "Q6"
-			(at 125.984 28.956 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AONS66614"
-			(at 123.698 28.956 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bmsfootprints:AON6482"
-			(at 224.46 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/ALOM/ALOM-S-A0020443660/ALOM-S-A0020443776-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0"
-			(at 324.46 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "60V N-Channel AlphaSGT TM"
-			(at 129.54 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.05"
-			(at 524.46 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
-			(at 624.46 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AONS66614"
-			(at 724.46 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 824.46 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 924.46 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 1024.46 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 1124.46 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1ed83c7c-403b-4368-9f7b-71a19a757e16")
-		)
-		(pin "3"
-			(uuid "122f42d7-41d8-4de4-b27d-95462083742d")
-		)
-		(pin "4"
-			(uuid "e0c5bc64-31b0-4a3f-8ffc-5223e88c4a47")
-		)
-		(pin "5"
-			(uuid "2f9d3248-0cac-4470-bb1b-9eb6e1640e94")
-		)
-		(pin "6"
-			(uuid "3ba7f7fb-3a0c-450a-a601-cc36a29fd0e6")
-		)
-		(pin "7"
-			(uuid "4c40e6c1-75ad-40a0-a1f6-d5ff57187a1e")
-		)
-		(pin "8"
-			(uuid "cc86c227-1cb0-473a-98e6-a63d048455e1")
-		)
-		(pin "2"
-			(uuid "824142b4-8447-469e-98d4-5828e5e2c20e")
-		)
-		(instances
-			(project ""
-				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 71.12 50.8 0)
 		(unit 1)
@@ -14773,164 +14839,6 @@
 			(project "ChargeController2.0"
 				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
 					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "AONS66614_1")
-		(lib_id "AONS66614:AONS66614")
-		(at 129.54 81.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b46c54f0-8d4c-4d64-bcd0-b51b7f006fa9")
-		(property "Reference" "Q8"
-			(at 125.984 68.326 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AONS66614"
-			(at 123.698 68.326 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bmsfootprints:AON6482"
-			(at 224.46 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/ALOM/ALOM-S-A0020443660/ALOM-S-A0020443776-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0"
-			(at 324.46 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "60V N-Channel AlphaSGT TM"
-			(at 129.54 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.05"
-			(at 524.46 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
-			(at 624.46 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AONS66614"
-			(at 724.46 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 824.46 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 924.46 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 1024.46 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 1124.46 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a218a4f-0de1-4dad-873a-5d60c8bcea33")
-		)
-		(pin "3"
-			(uuid "96f9fa5b-d3ec-4ee5-b122-2a2a6b1dad0d")
-		)
-		(pin "4"
-			(uuid "223161eb-6b70-48dd-945f-a939c4a81f36")
-		)
-		(pin "5"
-			(uuid "2aaf63bf-4090-4b94-9a36-489f30c7baef")
-		)
-		(pin "6"
-			(uuid "5fe13790-50ab-4f37-b237-ed7d7651b83c")
-		)
-		(pin "7"
-			(uuid "66d1b45e-85dc-48e5-897e-2b002567255e")
-		)
-		(pin "8"
-			(uuid "f85735e3-e5b7-4a34-9dd4-84dbf83e31d4")
-		)
-		(pin "2"
-			(uuid "a6c524ee-1ed1-4ba4-8107-1be2bd12a450")
-		)
-		(instances
-			(project "ChargeController2.0"
-				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
-					(reference "Q8")
 					(unit 1)
 				)
 			)
