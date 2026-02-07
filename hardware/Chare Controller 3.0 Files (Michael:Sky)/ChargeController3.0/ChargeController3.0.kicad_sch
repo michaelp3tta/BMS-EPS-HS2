@@ -1,0 +1,276 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a54826c2-d365-4450-b7a8-71945dba02c0")
+	(paper "A4")
+	(lib_symbols)
+	(text "Battery Management System\n"
+		(exclude_from_sim no)
+		(at 54.356 16.764 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "0591f4a2-32be-481c-a2a0-4354f712aa1e")
+	)
+	(sheet
+		(at 157.48 107.188)
+		(size 24.13 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0abfe1b7-b2c5-435a-836b-f8738c6d6c05")
+		(property "Sheetname" "Temperature Management"
+			(at 157.48 106.4764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TempManager.kicad_sch"
+			(at 157.48 129.3626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ChargeController3.0"
+				(path "/a54826c2-d365-4450-b7a8-71945dba02c0"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.452 77.47)
+		(size 39.116 35.306)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1a06612a-f5de-4723-89a9-e836b895f94e")
+		(property "Sheetname" "Inhibits, Inputs"
+			(at 60.452 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "inhibits.kicad_sch"
+			(at 60.452 113.3606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ChargeController3.0"
+				(path "/a54826c2-d365-4450-b7a8-71945dba02c0"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.316 35.052)
+		(size 34.544 31.242)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "29f953ff-7d4e-4faa-b64e-2892e2a5e55a")
+		(property "Sheetname" "Buck Converter"
+			(at 115.316 34.3404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BuckConverter.kicad_sch"
+			(at 115.316 66.8786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ChargeController3.0"
+				(path "/a54826c2-d365-4450-b7a8-71945dba02c0"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 157.988 78.486)
+		(size 22.86 20.574)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8779625f-bbe1-4b47-be0c-e79d9164e4be")
+		(property "Sheetname" "Communication Interface"
+			(at 157.988 77.7744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CommInterface.kicad_sch"
+			(at 157.988 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ChargeController3.0"
+				(path "/a54826c2-d365-4450-b7a8-71945dba02c0"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 77.724)
+		(size 34.036 35.306)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9cc11239-a5da-4d64-84b9-35bfc57c50fe")
+		(property "Sheetname" "BQ25756E"
+			(at 115.57 77.0124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BQ25756E.kicad_sch"
+			(at 115.57 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ChargeController3.0"
+				(path "/a54826c2-d365-4450-b7a8-71945dba02c0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.332 120.142)
+		(size 33.274 32.258)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e0d94fc4-66f1-49e4-9d34-febf8dbdc1e6")
+		(property "Sheetname" "Grounding"
+			(at 116.332 119.4304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ground.kicad_sch"
+			(at 116.332 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ChargeController3.0"
+				(path "/a54826c2-d365-4450-b7a8-71945dba02c0"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
