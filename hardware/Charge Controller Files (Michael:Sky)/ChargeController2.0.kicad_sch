@@ -3604,12 +3604,13 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Vishay SI2318CDS-T1-GE3 N-channel MOSFET Transistor, 5.6 A, 40 V, 3-Pin SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -3634,16 +3635,6 @@
 				)
 			)
 			(property "MOUSER_PRICE-STOCK" "https://www.mouser.com/Search/Refine.aspx?Keyword=781-SI2318CDS-T1-GE3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "DESCRIPTION" "Vishay SI2318CDS-T1-GE3 N-channel MOSFET Transistor, 5.6 A, 40 V, 3-Pin SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4589,12 +4580,6 @@
 		(uuid "33ce895d-7668-4fe8-b6bc-baa8da295a1d")
 	)
 	(junction
-		(at 229.87 19.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37cf90e0-70a1-4261-b827-1c8c834b36a7")
-	)
-	(junction
 		(at 144.78 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4607,10 +4592,16 @@
 		(uuid "3b458582-89e6-46cf-b134-e453951e92c9")
 	)
 	(junction
+		(at 229.87 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4577f380-593a-4c28-aa01-727bd7b3af95")
+	)
+	(junction
 		(at 256.54 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3d79da7b-841f-404c-b66f-666ed2172f7b")
+		(uuid "48e81bd9-0d25-4af0-a974-ee72300f7df2")
 	)
 	(junction
 		(at 102.87 83.82)
@@ -5095,16 +5086,6 @@
 			(type default)
 		)
 		(uuid "0883a47b-43d9-4b5e-b4a1-06a290de0d67")
-	)
-	(wire
-		(pts
-			(xy 248.92 16.51) (xy 252.73 16.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09e8297c-035d-4f10-a693-e9b5049f78e9")
 	)
 	(wire
 		(pts
@@ -5618,6 +5599,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 59.69) (xy 256.54 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3413434a-2e3d-4a7e-8d40-3a0dd6e78ff3")
+	)
+	(wire
+		(pts
 			(xy 77.47 151.13) (xy 77.47 154.94)
 		)
 		(stroke
@@ -5675,6 +5666,16 @@
 			(type default)
 		)
 		(uuid "35796919-9530-4175-b0f5-87c1f14ff12b")
+	)
+	(wire
+		(pts
+			(xy 281.94 39.37) (xy 281.94 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35dab8f9-532f-42f6-8252-8fee0f02a42b")
 	)
 	(wire
 		(pts
@@ -5755,16 +5756,6 @@
 			(type default)
 		)
 		(uuid "3b1667a0-b788-452d-866c-a662f51716ae")
-	)
-	(wire
-		(pts
-			(xy 248.92 21.59) (xy 251.46 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c404687-e42e-4fd4-a104-03e69c5ed161")
 	)
 	(wire
 		(pts
@@ -5898,16 +5889,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 19.05) (xy 233.68 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44453d7b-1a02-4a46-acc0-376f12eaae64")
-	)
-	(wire
-		(pts
 			(xy 132.08 81.28) (xy 132.08 82.55)
 		)
 		(stroke
@@ -5975,6 +5956,16 @@
 			(type default)
 		)
 		(uuid "46f430c5-9ec3-439c-9e79-321c6a8ceca8")
+	)
+	(wire
+		(pts
+			(xy 254 16.51) (xy 256.54 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48b5ead7-d507-4a00-949a-5bfb199521b9")
 	)
 	(wire
 		(pts
@@ -6095,6 +6086,16 @@
 			(type default)
 		)
 		(uuid "4f24cd77-5c7b-418b-83c6-bb408daa41b9")
+	)
+	(wire
+		(pts
+			(xy 234.95 13.97) (xy 238.76 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f36dbbd-a08e-415c-95ed-112818cfbcf4")
 	)
 	(wire
 		(pts
@@ -6235,6 +6236,16 @@
 			(type default)
 		)
 		(uuid "58f046c7-5da6-4861-8df7-4579386945b1")
+	)
+	(wire
+		(pts
+			(xy 256.54 59.69) (xy 256.54 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a41a3fa-8197-4abc-a6e0-02508d497962")
 	)
 	(wire
 		(pts
@@ -6628,6 +6639,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 13.97) (xy 234.95 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7704b2dc-0caf-4790-98b0-e6ad174a54ea")
+	)
+	(wire
+		(pts
 			(xy 100.33 16.51) (xy 102.87 16.51)
 		)
 		(stroke
@@ -6988,6 +7009,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 50.8) (xy 266.7 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90697014-c37d-450c-9812-0888434de00c")
+	)
+	(wire
+		(pts
 			(xy 124.46 83.82) (xy 129.54 83.82)
 		)
 		(stroke
@@ -7148,6 +7179,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 52.07) (xy 265.43 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eac0f7f-8697-40ee-8abc-82500366b5b8")
+	)
+	(wire
+		(pts
 			(xy 102.87 83.82) (xy 105.41 83.82)
 		)
 		(stroke
@@ -7185,6 +7226,16 @@
 			(type default)
 		)
 		(uuid "a27a473b-6a5f-423a-8484-17ae71599a89")
+	)
+	(wire
+		(pts
+			(xy 275.59 59.69) (xy 281.94 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3ca4a59-2925-4fd4-9cdf-25248755afbc")
 	)
 	(wire
 		(pts
@@ -7348,16 +7399,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 58.42) (xy 281.94 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "add8e804-147b-4c87-bf45-b49410814e1f")
-	)
-	(wire
-		(pts
 			(xy 48.26 82.55) (xy 48.26 83.82)
 		)
 		(stroke
@@ -7505,16 +7546,6 @@
 			(type default)
 		)
 		(uuid "b6ea58eb-ef04-4dbc-b771-f1b8e7acc900")
-	)
-	(wire
-		(pts
-			(xy 281.94 58.42) (xy 281.94 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b76adbe9-150c-43e1-bf4b-e1d0eb805a65")
 	)
 	(wire
 		(pts
@@ -8098,16 +8129,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 66.04) (xy 270.51 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e12ca220-4762-4d9c-a4e4-8852f986d436")
-	)
-	(wire
-		(pts
 			(xy 166.37 38.1) (xy 175.26 38.1)
 		)
 		(stroke
@@ -8488,13 +8509,13 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 58.42) (xy 256.54 71.12)
+			(xy 229.87 19.05) (xy 238.76 19.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f898883d-2717-48ba-8d65-44e9ff1682cf")
+		(uuid "f89eabd8-e4f3-4a39-8ff7-23e38e47b449")
 	)
 	(wire
 		(pts
@@ -8707,7 +8728,7 @@
 		(uuid "3f605fd3-1c58-4ed7-b420-34bc70791385")
 	)
 	(label "EN"
-		(at 270.51 66.04 0)
+		(at 266.7 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9047,7 +9068,7 @@
 		(uuid "ce8eaa19-59cd-4698-ac81-33d3ac452567")
 	)
 	(label "EN"
-		(at 252.73 16.51 0)
+		(at 256.54 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11404,7 +11425,7 @@
 	)
 	(symbol
 		(lib_id "SI2318CDS-T1-GE3:SI2318CDS-T1-GE3")
-		(at 266.7 66.04 90)
+		(at 265.43 52.07 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11412,7 +11433,7 @@
 		(dnp no)
 		(uuid "41060008-5cac-4bf2-8789-f4fe8bfe7b2e")
 		(property "Reference" "Q11"
-			(at 265.938 51.308 90)
+			(at 266.192 66.802 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11421,7 +11442,7 @@
 			)
 		)
 		(property "Value" "SI2318CDS-T1-GE3"
-			(at 274.066 53.848 90)
+			(at 258.064 64.262 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11430,7 +11451,7 @@
 			)
 		)
 		(property "Footprint" "bmsfootprints:SI2318CDS-T1-GE3"
-			(at 266.7 66.04 0)
+			(at 265.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11440,7 +11461,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 66.04 0)
+			(at 265.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11449,7 +11470,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 266.7 66.04 0)
+			(at 265.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11458,7 +11479,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" "Vishay"
-			(at 266.7 66.04 0)
+			(at 265.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11468,7 +11489,7 @@
 			)
 		)
 		(property "MF" "Vishay Siliconix"
-			(at 266.7 66.04 0)
+			(at 265.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11478,7 +11499,7 @@
 			)
 		)
 		(property "MOUSER_PRICE-STOCK" "https://www.mouser.com/Search/Refine.aspx?Keyword=781-SI2318CDS-T1-GE3"
-			(at 266.7 66.04 0)
+			(at 265.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11488,7 +11509,7 @@
 			)
 		)
 		(property "DESCRIPTION" "Vishay SI2318CDS-T1-GE3 N-channel MOSFET Transistor, 5.6 A, 40 V, 3-Pin SOT-23"
-			(at 266.7 66.04 0)
+			(at 265.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11498,7 +11519,7 @@
 			)
 		)
 		(property "RS_PART_NUMBER" "7879036P"
-			(at 266.7 66.04 0)
+			(at 265.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11508,7 +11529,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 266.7 66.04 0)
+			(at 265.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11518,7 +11539,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" "781-SI2318CDS-T1-GE3"
-			(at 266.7 66.04 0)
+			(at 265.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11528,7 +11549,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SI2318CDS-T1-GE3/Vishay/view-part/?ref=eda"
-			(at 266.7 66.04 0)
+			(at 265.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11538,7 +11559,7 @@
 			)
 		)
 		(property "HEIGHT" "1.12mm"
-			(at 266.7 66.04 0)
+			(at 265.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11548,7 +11569,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SI2318CDS-T1-GE3/Vishay/view-part/?ref=snap"
-			(at 266.7 66.04 0)
+			(at 265.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11558,7 +11579,7 @@
 			)
 		)
 		(property "MP" "SI2318CDS-T1-GE3"
-			(at 266.7 66.04 0)
+			(at 265.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11568,7 +11589,7 @@
 			)
 		)
 		(property "Package" "SOT-23-3 Vishay Siliconix"
-			(at 266.7 66.04 0)
+			(at 265.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11578,7 +11599,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=412811&manufacturer=Vishay Siliconix&part_name=SI2318CDS-T1-GE3&search_term=None"
-			(at 266.7 66.04 0)
+			(at 265.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11588,7 +11609,7 @@
 			)
 		)
 		(property "RS_PRICE-STOCK" "http://uk.rs-online.com/web/p/products/7879036P"
-			(at 266.7 66.04 0)
+			(at 265.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11598,7 +11619,7 @@
 			)
 		)
 		(property "Description_1" "SI2318CDS-T1-GE3 N-channel MOSFET Transistor, 5.6 A, 40 V, 3-Pin SOT-23 | Siliconix / Vishay SI2318CDS-T1-GE3"
-			(at 266.7 66.04 0)
+			(at 265.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11608,7 +11629,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 266.7 66.04 0)
+			(at 265.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11618,7 +11639,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "SI2318CDS-T1-GE3"
-			(at 266.7 66.04 0)
+			(at 265.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15297,7 +15318,7 @@
 	)
 	(symbol
 		(lib_id "100SP1T1B1M1QEH:100SP1T1B1M1QEH")
-		(at 241.3 19.05 0)
+		(at 246.38 16.51 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15305,7 +15326,7 @@
 		(dnp no)
 		(uuid "93151cd7-cfb3-42f0-a273-6ec067cb5b22")
 		(property "Reference" "SW1"
-			(at 233.172 14.732 0)
+			(at 254.508 20.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15313,7 +15334,7 @@
 			)
 		)
 		(property "Value" "100SP1T1B1M1QEH"
-			(at 232.918 16.764 0)
+			(at 254.762 18.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15321,7 +15342,7 @@
 			)
 		)
 		(property "Footprint" "bmsfootprints:SW_100SP1T1B1M1QEH"
-			(at 241.3 19.05 0)
+			(at 246.38 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15331,7 +15352,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 19.05 0)
+			(at 246.38 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15340,7 +15361,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 241.3 19.05 0)
+			(at 246.38 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15349,7 +15370,7 @@
 			)
 		)
 		(property "MF" "E-Switch"
-			(at 241.3 19.05 0)
+			(at 246.38 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15359,7 +15380,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "30.21 mm"
-			(at 241.3 19.05 0)
+			(at 246.38 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15369,7 +15390,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 241.3 19.05 0)
+			(at 246.38 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15379,7 +15400,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 241.3 19.05 0)
+			(at 246.38 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15389,7 +15410,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/100SP1T1B1M1QEH/E-Switch/view-part/?ref=eda"
-			(at 241.3 19.05 0)
+			(at 246.38 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15399,7 +15420,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 241.3 19.05 0)
+			(at 246.38 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15409,7 +15430,7 @@
 			)
 		)
 		(property "PARTREV" "D"
-			(at 241.3 19.05 0)
+			(at 246.38 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15419,7 +15440,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/100SP1T1B1M1QEH/E-Switch/view-part/?ref=snap"
-			(at 241.3 19.05 0)
+			(at 246.38 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15429,7 +15450,7 @@
 			)
 		)
 		(property "MP" "100SP1T1B1M1QEH"
-			(at 241.3 19.05 0)
+			(at 246.38 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15439,7 +15460,7 @@
 			)
 		)
 		(property "Description_1" "Toggle Switch, 100 Series, SPDT, ON-NONE-ON, Sealed, 5A, 120VAC, 28VDC, Solder | E-Switch 100SP1T1B1M1QEH"
-			(at 241.3 19.05 0)
+			(at 246.38 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15449,7 +15470,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 241.3 19.05 0)
+			(at 246.38 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15459,7 +15480,7 @@
 			)
 		)
 		(property "MANUFACTURER" "E-switch"
-			(at 241.3 19.05 0)
+			(at 246.38 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15623,16 +15644,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 251.46 21.59 0)
+		(at 234.95 15.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "98f55caa-1498-467b-a842-7451e33d995c")
 		(property "Reference" "#PWR015"
-			(at 251.46 27.94 0)
+			(at 234.95 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15641,7 +15661,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.46 26.67 0)
+			(at 231.14 16.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15649,7 +15669,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 21.59 0)
+			(at 234.95 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15658,7 +15678,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 21.59 0)
+			(at 234.95 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15667,7 +15687,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 21.59 0)
+			(at 234.95 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
