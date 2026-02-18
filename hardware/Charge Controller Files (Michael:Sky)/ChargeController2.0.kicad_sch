@@ -4460,7 +4460,7 @@
 		(uuid "0116e019-9024-4f13-9aed-27f771987c14")
 	)
 	(junction
-		(at 64.77 140.97)
+		(at 82.55 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0323b4b7-f1c0-4f23-b12d-4e1af60882d5")
@@ -4550,7 +4550,7 @@
 		(uuid "209bb5a0-e672-4f06-8cde-6facd4ef84e0")
 	)
 	(junction
-		(at 54.61 140.97)
+		(at 72.39 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "220d000d-3644-42d4-9e05-0448655477bb")
@@ -4574,7 +4574,7 @@
 		(uuid "33877f3b-522a-42a2-802f-3153a9b2b2b6")
 	)
 	(junction
-		(at 64.77 160.02)
+		(at 82.55 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33ce895d-7668-4fe8-b6bc-baa8da295a1d")
@@ -4910,7 +4910,7 @@
 		(uuid "cbf3b6c5-7df6-436c-9ad4-f745e2daf0bf")
 	)
 	(junction
-		(at 71.12 160.02)
+		(at 88.9 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf0a94c7-c2f1-4cd3-b482-5f3ab94d59ec")
@@ -5199,6 +5199,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 59.69) (xy 281.94 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13c2c08a-39d6-4772-90b4-3fe46622c7c7")
+	)
+	(wire
+		(pts
 			(xy 60.96 85.09) (xy 60.96 86.36)
 		)
 		(stroke
@@ -5339,7 +5349,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 160.02) (xy 71.12 160.02)
+			(xy 82.55 147.32) (xy 88.9 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5389,7 +5399,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 157.48) (xy 77.47 160.02)
+			(xy 95.25 144.78) (xy 95.25 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5519,7 +5529,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 139.7) (xy 54.61 140.97)
+			(xy 72.39 127) (xy 72.39 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5599,17 +5609,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 59.69) (xy 256.54 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3413434a-2e3d-4a7e-8d40-3a0dd6e78ff3")
-	)
-	(wire
-		(pts
-			(xy 77.47 151.13) (xy 77.47 154.94)
+			(xy 95.25 138.43) (xy 95.25 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5756,6 +5756,16 @@
 			(type default)
 		)
 		(uuid "3b1667a0-b788-452d-866c-a662f51716ae")
+	)
+	(wire
+		(pts
+			(xy 256.54 59.69) (xy 262.89 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bae70bf-9efc-409a-afb7-bbdebde4daab")
 	)
 	(wire
 		(pts
@@ -5919,16 +5929,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 182.88) (xy 83.82 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "459ea44e-12ac-4ebc-8124-ee6142334680")
-	)
-	(wire
-		(pts
 			(xy 256.54 83.82) (xy 256.54 86.36)
 		)
 		(stroke
@@ -5999,7 +5999,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 190.5) (xy 76.2 190.5)
+			(xy 60.96 190.5) (xy 104.14 190.5)
 		)
 		(stroke
 			(width 0)
@@ -6309,16 +6309,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 170.18) (xy 31.75 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b74c6c6-ffac-4cbe-bbd2-ca16d0ee9b3f")
-	)
-	(wire
-		(pts
 			(xy 265.43 135.89) (xy 265.43 134.62)
 		)
 		(stroke
@@ -6326,6 +6316,16 @@
 			(type default)
 		)
 		(uuid "5ba43437-6365-4716-bda2-51d997c4844b")
+	)
+	(wire
+		(pts
+			(xy 31.75 168.91) (xy 31.75 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cce1565-af23-435d-a75e-a9f56843bbce")
 	)
 	(wire
 		(pts
@@ -6619,23 +6619,13 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 158.75) (xy 64.77 160.02)
+			(xy 82.55 146.05) (xy 82.55 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "76698a12-a42b-4c5f-9805-7fae8ea10f9c")
-	)
-	(wire
-		(pts
-			(xy 281.94 39.37) (xy 273.05 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76e6da78-720e-4ba8-8fe5-3abd27804401")
 	)
 	(wire
 		(pts
@@ -6719,6 +6709,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 40.64) (xy 280.67 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c63769d-3485-41ea-bf66-f71dcc3a3dd9")
+	)
+	(wire
+		(pts
 			(xy 185.42 81.28) (xy 185.42 86.36)
 		)
 		(stroke
@@ -6766,6 +6766,16 @@
 			(type default)
 		)
 		(uuid "7e52985b-c723-4e23-83a5-e18f388f5ba8")
+	)
+	(wire
+		(pts
+			(xy 247.65 39.37) (xy 265.43 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e6a90ea-38c1-46de-a841-f5123c8aa1cd")
 	)
 	(wire
 		(pts
@@ -6999,7 +7009,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 140.97) (xy 54.61 140.97)
+			(xy 71.12 128.27) (xy 72.39 128.27)
 		)
 		(stroke
 			(width 0)
@@ -7009,7 +7019,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 50.8) (xy 266.7 50.8)
+			(xy 273.05 68.58) (xy 271.78 68.58)
 		)
 		(stroke
 			(width 0)
@@ -7119,7 +7129,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 160.02) (xy 71.12 161.29)
+			(xy 88.9 147.32) (xy 88.9 148.59)
 		)
 		(stroke
 			(width 0)
@@ -7179,7 +7189,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 52.07) (xy 265.43 50.8)
+			(xy 273.05 67.31) (xy 273.05 68.58)
 		)
 		(stroke
 			(width 0)
@@ -7226,16 +7236,6 @@
 			(type default)
 		)
 		(uuid "a27a473b-6a5f-423a-8484-17ae71599a89")
-	)
-	(wire
-		(pts
-			(xy 275.59 59.69) (xy 281.94 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3ca4a59-2925-4fd4-9cdf-25248755afbc")
 	)
 	(wire
 		(pts
@@ -7379,7 +7379,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 140.97) (xy 77.47 140.97)
+			(xy 82.55 128.27) (xy 95.25 128.27)
 		)
 		(stroke
 			(width 0)
@@ -7439,6 +7439,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 39.37) (xy 265.43 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b12aa02a-b51e-42d7-baba-484d9e49e79a")
+	)
+	(wire
+		(pts
 			(xy 214.63 132.08) (xy 231.14 132.08)
 		)
 		(stroke
@@ -7449,7 +7459,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 140.97) (xy 64.77 146.05)
+			(xy 82.55 128.27) (xy 82.55 133.35)
 		)
 		(stroke
 			(width 0)
@@ -7659,7 +7669,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 148.59) (xy 64.77 151.13)
+			(xy 82.55 135.89) (xy 82.55 138.43)
 		)
 		(stroke
 			(width 0)
@@ -7699,16 +7709,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 190.5) (xy 104.14 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf6d4e47-bc2d-45d3-980d-5a885fa3205a")
-	)
-	(wire
-		(pts
 			(xy 184.15 60.96) (xy 163.83 60.96)
 		)
 		(stroke
@@ -7719,7 +7719,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 160.02) (xy 64.77 160.02)
+			(xy 72.39 147.32) (xy 82.55 147.32)
 		)
 		(stroke
 			(width 0)
@@ -7736,16 +7736,6 @@
 			(type default)
 		)
 		(uuid "c462530f-bc57-4cd1-887d-7a833d37e58d")
-	)
-	(wire
-		(pts
-			(xy 247.65 39.37) (xy 257.81 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4bc38a9-f173-48d4-a183-b2591b92a95d")
 	)
 	(wire
 		(pts
@@ -7829,7 +7819,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 140.97) (xy 54.61 151.13)
+			(xy 72.39 128.27) (xy 72.39 138.43)
 		)
 		(stroke
 			(width 0)
@@ -7849,7 +7839,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 46.99) (xy 269.24 46.99)
+			(xy 270.51 33.02) (xy 269.24 33.02)
 		)
 		(stroke
 			(width 0)
@@ -7919,7 +7909,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 140.97) (xy 64.77 140.97)
+			(xy 72.39 128.27) (xy 82.55 128.27)
 		)
 		(stroke
 			(width 0)
@@ -7949,7 +7939,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 160.02) (xy 71.12 160.02)
+			(xy 95.25 147.32) (xy 88.9 147.32)
 		)
 		(stroke
 			(width 0)
@@ -8019,7 +8009,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 130.81) (xy 54.61 132.08)
+			(xy 72.39 118.11) (xy 72.39 119.38)
 		)
 		(stroke
 			(width 0)
@@ -8089,7 +8079,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 158.75) (xy 54.61 160.02)
+			(xy 72.39 146.05) (xy 72.39 147.32)
 		)
 		(stroke
 			(width 0)
@@ -8249,7 +8239,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 130.81) (xy 57.15 133.35)
+			(xy 74.93 118.11) (xy 74.93 120.65)
 		)
 		(stroke
 			(width 0)
@@ -8286,6 +8276,16 @@
 			(type default)
 		)
 		(uuid "e963d37c-f49e-4a0d-a738-e46c72a06f1a")
+	)
+	(wire
+		(pts
+			(xy 280.67 39.37) (xy 281.94 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9cfdb28-beb3-446e-affa-6bc670280643")
 	)
 	(wire
 		(pts
@@ -8479,16 +8479,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 180.34) (xy 31.75 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7cd41eb-c852-4c75-b8fb-d00eb04ea06c")
-	)
-	(wire
-		(pts
 			(xy 184.15 57.15) (xy 184.15 60.96)
 		)
 		(stroke
@@ -8499,7 +8489,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 133.35) (xy 57.15 133.35)
+			(xy 77.47 120.65) (xy 74.93 120.65)
 		)
 		(stroke
 			(width 0)
@@ -8728,12 +8718,12 @@
 		(uuid "3f605fd3-1c58-4ed7-b420-34bc70791385")
 	)
 	(label "EN"
-		(at 266.7 50.8 0)
+		(at 271.78 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "464619f0-836a-4cb8-8ed7-0ec97c287241")
 	)
@@ -8798,12 +8788,12 @@
 		(uuid "6fac0c50-19dc-4e90-8305-9397d00e67cc")
 	)
 	(label "EN"
-		(at 269.24 46.99 0)
+		(at 269.24 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "70c8cb3b-4c48-4f33-a612-51647a78c192")
 	)
@@ -8968,7 +8958,7 @@
 		(uuid "ae4ba248-01ce-47c6-87ad-0c0f60dfd54e")
 	)
 	(label "REGN"
-		(at 59.69 133.35 0)
+		(at 77.47 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8978,7 +8968,7 @@
 		(uuid "b51066f9-d0c9-4787-9445-733e314d2c3b")
 	)
 	(label "TS"
-		(at 53.34 140.97 180)
+		(at 71.12 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8996,16 +8986,6 @@
 			(justify left bottom)
 		)
 		(uuid "b6cd6569-887c-4157-a90d-d44debf0d33a")
-	)
-	(label "EN"
-		(at 83.82 182.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b6e9dece-c267-4acc-a15a-8f7d37b263dc")
 	)
 	(label "STAT_2"
 		(at 175.26 143.51 0)
@@ -9479,7 +9459,7 @@
 	)
 	(symbol
 		(lib_id "103AT-2:103AT-2")
-		(at 77.47 146.05 270)
+		(at 95.25 133.35 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9487,7 +9467,7 @@
 		(dnp no)
 		(uuid "01b6dbb9-d7b2-4e1d-84e9-47d3275a1691")
 		(property "Reference" "RT1"
-			(at 71.374 144.272 90)
+			(at 89.154 131.572 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9496,7 +9476,7 @@
 			)
 		)
 		(property "Value" "103AT-2"
-			(at 67.056 146.558 90)
+			(at 84.836 133.858 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9505,7 +9485,7 @@
 			)
 		)
 		(property "Footprint" "bmsfootprints:103AT-2"
-			(at 77.47 146.05 0)
+			(at 95.25 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9515,7 +9495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 146.05 0)
+			(at 95.25 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9524,7 +9504,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 146.05 0)
+			(at 95.25 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9533,7 +9513,7 @@
 			)
 		)
 		(property "MF" "Semitec"
-			(at 77.47 146.05 0)
+			(at 95.25 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9543,7 +9523,7 @@
 			)
 		)
 		(property "Description_1" "Thermistor NTC 10KOhm 1% 2-Pin"
-			(at 77.47 146.05 0)
+			(at 95.25 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9553,7 +9533,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 77.47 146.05 0)
+			(at 95.25 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9563,7 +9543,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 77.47 146.05 0)
+			(at 95.25 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9573,7 +9553,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/103AT-2/Semitec/view-part/?ref=snap"
-			(at 77.47 146.05 0)
+			(at 95.25 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9583,7 +9563,7 @@
 			)
 		)
 		(property "MP" "103AT-2"
-			(at 77.47 146.05 0)
+			(at 95.25 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9593,7 +9573,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 77.47 146.05 0)
+			(at 95.25 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9603,7 +9583,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/103AT-2/Semitec/view-part/?ref=eda"
-			(at 77.47 146.05 0)
+			(at 95.25 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11425,7 +11405,7 @@
 	)
 	(symbol
 		(lib_id "SI2318CDS-T1-GE3:SI2318CDS-T1-GE3")
-		(at 265.43 52.07 270)
+		(at 273.05 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11433,7 +11413,7 @@
 		(dnp no)
 		(uuid "41060008-5cac-4bf2-8789-f4fe8bfe7b2e")
 		(property "Reference" "Q11"
-			(at 266.192 66.802 90)
+			(at 272.288 52.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11442,7 +11422,7 @@
 			)
 		)
 		(property "Value" "SI2318CDS-T1-GE3"
-			(at 258.064 64.262 90)
+			(at 280.416 55.118 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11451,7 +11431,7 @@
 			)
 		)
 		(property "Footprint" "bmsfootprints:SI2318CDS-T1-GE3"
-			(at 265.43 52.07 0)
+			(at 273.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11461,7 +11441,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 52.07 0)
+			(at 273.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11470,7 +11450,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 265.43 52.07 0)
+			(at 273.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11479,7 +11459,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" "Vishay"
-			(at 265.43 52.07 0)
+			(at 273.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11489,7 +11469,7 @@
 			)
 		)
 		(property "MF" "Vishay Siliconix"
-			(at 265.43 52.07 0)
+			(at 273.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11499,7 +11479,7 @@
 			)
 		)
 		(property "MOUSER_PRICE-STOCK" "https://www.mouser.com/Search/Refine.aspx?Keyword=781-SI2318CDS-T1-GE3"
-			(at 265.43 52.07 0)
+			(at 273.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11509,7 +11489,7 @@
 			)
 		)
 		(property "DESCRIPTION" "Vishay SI2318CDS-T1-GE3 N-channel MOSFET Transistor, 5.6 A, 40 V, 3-Pin SOT-23"
-			(at 265.43 52.07 0)
+			(at 273.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11519,7 +11499,7 @@
 			)
 		)
 		(property "RS_PART_NUMBER" "7879036P"
-			(at 265.43 52.07 0)
+			(at 273.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11529,7 +11509,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 265.43 52.07 0)
+			(at 273.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11539,7 +11519,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" "781-SI2318CDS-T1-GE3"
-			(at 265.43 52.07 0)
+			(at 273.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11549,7 +11529,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SI2318CDS-T1-GE3/Vishay/view-part/?ref=eda"
-			(at 265.43 52.07 0)
+			(at 273.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11559,7 +11539,7 @@
 			)
 		)
 		(property "HEIGHT" "1.12mm"
-			(at 265.43 52.07 0)
+			(at 273.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11569,7 +11549,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SI2318CDS-T1-GE3/Vishay/view-part/?ref=snap"
-			(at 265.43 52.07 0)
+			(at 273.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11579,7 +11559,7 @@
 			)
 		)
 		(property "MP" "SI2318CDS-T1-GE3"
-			(at 265.43 52.07 0)
+			(at 273.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11589,7 +11569,7 @@
 			)
 		)
 		(property "Package" "SOT-23-3 Vishay Siliconix"
-			(at 265.43 52.07 0)
+			(at 273.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11599,7 +11579,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=412811&manufacturer=Vishay Siliconix&part_name=SI2318CDS-T1-GE3&search_term=None"
-			(at 265.43 52.07 0)
+			(at 273.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11609,7 +11589,7 @@
 			)
 		)
 		(property "RS_PRICE-STOCK" "http://uk.rs-online.com/web/p/products/7879036P"
-			(at 265.43 52.07 0)
+			(at 273.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11619,7 +11599,7 @@
 			)
 		)
 		(property "Description_1" "SI2318CDS-T1-GE3 N-channel MOSFET Transistor, 5.6 A, 40 V, 3-Pin SOT-23 | Siliconix / Vishay SI2318CDS-T1-GE3"
-			(at 265.43 52.07 0)
+			(at 273.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11629,7 +11609,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 265.43 52.07 0)
+			(at 273.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11639,7 +11619,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "SI2318CDS-T1-GE3"
-			(at 265.43 52.07 0)
+			(at 273.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13320,7 +13300,7 @@
 	)
 	(symbol
 		(lib_id "SI2318CDS-T1-GE3:SI2318CDS-T1-GE3")
-		(at 267.97 46.99 90)
+		(at 270.51 33.02 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13328,7 +13308,7 @@
 		(dnp no)
 		(uuid "6d961c1f-ef8c-4344-851a-79c1d306376d")
 		(property "Reference" "Q10"
-			(at 266.446 32.766 90)
+			(at 272.034 47.244 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13337,7 +13317,7 @@
 			)
 		)
 		(property "Value" "SI2318CDS-T1-GE3"
-			(at 275.59 34.798 90)
+			(at 262.89 45.212 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13346,7 +13326,7 @@
 			)
 		)
 		(property "Footprint" "bmsfootprints:SI2318CDS-T1-GE3"
-			(at 267.97 46.99 0)
+			(at 270.51 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13356,7 +13336,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 46.99 0)
+			(at 270.51 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13365,7 +13345,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 267.97 46.99 0)
+			(at 270.51 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13374,7 +13354,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" "Vishay"
-			(at 267.97 46.99 0)
+			(at 270.51 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13384,7 +13364,7 @@
 			)
 		)
 		(property "MF" "Vishay Siliconix"
-			(at 267.97 46.99 0)
+			(at 270.51 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13394,7 +13374,7 @@
 			)
 		)
 		(property "MOUSER_PRICE-STOCK" "https://www.mouser.com/Search/Refine.aspx?Keyword=781-SI2318CDS-T1-GE3"
-			(at 267.97 46.99 0)
+			(at 270.51 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13404,7 +13384,7 @@
 			)
 		)
 		(property "DESCRIPTION" "Vishay SI2318CDS-T1-GE3 N-channel MOSFET Transistor, 5.6 A, 40 V, 3-Pin SOT-23"
-			(at 267.97 46.99 0)
+			(at 270.51 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13414,7 +13394,7 @@
 			)
 		)
 		(property "RS_PART_NUMBER" "7879036P"
-			(at 267.97 46.99 0)
+			(at 270.51 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13424,7 +13404,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 267.97 46.99 0)
+			(at 270.51 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13434,7 +13414,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" "781-SI2318CDS-T1-GE3"
-			(at 267.97 46.99 0)
+			(at 270.51 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13444,7 +13424,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SI2318CDS-T1-GE3/Vishay/view-part/?ref=eda"
-			(at 267.97 46.99 0)
+			(at 270.51 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13454,7 +13434,7 @@
 			)
 		)
 		(property "HEIGHT" "1.12mm"
-			(at 267.97 46.99 0)
+			(at 270.51 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13464,7 +13444,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SI2318CDS-T1-GE3/Vishay/view-part/?ref=snap"
-			(at 267.97 46.99 0)
+			(at 270.51 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13474,7 +13454,7 @@
 			)
 		)
 		(property "MP" "SI2318CDS-T1-GE3"
-			(at 267.97 46.99 0)
+			(at 270.51 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13484,7 +13464,7 @@
 			)
 		)
 		(property "Package" "SOT-23-3 Vishay Siliconix"
-			(at 267.97 46.99 0)
+			(at 270.51 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13494,7 +13474,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=412811&manufacturer=Vishay Siliconix&part_name=SI2318CDS-T1-GE3&search_term=None"
-			(at 267.97 46.99 0)
+			(at 270.51 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13504,7 +13484,7 @@
 			)
 		)
 		(property "RS_PRICE-STOCK" "http://uk.rs-online.com/web/p/products/7879036P"
-			(at 267.97 46.99 0)
+			(at 270.51 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13514,7 +13494,7 @@
 			)
 		)
 		(property "Description_1" "SI2318CDS-T1-GE3 N-channel MOSFET Transistor, 5.6 A, 40 V, 3-Pin SOT-23 | Siliconix / Vishay SI2318CDS-T1-GE3"
-			(at 267.97 46.99 0)
+			(at 270.51 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13524,7 +13504,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 267.97 46.99 0)
+			(at 270.51 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13534,7 +13514,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "SI2318CDS-T1-GE3"
-			(at 267.97 46.99 0)
+			(at 270.51 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13699,7 +13679,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 71.12 161.29 0)
+		(at 88.9 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13707,7 +13687,7 @@
 		(dnp no)
 		(uuid "744b4de5-51d8-4166-8c60-9401c6689b7e")
 		(property "Reference" "#PWR023"
-			(at 71.12 167.64 0)
+			(at 88.9 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13716,7 +13696,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.676 163.068 0)
+			(at 92.456 150.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13724,7 +13704,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 161.29 0)
+			(at 88.9 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13733,7 +13713,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 161.29 0)
+			(at 88.9 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13742,7 +13722,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 161.29 0)
+			(at 88.9 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14140,7 +14120,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 72.39 154.94 0)
+		(at 90.17 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14148,7 +14128,7 @@
 		(dnp no)
 		(uuid "7d863003-46c4-4466-95fa-2485deef8f89")
 		(property "Reference" "J8"
-			(at 71.12 153.67 0)
+			(at 88.9 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14156,7 +14136,7 @@
 			)
 		)
 		(property "Value" "Conn-1x2"
-			(at 71.374 151.638 0)
+			(at 89.154 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14164,7 +14144,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 72.39 154.94 0)
+			(at 90.17 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14173,7 +14153,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 154.94 0)
+			(at 90.17 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14182,7 +14162,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 72.39 154.94 0)
+			(at 90.17 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14276,7 +14256,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 64.77 154.94 180)
+		(at 82.55 142.24 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14284,7 +14264,7 @@
 		(dnp no)
 		(uuid "8163393f-93ff-406b-a64f-acb6367c2bc0")
 		(property "Reference" "R26"
-			(at 59.436 153.416 0)
+			(at 77.216 140.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14293,7 +14273,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 59.944 155.702 0)
+			(at 77.724 143.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14302,7 +14282,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 66.548 154.94 90)
+			(at 84.328 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14311,7 +14291,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 154.94 0)
+			(at 82.55 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14320,7 +14300,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 64.77 154.94 0)
+			(at 82.55 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14745,127 +14725,6 @@
 			(project ""
 				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
 					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SS24:SS24")
-		(at 31.75 175.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "881eba0f-1204-4404-8e06-b759759d022a")
-		(property "Reference" "D6"
-			(at 34.29 173.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SS24"
-			(at 34.29 176.5299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "bmsfootprints:SS24"
-			(at 31.75 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 31.75 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "N2306"
-			(at 31.75 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Taiwan Semiconductor"
-			(at 31.75 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "SS22"
-			(at 31.75 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2.65mm"
-			(at 31.75 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 31.75 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "A"
-			(uuid "29c5c9ca-7cfc-4750-9285-dbdee5751c09")
-		)
-		(pin "C"
-			(uuid "069efdae-2a7e-49dc-be35-0ee7ce14f74e")
-		)
-		(instances
-			(project ""
-				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -15709,7 +15568,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 54.61 135.89 180)
+		(at 72.39 123.19 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15717,7 +15576,7 @@
 		(dnp no)
 		(uuid "9a592b05-08bd-4461-97c7-29c9bbaae6e7")
 		(property "Reference" "R25"
-			(at 56.388 135.382 0)
+			(at 74.168 122.682 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15726,7 +15585,7 @@
 			)
 		)
 		(property "Value" "5.23k"
-			(at 56.134 137.414 0)
+			(at 73.914 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15735,7 +15594,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 56.388 135.89 90)
+			(at 74.168 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15744,7 +15603,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 135.89 0)
+			(at 72.39 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15753,7 +15612,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 54.61 135.89 0)
+			(at 72.39 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16364,7 +16223,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 57.15 125.73 270)
+		(at 74.93 113.03 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16372,7 +16231,7 @@
 		(dnp no)
 		(uuid "b366fe4f-d7e0-4b40-9933-200de76f91c8")
 		(property "Reference" "J7"
-			(at 58.166 127 90)
+			(at 75.946 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16381,7 +16240,7 @@
 			)
 		)
 		(property "Value" "Conn-1x2"
-			(at 57.912 129.032 90)
+			(at 75.692 116.332 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16390,7 +16249,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 57.15 125.73 0)
+			(at 74.93 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16399,7 +16258,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 125.73 0)
+			(at 74.93 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16408,7 +16267,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 57.15 125.73 0)
+			(at 74.93 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17587,7 +17446,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 59.69 146.05 0)
+		(at 77.47 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17595,7 +17454,7 @@
 		(dnp no)
 		(uuid "cb577f74-e722-48f4-bf2d-d4f3d2bd9069")
 		(property "Reference" "J6"
-			(at 57.912 145.542 0)
+			(at 75.692 132.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17603,7 +17462,7 @@
 			)
 		)
 		(property "Value" "Conn-1x2"
-			(at 59.944 143.51 0)
+			(at 77.724 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17611,7 +17470,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 59.69 146.05 0)
+			(at 77.47 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17620,7 +17479,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 146.05 0)
+			(at 77.47 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17629,7 +17488,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 59.69 146.05 0)
+			(at 77.47 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18344,249 +18203,6 @@
 			(project "ChargeController2.0"
 				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
 					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SI2318CDS-T1-GE3:SI2318CDS-T1-GE3")
-		(at 81.28 182.88 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "db0ff821-7278-49bf-a3df-25b31007b67d")
-		(property "Reference" "Q12"
-			(at 87.63 183.642 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SI2318CDS-T1-GE3"
-			(at 87.376 186.182 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "bmsfootprints:SI2318CDS-T1-GE3"
-			(at 81.28 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 81.28 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Vishay"
-			(at 81.28 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay Siliconix"
-			(at 81.28 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PRICE-STOCK" "https://www.mouser.com/Search/Refine.aspx?Keyword=781-SI2318CDS-T1-GE3"
-			(at 81.28 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "Vishay SI2318CDS-T1-GE3 N-channel MOSFET Transistor, 5.6 A, 40 V, 3-Pin SOT-23"
-			(at 81.28 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RS_PART_NUMBER" "7879036P"
-			(at 81.28 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 81.28 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PART_NUMBER" "781-SI2318CDS-T1-GE3"
-			(at 81.28 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SI2318CDS-T1-GE3/Vishay/view-part/?ref=eda"
-			(at 81.28 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "1.12mm"
-			(at 81.28 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SI2318CDS-T1-GE3/Vishay/view-part/?ref=snap"
-			(at 81.28 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SI2318CDS-T1-GE3"
-			(at 81.28 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOT-23-3 Vishay Siliconix"
-			(at 81.28 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=412811&manufacturer=Vishay Siliconix&part_name=SI2318CDS-T1-GE3&search_term=None"
-			(at 81.28 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RS_PRICE-STOCK" "http://uk.rs-online.com/web/p/products/7879036P"
-			(at 81.28 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "SI2318CDS-T1-GE3 N-channel MOSFET Transistor, 5.6 A, 40 V, 3-Pin SOT-23 | Siliconix / Vishay SI2318CDS-T1-GE3"
-			(at 81.28 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 81.28 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "SI2318CDS-T1-GE3"
-			(at 81.28 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3104a3df-a788-435d-a2a8-7aa6e5d0e1af")
-		)
-		(pin "3"
-			(uuid "af17ec37-751a-4b66-b67f-4114f6ed2d41")
-		)
-		(pin "2"
-			(uuid "6ec884e5-2ada-4f6d-8434-2de08ee0e3d6")
-		)
-		(instances
-			(project "ChargeController2.0"
-				(path "/89a953c5-1b9f-4ec7-83f7-649f6dcfa61f"
-					(reference "Q12")
 					(unit 1)
 				)
 			)
@@ -19653,7 +19269,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.14 121.92 0)
+			(at 230.886 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19841,7 +19457,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 54.61 154.94 180)
+		(at 72.39 142.24 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19849,7 +19465,7 @@
 		(dnp no)
 		(uuid "f55daf39-3530-4250-8bdd-8d7acca4142b")
 		(property "Reference" "R24"
-			(at 49.53 153.67 0)
+			(at 67.31 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19858,7 +19474,7 @@
 			)
 		)
 		(property "Value" "30.1k"
-			(at 48.006 156.972 0)
+			(at 65.786 144.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19867,7 +19483,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 56.388 154.94 90)
+			(at 74.168 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19876,7 +19492,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 154.94 0)
+			(at 72.39 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19885,7 +19501,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 54.61 154.94 0)
+			(at 72.39 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
