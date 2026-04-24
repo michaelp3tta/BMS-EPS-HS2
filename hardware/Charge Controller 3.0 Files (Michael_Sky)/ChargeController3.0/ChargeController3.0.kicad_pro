@@ -645,7 +645,7 @@
         "uuid": "a54826c2-d365-4450-b7a8-71945dba02c0"
       }
     ],
-    "used_designators": "H1-3,C1,C5,C8-9,R1-3,R5",
+    "used_designators": "#PWR32,J16,J20,H1-3,C1,C5,C8-9,R1-3,R5",
     "variants": []
   },
   "sheets": [
