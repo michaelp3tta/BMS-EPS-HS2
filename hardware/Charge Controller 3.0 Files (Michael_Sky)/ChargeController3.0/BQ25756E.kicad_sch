@@ -59,7 +59,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Stand-alone or I²C-controlled bidirectional buck-boost charge controller for up to 7S batteries"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -68,6 +68,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
 			(property "MF" "Texas Instruments"
@@ -167,18 +168,6 @@
 				)
 			)
 			(property "MP" "BQ25756ERRVR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Description_1" "Stand-alone or I²C-controlled bidirectional buck-boost charge controller for up to 7S batteries"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1692,6 +1681,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 129.54) (xy 139.7 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "179f1950-f6b3-4845-a71d-676c4c34537c")
+	)
+	(wire
+		(pts
 			(xy 247.65 60.96) (xy 247.65 62.23)
 		)
 		(stroke
@@ -1782,6 +1781,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 120.65) (xy 76.2 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "462d9ad6-b577-457e-af46-f922b4daea2e")
+	)
+	(wire
+		(pts
 			(xy 213.36 83.82) (xy 217.17 83.82)
 		)
 		(stroke
@@ -1822,6 +1831,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 119.38) (xy 81.28 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5126342e-c4e2-4c78-89e9-b89481255838")
+	)
+	(wire
+		(pts
 			(xy 132.08 58.42) (xy 146.05 58.42)
 		)
 		(stroke
@@ -1849,16 +1868,6 @@
 			(type default)
 		)
 		(uuid "6440b545-80e5-4c15-9872-eb7b24735b5d")
-	)
-	(wire
-		(pts
-			(xy 78.74 119.38) (xy 81.28 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67962aa0-e7fa-4601-beef-5575bd871501")
 	)
 	(wire
 		(pts
@@ -2550,7 +2559,7 @@
 			)
 		)
 	)
-	(global_label "SYS{slash}BATT"
+	(global_label "BATT_PIN"
 		(shape input)
 		(at 58.42 49.53 0)
 		(fields_autoplaced yes)
@@ -2562,7 +2571,7 @@
 		)
 		(uuid "1e6f257a-cc1d-4e7e-815b-26b354a271e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.5371 49.53 0)
+			(at 69.8719 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2622,7 +2631,7 @@
 			)
 		)
 	)
-	(global_label "SOL"
+	(global_label "IN"
 		(shape input)
 		(at 158.75 53.34 180)
 		(fields_autoplaced yes)
@@ -2634,7 +2643,7 @@
 		)
 		(uuid "3d99b837-3fb1-483d-b796-705306534c21")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.1967 53.34 0)
+			(at 153.8295 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2790,30 +2799,6 @@
 			)
 		)
 	)
-	(global_label "PGND"
-		(shape input)
-		(at 139.7 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "907184cd-c2fe-464d-9ea7-87531cb114b5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.8257 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "HIDRV_2"
 		(shape input)
 		(at 134.62 93.98 0)
@@ -2883,30 +2868,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "CE"
-		(shape input)
-		(at 78.74 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9da9120e-899c-4849-bc6c-47c5cce55067")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.3358 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -4075,6 +4036,162 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 76.2 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7897c71b-7c63-4f1f-b337-4ec3218adb16")
+		(property "Reference" "#PWR012"
+			(at 76.2 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.422 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b7f8a0f0-2b31-43b0-8e65-eb21bb000d63")
+		)
+		(instances
+			(project "ChargeController3.0"
+				(path "/a54826c2-d365-4450-b7a8-71945dba02c0/9cc11239-a5da-4d64-84b9-35bfc57c50fe"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8413402a-83bf-4338-b840-93055ffae10e")
+		(property "Reference" "#PWR032"
+			(at 139.7 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "952e096e-e598-4c6a-bdc1-24ec4c7ee105")
+		)
+		(instances
+			(project "ChargeController3.0"
+				(path "/a54826c2-d365-4450-b7a8-71945dba02c0/9cc11239-a5da-4d64-84b9-35bfc57c50fe"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 217.17 106.68 0)
 		(unit 1)
 		(body_style 1)
@@ -4767,7 +4884,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Stand-alone or I²C-controlled bidirectional buck-boost charge controller for up to 7S batteries"
 			(at 106.68 88.9 0)
 			(hide yes)
 			(show_name no)

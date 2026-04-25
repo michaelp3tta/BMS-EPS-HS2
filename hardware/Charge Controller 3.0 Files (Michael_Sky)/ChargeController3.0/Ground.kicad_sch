@@ -407,7 +407,7 @@
 				(offset 1.016)
 				(hide yes)
 			)
-			(exclude_from_sim yes)
+			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(in_pos_files yes)
@@ -784,7 +784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580"
 			(at 184.15 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -860,7 +860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 120.3452 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -1024,7 +1024,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580"
 			(at 163.83 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -1100,7 +1100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580"
 			(at 142.24 88.9 0)
 			(hide yes)
 			(show_name no)
