@@ -8027,6 +8027,7 @@
 		(path "/1a06612a-f5de-4723-89a9-e836b895f94e/93151cd7-cfb3-42f0-a273-6ec067cb5b22")
 		(sheetname "/Inhibits, Inputs/")
 		(sheetfile "inhibits.kicad_sch")
+		(clearance 0.4)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25416,6 +25417,7 @@
 		(path "/0abfe1b7-b2c5-435a-836b-f8738c6d6c05/01b6dbb9-d7b2-4e1d-84e9-47d3275a1691")
 		(sheetname "/Temperature Management/")
 		(sheetfile "TempManager.kicad_sch")
+		(clearance 0.4)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27939,14 +27941,6 @@
 		(uuid "05a1b7b8-2345-4c3b-9100-ab5be41846e7")
 	)
 	(segment
-		(start 162.8 134.8)
-		(end 163.6315 134.8)
-		(width 0.4)
-		(layer "F.Cu")
-		(net "OUT")
-		(uuid "1a446687-8923-4369-8360-ae8e573614cc")
-	)
-	(segment
 		(start 123.1525 93.8)
 		(end 133.59 93.8)
 		(width 0.2)
@@ -28011,6 +28005,14 @@
 		(uuid "87bf1d8e-6489-4bea-8d18-635b39d27c13")
 	)
 	(segment
+		(start 162.815021 134.784979)
+		(end 163.804 134.784979)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "OUT")
+		(uuid "912967cc-8535-4318-98e5-cb505553d67a")
+	)
+	(segment
 		(start 118.4275 98.525)
 		(end 123.1525 93.8)
 		(width 0.2)
@@ -28073,6 +28075,14 @@
 		(layer "F.Cu")
 		(net "OUT")
 		(uuid "c2a2b37d-99ea-45ce-9656-5515d74d7665")
+	)
+	(segment
+		(start 162.8 134.8)
+		(end 162.815021 134.784979)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "OUT")
+		(uuid "d791ecc1-da9e-4688-b863-6dca3b57b001")
 	)
 	(segment
 		(start 131 129.4)
@@ -34061,7 +34071,7 @@
 	(zone
 		(net "GND")
 		(layer "B.Cu")
-		(uuid "1390360f-8a40-4d1d-bf4e-27ddda990b16")
+		(uuid "bb51445c-ec40-4841-b1a2-8acdd93019bc")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
@@ -34074,7 +34084,7 @@
 		)
 		(polygon
 			(pts
-				(xy 199.85 59.75) (xy 103.95 59.9) (xy 103.95 150.25) (xy 199.9 150.2) (xy 199.95 59.8)
+				(xy 103.45 59.7) (xy 199.8 59.55) (xy 199.95 150.3) (xy 103.95 150.15) (xy 103.45 59.65)
 			)
 		)
 		(filled_polygon
