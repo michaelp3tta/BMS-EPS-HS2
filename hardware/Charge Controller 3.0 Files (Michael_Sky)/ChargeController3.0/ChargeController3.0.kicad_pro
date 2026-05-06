@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.2,
-          "height": 0.3,
-          "width": 0.3
+          "drill": 0.7,
+          "height": 1.27,
+          "width": 1.27
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,16 +60,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|155905000|90884000|52bc1b66-a21a-42e2-88a1-22a76315cd8c|3abc947d-5be0-4654-b313-d5fcdca735fb",
-          ""
-        ],
-        [
-          "solder_mask_bridge|155905000|91970000|e0d3b088-152a-47ae-8653-41ad8c545b19|52bc1b66-a21a-42e2-88a1-22a76315cd8c",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -204,7 +195,10 @@
       ],
       "track_widths": [
         0.0,
+        0.0,
         0.2,
+        0.3,
+        0.4,
         0.5,
         0.8
       ],
@@ -505,7 +499,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -523,7 +517,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.1,
         "name": "Drivers",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
@@ -534,7 +528,7 @@
         "via_drill": 0.3
       },
       {
-        "clearance": 0.3,
+        "clearance": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
@@ -545,7 +539,7 @@
         "via_drill": 0.4
       },
       {
-        "clearance": 0.3,
+        "clearance": 0.1,
         "name": "Switch Node",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,

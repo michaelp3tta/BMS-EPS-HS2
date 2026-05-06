@@ -1,5 +1,5 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "Footprints") (type "KiCad") (uri "C:/Users/ceyen/Documents/BMS-EPS-HS2/hardware/Charge Controller 3.0 Files (Michael_Sky)/Libraries/Footprints") (options "") (descr ""))
+	(lib (name "Footprints") (type "KiCad") (uri "C:/Users/ceyen/Documents/BMS-EPS-HS2/hardware/Charge Controller 3.0 Files (Michael_Sky)/Libraries/Footprints") (options "") (descr "") (disabled))
 	(lib (name "bmsfootprints") (type "KiCad") (uri "${KIPRJMOD}/Libraries 3.0/Footprints/bmsfootprints.pretty") (options "") (descr ""))
 )

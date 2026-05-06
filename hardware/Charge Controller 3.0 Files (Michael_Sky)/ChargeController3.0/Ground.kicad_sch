@@ -300,105 +300,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -639,16 +540,72 @@
 		)
 	)
 	(junction
+		(at 144.78 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e2469f1-ad74-4497-951d-27d8531b6b28")
+	)
+	(junction
+		(at 144.78 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36663607-055f-46ae-9446-9fb78d1e60fa")
+	)
+	(junction
+		(at 200.66 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a177509c-8370-4bd9-aad5-1c93ac632cd3")
+	)
+	(junction
+		(at 173.99 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a86331b9-5e7f-419e-afa7-b7478de3ed5c")
+	)
+	(junction
+		(at 200.66 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b90f1829-9a47-4779-908d-768db4ae91e9")
+	)
+	(junction
 		(at 115.57 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d78620c4-7e3d-48d5-962a-bc3a8af7344e")
 	)
 	(junction
+		(at 173.99 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dafd3124-6086-4453-b92b-bab70724775a")
+	)
+	(junction
 		(at 115.57 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee956abc-1170-4cca-9117-f2f942a30ed8")
+	)
+	(wire
+		(pts
+			(xy 148.59 97.79) (xy 148.59 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "097140bc-0e38-4853-8445-c11a1330f89a")
+	)
+	(wire
+		(pts
+			(xy 195.58 106.68) (xy 200.66 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20fcd968-9ebd-489d-8810-593e5eed0e55")
 	)
 	(wire
 		(pts
@@ -662,6 +619,66 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 106.68) (xy 148.59 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e6e4363-0b4c-4eb0-b534-1b073a614ce4")
+	)
+	(wire
+		(pts
+			(xy 200.66 92.71) (xy 200.66 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fc134a1-6b20-4a68-b6d6-bab6392ece50")
+	)
+	(wire
+		(pts
+			(xy 139.7 96.52) (xy 139.7 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4007eb9e-5f1e-4158-946e-4b1601367e50")
+	)
+	(wire
+		(pts
+			(xy 204.47 106.68) (xy 204.47 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40a2b363-51b6-4db5-9309-cafc38dcbe42")
+	)
+	(wire
+		(pts
+			(xy 200.66 106.68) (xy 204.47 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b0ee11-983d-4875-8718-6fdd4ac0b7dc")
+	)
+	(wire
+		(pts
+			(xy 139.7 105.41) (xy 139.7 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eeb179a-741d-41bb-9916-dbfd086208d4")
+	)
+	(wire
+		(pts
 			(xy 115.57 96.52) (xy 110.49 96.52)
 		)
 		(stroke
@@ -669,6 +686,26 @@
 			(type default)
 		)
 		(uuid "55dc6f55-c9ba-492b-a091-4726f79976de")
+	)
+	(wire
+		(pts
+			(xy 177.8 97.79) (xy 177.8 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "597df752-59f4-42c5-bcde-a7f6a39d8c1d")
+	)
+	(wire
+		(pts
+			(xy 200.66 106.68) (xy 200.66 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d113e01-a67a-426a-ac3d-493c25a5cc79")
 	)
 	(wire
 		(pts
@@ -682,6 +719,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 96.52) (xy 195.58 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60cb03a9-b0dd-4b87-af61-63c6a4e709d5")
+	)
+	(wire
+		(pts
 			(xy 110.49 105.41) (xy 110.49 106.68)
 		)
 		(stroke
@@ -692,6 +739,46 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 96.52) (xy 144.78 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7340cebc-0817-474a-a62e-d5736ecf8918")
+	)
+	(wire
+		(pts
+			(xy 144.78 106.68) (xy 144.78 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73f6dcf9-d34a-4141-8830-ed0b8f7c1861")
+	)
+	(wire
+		(pts
+			(xy 148.59 106.68) (xy 148.59 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7645683a-87d3-41af-b37a-e327a3e2c474")
+	)
+	(wire
+		(pts
+			(xy 173.99 96.52) (xy 168.91 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78414d8e-b16d-45fb-8c0a-79e542ae0b1b")
+	)
+	(wire
+		(pts
 			(xy 119.38 97.79) (xy 119.38 96.52)
 		)
 		(stroke
@@ -699,6 +786,46 @@
 			(type default)
 		)
 		(uuid "7c1712d4-d06b-4658-ab11-f5db95952237")
+	)
+	(wire
+		(pts
+			(xy 177.8 96.52) (xy 173.99 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81ce7f7d-2659-4b9d-95bd-5638a11601c6")
+	)
+	(wire
+		(pts
+			(xy 173.99 92.71) (xy 173.99 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8687dc16-2570-4053-9f3d-5244ac6e6ca7")
+	)
+	(wire
+		(pts
+			(xy 195.58 105.41) (xy 195.58 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8acfcbeb-3148-472b-9a39-b9f48aae0f49")
+	)
+	(wire
+		(pts
+			(xy 168.91 96.52) (xy 168.91 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95eaa4e5-f475-45c2-9ccf-d6bd187df43c")
 	)
 	(wire
 		(pts
@@ -722,6 +849,26 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 96.52) (xy 139.7 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a37e43b4-b335-4131-bf76-5976093ed7e7")
+	)
+	(wire
+		(pts
+			(xy 177.8 106.68) (xy 177.8 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad95cb1c-f36b-4ff5-b12c-a16a83a2ca31")
+	)
+	(wire
+		(pts
 			(xy 119.38 96.52) (xy 115.57 96.52)
 		)
 		(stroke
@@ -729,6 +876,56 @@
 			(type default)
 		)
 		(uuid "af430c5f-8463-45c8-8942-69daf6dff3db")
+	)
+	(wire
+		(pts
+			(xy 168.91 106.68) (xy 173.99 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b406eab8-4188-46d3-9032-1d6dd99acc32")
+	)
+	(wire
+		(pts
+			(xy 204.47 96.52) (xy 200.66 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8f0f294-84a2-4a6c-86e9-ff0b38f78424")
+	)
+	(wire
+		(pts
+			(xy 144.78 92.71) (xy 144.78 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf888a8c-a5a4-4104-8e98-7e616bac5bb2")
+	)
+	(wire
+		(pts
+			(xy 168.91 105.41) (xy 168.91 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c49ece9c-c4a5-46ef-894e-b09c3e2d57a8")
+	)
+	(wire
+		(pts
+			(xy 204.47 97.79) (xy 204.47 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c85de156-075e-4f21-bbdf-337c397989d6")
 	)
 	(wire
 		(pts
@@ -750,20 +947,60 @@
 		)
 		(uuid "de2fbb31-9ae4-4282-a8e4-845d7525c2ee")
 	)
+	(wire
+		(pts
+			(xy 139.7 106.68) (xy 144.78 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2f2ee58-2e7d-4c05-b156-28aaeca1f728")
+	)
+	(wire
+		(pts
+			(xy 195.58 96.52) (xy 195.58 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee61ad7b-d5c6-49b3-ad5e-48a161643198")
+	)
+	(wire
+		(pts
+			(xy 173.99 106.68) (xy 173.99 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef325eae-296b-419c-a643-9dae4ed25525")
+	)
+	(wire
+		(pts
+			(xy 173.99 106.68) (xy 177.8 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4fe1cab-45d7-4bb3-bbca-fb987232a2c4")
+	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 184.15 88.9 0)
+		(lib_id "Device:C")
+		(at 148.59 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2fe54684-7f50-4b0b-9b65-2aff558aa229")
-		(property "Reference" "H3"
-			(at 186.69 87.6299 0)
+		(uuid "34b07338-419e-46f3-bd3d-62860f2bfe29")
+		(property "Reference" "C9"
+			(at 152.4 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -773,8 +1010,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 186.69 90.1699 0)
+		(property "Value" "100nF"
+			(at 152.4 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -784,8 +1021,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580"
-			(at 184.15 88.9 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 149.5552 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -796,7 +1033,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 88.9 0)
+			(at 148.59 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -806,8 +1043,8 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 184.15 88.9 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 148.59 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -816,11 +1053,17 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "d66664c6-ad1b-4dcd-a7b6-224f63658428")
+		)
+		(pin "1"
+			(uuid "b6951b83-38ff-4c54-8669-1a9c234d68b9")
 		)
 		(instances
 			(project "ChargeController3.0"
 				(path "/a54826c2-d365-4450-b7a8-71945dba02c0/e0d94fc4-66f1-49e4-9d34-febf8dbdc1e6"
-					(reference "H3")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -909,6 +1152,160 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 200.66 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "62b2e43a-bbdb-41e5-b29a-41bc8c4a3331")
+		(property "Reference" "#PWR036"
+			(at 200.66 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e64f7dc2-ce48-4a6f-a91a-711411ea8163")
+		)
+		(instances
+			(project "ChargeController3.0"
+				(path "/a54826c2-d365-4450-b7a8-71945dba02c0/e0d94fc4-66f1-49e4-9d34-febf8dbdc1e6"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7345e237-c3fa-4445-8084-1d5d79124d9e")
+		(property "Reference" "#PWR035"
+			(at 173.99 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef0b0d36-3cc6-4540-8680-b78b2bde778f")
+		)
+		(instances
+			(project "ChargeController3.0"
+				(path "/a54826c2-d365-4450-b7a8-71945dba02c0/e0d94fc4-66f1-49e4-9d34-febf8dbdc1e6"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 110.49 101.6 0)
 		(unit 1)
@@ -991,19 +1388,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 163.83 88.9 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 144.78 90.17 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b10a8478-d679-4ce9-8c46-609bf36c2449")
+		(uuid "a5e1fc9e-71d4-42bd-8045-cbc75b044ac6")
 		(property "Reference" "H2"
-			(at 166.37 87.6299 0)
+			(at 147.32 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1013,8 +1410,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 166.37 90.1699 0)
+		(property "Value" "MountingHole_Pad"
+			(at 147.32 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1024,8 +1421,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580"
-			(at 163.83 88.9 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+			(at 144.78 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1036,7 +1433,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 88.9 0)
+			(at 144.78 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1046,8 +1443,8 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 163.83 88.9 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 144.78 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1056,6 +1453,9 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "a89188c0-7d0d-4af0-aadd-e18d3d43f594")
 		)
 		(instances
 			(project "ChargeController3.0"
@@ -1067,19 +1467,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 142.24 88.9 0)
+		(lib_id "Device:R")
+		(at 195.58 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bdb694d0-f10a-4ab2-9e28-6ec88cd9f5e6")
-		(property "Reference" "H1"
-			(at 144.78 87.6299 0)
+		(uuid "b1da7482-d5ab-4f77-900e-9c9d18251440")
+		(property "Reference" "R5"
+			(at 198.12 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1089,8 +1489,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 144.78 90.1699 0)
+		(property "Value" "1M"
+			(at 198.12 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1100,8 +1500,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580"
-			(at 142.24 88.9 0)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 193.802 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1112,7 +1512,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 88.9 0)
+			(at 195.58 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1122,8 +1522,8 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 142.24 88.9 0)
+		(property "Description" "Resistor"
+			(at 195.58 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1132,11 +1532,173 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "c9608c76-1e04-4e88-8522-738de82d760e")
+		)
+		(pin "2"
+			(uuid "deb17741-d70f-4b43-a107-6fba37ac45d5")
 		)
 		(instances
 			(project "ChargeController3.0"
 				(path "/a54826c2-d365-4450-b7a8-71945dba02c0/e0d94fc4-66f1-49e4-9d34-febf8dbdc1e6"
-					(reference "H1")
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 200.66 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba71a72b-cfbb-4750-ad30-c8138f3d671a")
+		(property "Reference" "H8"
+			(at 203.2 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 203.2 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+			(at 200.66 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 200.66 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1dbc7bc-53e6-495b-a5b6-001e14ddc891")
+		)
+		(instances
+			(project "ChargeController3.0"
+				(path "/a54826c2-d365-4450-b7a8-71945dba02c0/e0d94fc4-66f1-49e4-9d34-febf8dbdc1e6"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bc0c37b7-5cca-4fbc-9738-1f9ae94836ce")
+		(property "Reference" "#PWR034"
+			(at 144.78 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2064e534-6767-435b-94de-2c677efb9d4e")
+		)
+		(instances
+			(project "ChargeController3.0"
+				(path "/a54826c2-d365-4450-b7a8-71945dba02c0/e0d94fc4-66f1-49e4-9d34-febf8dbdc1e6"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -1222,6 +1784,334 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 139.7 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4695597-f6b1-419a-9a7a-12113c4c8720")
+		(property "Reference" "R2"
+			(at 142.24 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1M"
+			(at 142.24 102.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 137.922 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 139.7 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a760c53-4647-44f0-900a-841939b31aa9")
+		)
+		(pin "2"
+			(uuid "36dbb302-3176-4304-b33f-74307be41149")
+		)
+		(instances
+			(project "ChargeController3.0"
+				(path "/a54826c2-d365-4450-b7a8-71945dba02c0/e0d94fc4-66f1-49e4-9d34-febf8dbdc1e6"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 177.8 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdc055fa-19e7-4242-9dda-f2844b6d2638")
+		(property "Reference" "C10"
+			(at 181.61 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 181.61 102.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 178.7652 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 177.8 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6bc66292-9c65-47b3-8985-2b59ad86f899")
+		)
+		(pin "1"
+			(uuid "836a6ca0-413c-464f-9ad6-be5e165ead3f")
+		)
+		(instances
+			(project "ChargeController3.0"
+				(path "/a54826c2-d365-4450-b7a8-71945dba02c0/e0d94fc4-66f1-49e4-9d34-febf8dbdc1e6"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 204.47 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf148428-1ed0-44a0-b4a1-22dedee12e3f")
+		(property "Reference" "C11"
+			(at 208.28 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 208.28 102.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 205.4352 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 204.47 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cdaba9bf-d293-43d9-aec6-19968e1c42fb")
+		)
+		(pin "1"
+			(uuid "bd9339a8-8d87-437b-bca9-fce6fb2aa3fc")
+		)
+		(instances
+			(project "ChargeController3.0"
+				(path "/a54826c2-d365-4450-b7a8-71945dba02c0/e0d94fc4-66f1-49e4-9d34-febf8dbdc1e6"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 168.91 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da1fd8b9-79bb-460c-ac67-ab9cbb56ef91")
+		(property "Reference" "R3"
+			(at 171.45 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1M"
+			(at 171.45 102.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 167.132 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 168.91 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "72a24f5f-6399-45cd-87d3-7a5a4a86034d")
+		)
+		(pin "2"
+			(uuid "cf4638e6-206d-41aa-952f-d0ad198d2b27")
+		)
+		(instances
+			(project "ChargeController3.0"
+				(path "/a54826c2-d365-4450-b7a8-71945dba02c0/e0d94fc4-66f1-49e4-9d34-febf8dbdc1e6"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 115.57 109.22 0)
 		(unit 1)
@@ -1293,6 +2183,85 @@
 			(project "ChargeController3.0"
 				(path "/a54826c2-d365-4450-b7a8-71945dba02c0/e0d94fc4-66f1-49e4-9d34-febf8dbdc1e6"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 173.99 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9e5b962-3eaf-4b72-ab40-5858e3c39d90")
+		(property "Reference" "H3"
+			(at 176.53 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 176.53 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+			(at 173.99 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 173.99 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "413e9582-4440-4f4b-8698-07169623a0a8")
+		)
+		(instances
+			(project "ChargeController3.0"
+				(path "/a54826c2-d365-4450-b7a8-71945dba02c0/e0d94fc4-66f1-49e4-9d34-febf8dbdc1e6"
+					(reference "H3")
 					(unit 1)
 				)
 			)

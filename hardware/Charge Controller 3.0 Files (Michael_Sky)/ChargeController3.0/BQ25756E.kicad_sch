@@ -1184,219 +1184,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "RC0402FR-0753K6L:RC0402FR-0753K6L"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at -7.6244 2.5415 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "RC0402FR-0753K6L"
-				(at -7.63 -5.0866 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "RC0402FR-0753K6L:RESC1005X40N"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RC0402FR-0753K6L_0_0"
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -4.445 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 1.905) (xy -3.175 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -1.905) (xy -1.905 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 1.905) (xy -0.635 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -1.905) (xy 0.635 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 1.905 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -1.905) (xy 3.175 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 1.905) (xy 4.445 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -1.905) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -10.16 0 0)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1951,7 +1738,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 105.41) (xy 217.17 106.68)
+			(xy 217.17 95.25) (xy 217.17 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2241,7 +2028,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 83.82) (xy 217.17 85.09)
+			(xy 217.17 83.82) (xy 217.17 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2559,7 +2346,7 @@
 			)
 		)
 	)
-	(global_label "BATT_PIN"
+	(global_label "BATT+_PIN"
 		(shape input)
 		(at 58.42 49.53 0)
 		(fields_autoplaced yes)
@@ -2571,7 +2358,7 @@
 		)
 		(uuid "1e6f257a-cc1d-4e7e-815b-26b354a271e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.8719 49.53 0)
+			(at 71.4443 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3811,7 +3598,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "11.83k"
+		(property "Value" "40.2k"
 			(at 219.71 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3865,89 +3652,6 @@
 			(project "ChargeController3.0"
 				(path "/a54826c2-d365-4450-b7a8-71945dba02c0/9cc11239-a5da-4d64-84b9-35bfc57c50fe"
 					(reference "R_AC2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RC0402FR-0753K6L:RC0402FR-0753K6L")
-		(at 217.17 95.25 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67a80637-9a59-437c-86d0-c2b46fa5f78b")
-		(property "Reference" "R_AC3"
-			(at 220.98 93.9799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RC0402FR-0753K6L"
-			(at 220.98 96.5199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "bmsfootprints:RC0402FR-0753K6L"
-			(at 217.17 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 217.17 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "43ee748b-31fa-4646-b368-1d5bba7b1fd4")
-		)
-		(pin "1"
-			(uuid "be071612-57ce-4822-9aad-7796b6a962ef")
-		)
-		(instances
-			(project "ChargeController3.0"
-				(path "/a54826c2-d365-4450-b7a8-71945dba02c0/9cc11239-a5da-4d64-84b9-35bfc57c50fe"
-					(reference "R_AC3")
 					(unit 1)
 				)
 			)
@@ -4192,7 +3896,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 217.17 106.68 0)
+		(at 217.17 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4203,7 +3907,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d512f30-b33b-4f90-981e-2764cba05a6e")
 		(property "Reference" "#PWR010"
-			(at 217.17 113.03 0)
+			(at 217.17 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4214,7 +3918,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 217.17 111.76 0)
+			(at 217.17 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4224,7 +3928,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 106.68 0)
+			(at 217.17 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4235,7 +3939,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 106.68 0)
+			(at 217.17 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4246,7 +3950,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.17 106.68 0)
+			(at 217.17 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4609,7 +4313,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "40k"
+		(property "Value" "133k"
 			(at 46.99 110.236 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4620,7 +4324,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 55.118 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -5420,7 +5124,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "16.67k"
+		(property "Value" "16.2k"
 			(at 59.69 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5474,6 +5178,88 @@
 			(project "ChargeController3.0"
 				(path "/a54826c2-d365-4450-b7a8-71945dba02c0/9cc11239-a5da-4d64-84b9-35bfc57c50fe"
 					(reference "R_FBG1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 217.17 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0e94300-5e21-48b0-a3a2-7c1f2bcebaae")
+		(property "Reference" "R_AC3"
+			(at 219.71 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "60.4k"
+			(at 219.71 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 215.392 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 217.17 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c3d34bf3-3ef5-4011-bf63-45ce613063ef")
+		)
+		(pin "1"
+			(uuid "6c9a2b56-b37e-4777-9883-b44293ebfafa")
+		)
+		(instances
+			(project "ChargeController3.0"
+				(path "/a54826c2-d365-4450-b7a8-71945dba02c0/9cc11239-a5da-4d64-84b9-35bfc57c50fe"
+					(reference "R_AC3")
 					(unit 1)
 				)
 			)
