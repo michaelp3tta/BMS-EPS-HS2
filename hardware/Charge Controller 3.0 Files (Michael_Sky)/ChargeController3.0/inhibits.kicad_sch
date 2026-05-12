@@ -4167,7 +4167,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 82.55) (xy 113.03 82.55)
+			(xy 119.38 82.55) (xy 111.76 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4709,7 +4709,7 @@
 	)
 	(global_label "BATT-_PIN"
 		(shape input)
-		(at 113.03 82.55 180)
+		(at 111.76 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4719,7 +4719,7 @@
 		)
 		(uuid "341a27d2-f377-4c00-be4b-8eb1294f9d98")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.0057 82.55 0)
+			(at 98.7357 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

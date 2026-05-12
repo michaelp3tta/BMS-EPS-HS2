@@ -1,0 +1,58 @@
+******************************************************************************
+* IHLP6767GZER100M01 -- Vishay Dale 10 uH High-Saturation Power Inductor
+* Behavioral SPICE subcircuit (LTspice syntax)
+*
+* Source data: Vishay datasheet IHLP-6767GZ-01, Doc. 34000, Rev. 22-Apr-2025
+* https://www.vishay.com/docs/34000/ihlp-6767gz-01.pdf
+*
+* Datasheet parameters (10 uH variant):
+*   L0  (small signal, 100 kHz, 0 A) ... 10 uH +/- 20 %
+*   DCR typical / max @ 25 C ........... 11.6 m / 12.0 m ohm
+*   I_heat (dT = 40 C) ................. 16.5 A
+*   I_sat  (L drops 20 %) .............. 25 A typical
+*   Operating temperature .............. -55 C to +125 C
+*
+* Model features:
+*   - Series DCR
+*   - Soft saturation L(I) = L0 / (1 + (|I|/Ia)^n)  (powder core behavior)
+*   - Approximate parallel capacitance for self-resonance
+*
+* Caveats (read these before trusting the model):
+*   1. The flux expression is an engineering approximation, not the exact
+*      integral of L(I). Small (few %) error in the mid-saturation region.
+*   2. Cpar is estimated from the datasheet L & Q vs. frequency curve.
+*      Verify against your measured SRF if accuracy matters.
+*   3. No core-loss / frequency-dependent loss network. DCR only.
+*      Adequate for switcher loop work; not adequate for EMI prediction.
+*   4. No temperature dependence. DCR has copper tempco ~0.39 %/C.
+*   5. NOT a Vishay-supplied model. Validate before relying on results.
+*
+* Author: hand-fit from datasheet curves
+* Date:   2026-04-30
+******************************************************************************
+
+.subckt IHLP6767GZER100M01 P N
+
+* ---- Model parameters ----
+.param L0    = 10u       ; small-signal inductance at I = 0
+.param Ia    = 35        ; saturation knee fit parameter (A)
+.param nsat  = 2.5       ; saturation softness exponent
+.param DCR   = 11.6m     ; typical DC resistance at 25 C
+.param Cpar  = 35p       ; rough parasitic shunt capacitance
+
+* ---- Series winding resistance ----
+R_dcr P 1 {DCR}
+
+* ---- Nonlinear inductor (flux-based behavioral form) ----
+* Phi(I) ~ L0 * I / (1 + (|I|/Ia)^n)^(1 - 1/n)
+* matches small-signal slope at I = 0 and saturation asymptote
+L1 1 N Flux={L0*x/pow(1+pow(abs(x)/Ia,nsat),1-1/nsat)}
+
+* ---- Self-resonance / parasitic capacitance ----
+C_par P N {Cpar}
+
+.ends IHLP6767GZER100M01
+
+* ---- Usage example (LTspice) ----
+* .include IHLP6767GZER100M01.txt
+* XL1 nodeA nodeB IHLP6767GZER100M01
