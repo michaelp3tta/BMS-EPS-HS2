@@ -2227,10 +2227,6 @@
 		(uuid "3f3128c1-ad95-4328-8726-38985ad1606c")
 	)
 	(no_connect
-		(at 167.64 80.01)
-		(uuid "3f53644b-56b4-4e4b-a57b-4ec7d68540fa")
-	)
-	(no_connect
 		(at 100.33 67.31)
 		(uuid "41110c5b-bb45-49bc-b0cc-cdc140b761ce")
 	)
@@ -2887,6 +2883,16 @@
 			(type default)
 		)
 		(uuid "a52307c2-dad7-4409-90ec-b59bc8ed400e")
+	)
+	(wire
+		(pts
+			(xy 167.64 80.01) (xy 170.18 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6339de3-d40c-4ca3-ab06-e179d9c2cc2e")
 	)
 	(wire
 		(pts
@@ -4052,6 +4058,30 @@
 			)
 		)
 	)
+	(global_label "DEPLOYABLE"
+		(shape input)
+		(at 170.18 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "adbb38d7-caf1-490c-bab5-041add8e7c44")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.8371 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "UART_TX"
 		(shape input)
 		(at 215.9 102.87 0)
@@ -4148,7 +4178,7 @@
 			)
 		)
 	)
-	(global_label "RS-485 SYS1 B"
+	(global_label "RS-485 SYS1 A"
 		(shape input)
 		(at 115.57 82.55 0)
 		(fields_autoplaced yes)
@@ -4160,7 +4190,7 @@
 		)
 		(uuid "bd79e54e-5ffd-4a1c-95d5-747fe9b8a5c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.1579 82.55 0)
+			(at 133.9765 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
